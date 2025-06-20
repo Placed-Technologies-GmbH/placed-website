@@ -1,8 +1,7 @@
-import { ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import PrimaryButton from '@/components/PrimaryButton';
 
 const LaunchEvent = () => {
   return (
@@ -22,14 +21,7 @@ const LaunchEvent = () => {
           <p className="text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Wir präsentieren unsere KI-Vertriebsplattform am 24. Juni 2025 in Berlin. Treffen Sie uns ab 18:30 Uhr beim Sommerfest und entdecken Sie, wie KI Ihren Vertrieb revolutioniert.
           </p>
-          <Button
-            variant="default"
-            size="lg"
-            className="bg-signal-yellow text-work-blue hover:bg-signal-yellow/90 rounded-xl px-6 py-3 font-semibold inline-flex items-center"
-          >
-            Demo buchen
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
+          <PrimaryButton className="inline-flex" />
         </div>
       </section>
 
