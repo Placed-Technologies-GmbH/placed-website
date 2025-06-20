@@ -160,11 +160,11 @@ const FAQ = () => {
       <h2 className="text-center mb-6 text-work-blue tracking-tight">Häufige Fragen</h2>
       <Accordion type="single" collapsible className="space-y-4">
         {faqs.map((faq, index) => (
-          <AccordionItem value={`faq-${index}`} key={index}>
-            <AccordionTrigger className="text-left text-sm">
+          <AccordionItem value={`faq-${index}`} key={index} className="border-b border-gray-200">
+            <AccordionTrigger>
               {faq.question}
             </AccordionTrigger>
-            <AccordionContent className="text-muted-foreground text-sm">
+            <AccordionContent className="text-gray-600 text-sm sm:text-base leading-relaxed bg-gray-50 rounded-md px-4 py-3 mt-2 border-l-2 border-gray-200 pl-3">
               {faq.answer}
             </AccordionContent>
           </AccordionItem>
