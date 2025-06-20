@@ -1,6 +1,5 @@
 
-import { Target, User, MessageSquare, Database, CheckCircle, ArrowRight } from 'lucide-react'
-import { Progress } from './ui/progress'
+import { User, MessageSquare, Database, CheckCircle } from 'lucide-react'
 import FadeIn from './FadeIn'
 import PrimaryButton from './PrimaryButton'
 
@@ -62,55 +61,27 @@ const KIVertriebsmitarbeiter = () => {
             </p>
           </div>
 
-          {/* Features Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
-            {/* PLACED-Score */}
-            <div className="space-y-8">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-xl bg-work-blue flex items-center justify-center">
-                  <Target className="text-white w-6 h-6" />
-                </div>
-                <h3 className="text-3xl font-bold text-work-blue">PLACED-Score</h3>
+          {/* PLACED Score */}
+          <section className="py-20 px-6 lg:px-8 bg-white">
+            <div className="max-w-6xl mx-auto space-y-8">
+              <div className="text-3xl font-bold text-gray-900 flex items-center gap-2">
+                <img src="/icon-target.svg" alt="" className="w-8 h-8" />
+                <span>PLACED Score</span>
               </div>
-
-              <FadeIn delay={0.1} className="glass-effect bg-card/80 rounded-xl p-8 space-y-6">
-                <div className="flex items-start justify-between">
-                  <div className="space-y-3">
-                    <div className="text-sm font-medium text-work-blue">Kandidateninformationen</div>
-                    <ul className="space-y-2 text-sm text-muted-foreground">
-                      <li className="flex gap-2">
-                        <CheckCircle className="text-placed-green w-5 h-5 mt-0.5" />
-                        <span>Senior Software Engineer mit 8+ Jahren Erfahrung in React und Node.js</span>
-                      </li>
-                      <li className="flex gap-2">
-                        <CheckCircle className="text-placed-green w-5 h-5 mt-0.5" />
-                        <span>Führungserfahrung in agilen Entwicklungsteams</span>
-                      </li>
-                      <li className="flex gap-2">
-                        <CheckCircle className="text-placed-green w-5 h-5 mt-0.5" />
-                        <span>Verfügbar ab sofort</span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div className="text-center ml-4">
-                    <div className="text-3xl font-bold text-work-blue">85%</div>
-                    <div className="text-xs text-muted-foreground">Vermittlungsrate</div>
-                  </div>
-                </div>
-                <Progress value={85} />
-              </FadeIn>
-
-              <p className="text-muted-foreground leading-relaxed text-sm">
-                KI Vertrieb: Unsere fortschrittliche Matching-Engine findet sofort die
-                passendsten Stellen für Kandidaten-CVs. Suchergebnisse werden nicht nach
-                Datum, sondern nach Relevanz sortiert: Unser PLACED-Score zeigt Ihnen die
-                Vermittlungswahrscheinlichkeit.
-              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  KI Vertrieb: Unsere fortschrittliche Matching-Engine findet sofort die
+                  passendsten Stellen für Kandidaten-CVs. Suchergebnisse werden nicht nach
+                  Datum, sondern nach Relevanz sortiert: Unser PLACED-Score zeigt Ihnen die
+                  Vermittlungswahrscheinlichkeit.
+                </p>
+                <img src="/Placed Score.png" alt="PLACED Score" className="w-full max-w-md mx-auto" />
+              </div>
             </div>
+          </section>
 
-            {/* Profil-Optimierung */}
-            <div className="space-y-6">
+          {/* Profil-Optimierung */}
+          <div className="space-y-6 mb-20">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
                   <User className="text-white w-6 h-6" />
