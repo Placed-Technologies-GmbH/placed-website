@@ -1,7 +1,8 @@
 
-import { Target, User, MessageSquare, Database, CheckCircle, ArrowRight } from 'lucide-react';
-import { Progress } from './ui/progress';
-import FadeIn from './FadeIn';
+import { Target, User, MessageSquare, Database, CheckCircle, ArrowRight } from 'lucide-react'
+import { Progress } from './ui/progress'
+import FadeIn from './FadeIn'
+import PrimaryButton from './PrimaryButton'
 
 const optimizationSuggestions = [
   'Detaillierte Führung von Teams (3-5 Direkte/Jahr) sollte von Kandidat auch durch konkrete Schulungen erweitert',
@@ -202,7 +203,7 @@ const KIVertriebsmitarbeiter = () => {
                   <Database className="text-white w-6 h-6" />
                 </div>
                 <h2 className="text-4xl md:text-5xl font-bold text-work-blue">
-                  1 Zugang: Alle Stellen. Alle Kontakte. Alle Daten.
+                Ein Zugang: Alle Stellen. Alle Kontakte. Alle Daten. Unlimitierter Zugriff.
                 </h2>
               </div>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -249,6 +250,10 @@ const KIVertriebsmitarbeiter = () => {
                   ))}
                 </div>
               </div>
+            </FadeIn>
+
+            <FadeIn delay={0.5} className="text-center mt-12">
+              <PrimaryButton />
             </FadeIn>
           </div>
         </div>

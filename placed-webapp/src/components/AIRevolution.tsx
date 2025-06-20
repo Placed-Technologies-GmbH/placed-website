@@ -2,7 +2,7 @@
 import React from "react";
 import { CheckCircle, Shield, Users, Zap, Target, Brain } from "lucide-react";
 import FadeIn from "./FadeIn";
-import { Button } from "./ui/button";
+import PrimaryButton from "./PrimaryButton";
 
 const features = [
   {
@@ -102,6 +102,12 @@ const AIRevolution = () => {
                 </p>
               </div>
             </div>
+            <Button
+              variant="default"
+              className="bg-signal-yellow text-work-blue hover:bg-signal-yellow/90 rounded-xl px-6 py-3 font-semibold mt-8"
+            >
+              Jetzt Demo buchen
+            </Button>
           </div>
         </FadeIn>
 

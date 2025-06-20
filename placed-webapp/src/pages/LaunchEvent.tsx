@@ -1,7 +1,8 @@
 import { ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
 const LaunchEvent = () => {
   return (
@@ -17,15 +18,14 @@ const LaunchEvent = () => {
           <p className="text-lg text-gray-600 text-center mt-2">
             Unser Engagement für Qualität und Innovation in der Personaldienstleistungsbranche
           </p>
-          <div className="mt-6">
-            <Link
-              to="/"
-              className="inline-flex items-center justify-center gap-x-2 px-6 py-3 rounded-full bg-[#EBFF4A] text-gray-900 font-semibold shadow-md hover:brightness-95 transition-all duration-200"
-            >
-              Mehr über PLACED erfahren
-              <ArrowRight className="w-5 h-5" />
-            </Link>
-          </div>
+          <Button
+            variant="default"
+            size="lg"
+            className="bg-signal-yellow text-work-blue hover:bg-signal-yellow/90 rounded-xl px-6 py-3 font-semibold inline-flex items-center"
+          >
+            Demo buchen
+            <ArrowRight className="ml-2 w-5 h-5" />
+          </Button>
         </div>
       </section>
 

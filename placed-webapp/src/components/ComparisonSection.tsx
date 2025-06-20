@@ -1,7 +1,8 @@
 
-import React from 'react';
-import { Check, X } from 'lucide-react';
-import FadeIn from './FadeIn';
+import React from 'react'
+import { Check, X } from 'lucide-react'
+import FadeIn from './FadeIn'
+import PrimaryButton from './PrimaryButton'
 import {
   Table,
   TableBody,
@@ -32,27 +33,27 @@ const ComparisonSection = () => {
     },
     {
       feature: 'Kontaktdaten',
-      placed: 'Erweiterte persönliche Kontaktdaten in Zusammenarbeit mit Databyte, auch wenn diese nicht in der Stellenanzeige stehen',
+      placed: 'Erweiterte persönliche Kontaktdaten, auch wenn diese nicht in der Stellenanzeige stehen',
       competitor1: 'Y',
       competitor2: 'N',
       placedHasAdvantage: true
     },
     {
       feature: 'Firmendaten',
-      placed: 'Erweiterte Firmendaten in Zusammenarbeit mit Databyte',
+      placed: 'Erweiterte Firmendaten',
       competitor1: 'Basic',
       competitor2: 'N',
       placedHasAdvantage: true
     },
     {
-      feature: 'KI Score und Kandidatenbewertung zu Fit für Position',
+      feature: 'KI-Score und Kandidatenbewertung zu Fit für Position',
       placed: 'Y',
       competitor1: 'N',
       competitor2: 'N',
       placedHasAdvantage: true
     },
     {
-      feature: 'KI Score zu Dringlichkeit der Suche des Kunden',
+      feature: 'KI-Score zu Dringlichkeit der Suche des Kunden',
       placed: 'Y',
       competitor1: 'N',
       competitor2: 'N',
@@ -73,7 +74,7 @@ const ComparisonSection = () => {
       placedHasAdvantage: true
     },
     {
-      feature: 'KI Sales Script',
+      feature: 'KI-Sales Script',
       placed: 'Y',
       competitor1: 'N',
       competitor2: 'N',
@@ -81,9 +82,9 @@ const ComparisonSection = () => {
     },
     {
       feature: 'Vorbereitungszeit pro Vertriebsanruf',
-      placed: '1 Minute',
-      competitor1: '5-10 Minuten (Schätzung aus Praxiserfahrung)',
-      competitor2: '>30 Minuten',
+      placed: '1 Min',
+      competitor1: '5-10 Min (Schätzung aus Praxiserfahrung)',
+      competitor2: '>30 Min',
       placedHasAdvantage: true
     },
     {
@@ -109,7 +110,7 @@ const ComparisonSection = () => {
     },
     {
       feature: 'Kostenlose Testphase',
-      placed: '10 Tage umsonst',
+      placed: '14 Tage',
       competitor1: 'N',
       competitor2: 'N',
       placedHasAdvantage: true
@@ -130,7 +131,7 @@ const ComparisonSection = () => {
       placedHasAdvantage: false
     },
     {
-      feature: 'KI CV Optimierer',
+      feature: 'KI CV-Analyse pro Stelle',
       placed: 'Y',
       competitor1: 'N',
       competitor2: 'N',
@@ -146,14 +147,14 @@ const ComparisonSection = () => {
     {
       feature: 'Marktanalyse und Statistiken',
       placed: 'Y',
-      competitor1: 'Y mit Aufpreis',
+      competitor1: 'mit Aufpreis',
       competitor2: 'N',
       placedHasAdvantage: true
     },
     {
       feature: 'Frei konfigurierbarer Datenexport & Emailanhang',
       placed: 'Y',
-      competitor1: 'Y mit Aufpreis',
+      competitor1: 'mit Aufpreis',
       competitor2: 'N',
       placedHasAdvantage: true
     }
@@ -219,6 +220,10 @@ const ComparisonSection = () => {
               ))}
             </TableBody>
           </Table>
+        </FadeIn>
+
+        <FadeIn delay={0.2} className="text-center mt-16">
+          <PrimaryButton />
         </FadeIn>
 
       </div>

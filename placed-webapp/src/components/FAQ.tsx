@@ -1,4 +1,5 @@
-import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from './ui/accordion';
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from './ui/accordion'
+import PrimaryButton from './PrimaryButton'
 
 const FAQ = () => {
   const faqs = [
@@ -170,6 +171,9 @@ const FAQ = () => {
           </AccordionItem>
         ))}
       </Accordion>
+      <div className="text-center mt-10">
+        <PrimaryButton />
+      </div>
     </div>
   );
 };
