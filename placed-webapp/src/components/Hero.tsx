@@ -1,6 +1,5 @@
 
-import { ArrowRight } from 'lucide-react';
-import { Button } from './ui/button';
+import PrimaryButton from './PrimaryButton';
 
 const Hero = () => {
   return (
@@ -22,14 +21,7 @@ const Hero = () => {
         </p>
 
         <div className="mb-10 flex justify-center">
-          <Button
-            variant="default"
-            size="lg"
-            className="bg-signal-yellow text-work-blue hover:bg-signal-yellow/90 rounded-xl px-6 py-3 font-semibold flex items-center gap-2"
-          >
-            Demo buchen
-            <ArrowRight className="w-5 h-5" />
-          </Button>
+          <PrimaryButton />
         </div>
 
         <p className="text-sm text-gray-500 mt-8 mb-4 text-center">Geeignet für:</p>

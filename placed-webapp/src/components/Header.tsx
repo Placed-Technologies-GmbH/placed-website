@@ -2,7 +2,7 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from './ui/button';
+import PrimaryButton from './PrimaryButton';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,13 +31,7 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8"></nav>
 
           <div className="hidden md:flex items-center">
-            <Button
-              variant="default"
-              size="sm"
-              className="bg-signal-yellow text-work-blue hover:bg-signal-yellow/90 rounded-xl px-6 py-3 font-semibold"
-            >
-              Demo buchen
-            </Button>
+            <PrimaryButton />
           </div>
 
           {/* Mobile Menu Button */}
@@ -53,13 +47,7 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 border-t border-border/50">
             <div className="flex flex-col pt-4">
-              <Button
-                variant="default"
-                size="sm"
-                className="bg-signal-yellow text-work-blue hover:bg-signal-yellow/90 rounded-xl px-6 py-3 font-semibold"
-              >
-                Demo buchen
-              </Button>
+              <PrimaryButton className="w-full" />
             </div>
           </nav>
         )}
