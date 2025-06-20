@@ -203,7 +203,7 @@ const KIVertriebsmitarbeiter = () => {
                   <Database className="text-white w-6 h-6" />
                 </div>
                 <h2 className="text-4xl md:text-5xl font-bold text-work-blue">
-                  1 Zugang: Alle Stellen. Alle Kontakte. Alle Daten.
+                Ein Zugang: Alle Stellen. Alle Kontakte. Alle Daten. Unlimitierter Zugriff.
                 </h2>
               </div>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
