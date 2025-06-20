@@ -1,7 +1,8 @@
 
-import React from 'react';
-import { Check, X } from 'lucide-react';
-import FadeIn from './FadeIn';
+import React from 'react'
+import { Check, X } from 'lucide-react'
+import FadeIn from './FadeIn'
+import PrimaryButton from './PrimaryButton'
 import {
   Table,
   TableBody,
@@ -219,6 +220,10 @@ const ComparisonSection = () => {
               ))}
             </TableBody>
           </Table>
+        </FadeIn>
+
+        <FadeIn delay={0.2} className="text-center mt-16">
+          <PrimaryButton />
         </FadeIn>
 
       </div>
