@@ -1,4 +1,3 @@
-
 import { User, MessageSquare, Database, CheckCircle } from 'lucide-react'
 import FadeIn from './FadeIn'
 import PrimaryButton from './PrimaryButton'
@@ -45,15 +44,11 @@ const KIVertriebsmitarbeiter = () => {
   return (
     <>
       <section className="py-24 bg-gradient-to-br from-pale-blue/20 to-background relative overflow-hidden">
-        {/* Background decoration */}
         <div className="absolute top-0 right-1/4 w-96 h-96 bg-placed-blue/5 rounded-full blur-3xl"></div>
-        
         <div className="container mx-auto px-8 md:px-16">
-          {/* Main Header */}
+
           <div className="text-center mb-20">
-            <h2 className="mb-6 text-work-blue">
-              Ihr neuer KI-Vertriebsmitarbeiter
-            </h2>
+            <h2 className="mb-6 text-work-blue">Ihr neuer KI-Vertriebsmitarbeiter</h2>
             <p className="text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               Unsere KI-Technologie analysiert Kandidatenprofile und Stellenangebote in Echtzeit. Sie erhalten
               präzise Matches, optimierte Lebensläufe und maßgeschneiderte Sales-Pitches – alles automatisiert
@@ -61,8 +56,8 @@ const KIVertriebsmitarbeiter = () => {
             </p>
           </div>
 
-          {/* PLACED Score */}
-          <section className="py-20 px-6 lg:px-8 bg-white">
+          {/* PLACED Score Section */}
+          <div className="py-20 px-6 lg:px-8 bg-white">
             <div className="max-w-6xl mx-auto space-y-8">
               <div className="text-3xl font-bold text-gray-900 flex items-center gap-2">
                 <img src="/icon-target.svg" alt="" className="w-8 h-8" />
@@ -78,38 +73,34 @@ const KIVertriebsmitarbeiter = () => {
                 <img src="/Placed Score.png" alt="PLACED Score" className="w-full max-w-md mx-auto" />
               </div>
             </div>
-          </section>
+          </div>
 
           {/* Profil-Optimierung */}
           <div className="space-y-6 mb-20">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
-                  <User className="text-white w-6 h-6" />
-                </div>
-                <h3 className="text-2xl font-bold text-work-blue">Profil-Optimierung</h3>
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
+                <User className="text-white w-6 h-6" />
               </div>
+              <h3 className="text-2xl font-bold text-work-blue">Profil-Optimierung</h3>
+            </div>
 
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                Unsere KI bietet Optimierungsvorschläge für 
-                Kandidatenprofile in Sekunden, indem sie fehlende 
-                Informationen im Lebenslauf aufzeigt und konkrete 
-                Verbesserungsvorschläge macht, damit Ihr Kandidat 
-                optimal beim Kunden ankommt.
-              </p>
+            <p className="text-muted-foreground leading-relaxed mb-6">
+              Unsere KI bietet Optimierungsvorschläge für Kandidatenprofile in Sekunden, indem sie fehlende 
+              Informationen im Lebenslauf aufzeigt und konkrete Verbesserungsvorschläge macht, damit Ihr Kandidat 
+              optimal beim Kunden ankommt.
+            </p>
 
-              {/* Optimization suggestions */}
-              <div className="space-y-3">
-                <div className="text-sm font-medium mb-3">Was fehlt?</div>
-                <div className="space-y-2">
-                  {optimizationSuggestions.map((suggestion, i) => (
-                    <div key={i} className="flex items-start gap-2 text-xs">
-                      <div className="w-4 h-4 rounded-full bg-signal-yellow flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <div className="w-1.5 h-1.5 rounded-full bg-work-blue"></div>
-                      </div>
-                      <span className="text-muted-foreground">{suggestion}</span>
+            <div className="space-y-3">
+              <div className="text-sm font-medium mb-3">Was fehlt?</div>
+              <div className="space-y-2">
+                {optimizationSuggestions.map((suggestion, i) => (
+                  <div key={i} className="flex items-start gap-2 text-xs">
+                    <div className="w-4 h-4 rounded-full bg-signal-yellow flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-1.5 h-1.5 rounded-full bg-work-blue"></div>
                     </div>
-                  ))}
-                </div>
+                    <span className="text-muted-foreground">{suggestion}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -126,10 +117,9 @@ const KIVertriebsmitarbeiter = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  Unsere KI erstellt personalisierte Sales-Skripte, die Ihnen 
-                  helfen, Neukunden zu gewinnen, indem sie präzise 
-                  aufzeigt, warum Ihr Kandidat perfekt zur Stelle passt und 
-                  die Dringlichkeit bei der Stellenbesetzung identifiziert.
+                  Unsere KI erstellt personalisierte Sales-Skripte, die Ihnen helfen, Neukunden zu gewinnen, 
+                  indem sie präzise aufzeigt, warum Ihr Kandidat perfekt zur Stelle passt und die Dringlichkeit 
+                  bei der Stellenbesetzung identifiziert.
                 </p>
               </div>
 
@@ -144,7 +134,6 @@ const KIVertriebsmitarbeiter = () => {
                       <li>• Urgency: 7 Wochen | 4 Termine | Wettbewerber ca. 4.400 €</li>
                     </ul>
                   </div>
-                  
                   <div className="border-t border-border/50 pt-3">
                     <div className="font-medium text-xs mb-2">Potenzielle Problemstellung:</div>
                     <ul className="space-y-1 text-xs text-muted-foreground ml-4">
@@ -160,21 +149,19 @@ const KIVertriebsmitarbeiter = () => {
         </div>
       </section>
 
-      {/* Data Access Section - Redesigned */}
+      {/* Data Access Section */}
       <section className="py-24 bg-gradient-to-br from-work-blue/5 to-background relative overflow-hidden">
-        {/* Background decoration */}
         <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-signal-yellow/10 rounded-full blur-3xl"></div>
-        
         <div className="container mx-auto px-8 md:px-16">
           <div className="max-w-6xl mx-auto">
-            {/* Header Section */}
+
             <FadeIn delay={0.1} className="text-center mb-16">
               <div className="flex items-center justify-center gap-4 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-work-blue flex items-center justify-center">
                   <Database className="text-white w-6 h-6" />
                 </div>
                 <h2 className="text-4xl md:text-5xl font-bold text-work-blue">
-                Ein Zugang: Alle Stellen. Alle Kontakte. Alle Daten. Unlimitierter Zugriff.
+                  Ein Zugang: Alle Stellen. Alle Kontakte. Alle Daten. Unlimitierter Zugriff.
                 </h2>
               </div>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -184,7 +171,6 @@ const KIVertriebsmitarbeiter = () => {
               </p>
             </FadeIn>
 
-            {/* Features Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
               {dataAccessHighlights.map((item, index) => (
                 <FadeIn key={index} delay={0.1 + index * 0.1} className="glass-effect bg-card/80 rounded-xl p-6">
@@ -202,7 +188,6 @@ const KIVertriebsmitarbeiter = () => {
               ))}
             </div>
 
-            {/* Partner Logos Section */}
             <FadeIn delay={0.4} className="text-center">
               <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-8">
                 Unsere Datenquellen & Integrationen
@@ -211,10 +196,10 @@ const KIVertriebsmitarbeiter = () => {
                 <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
                   {partnerLogos.map((logo, index) => (
                     <div key={index} className="group transition-all duration-300 hover:scale-110">
-                      <img 
-                        src={logo.src} 
-                        alt={logo.alt} 
-                        className="h-8 md:h-10 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity filter grayscale group-hover:grayscale-0" 
+                      <img
+                        src={logo.src}
+                        alt={logo.alt}
+                        className="h-8 md:h-10 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity filter grayscale group-hover:grayscale-0"
                         loading="lazy"
                       />
                     </div>
