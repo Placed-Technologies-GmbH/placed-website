@@ -1,0 +1,203 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PLACED brand design system inspired by Linear's clean aesthetic */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 13% 9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 9%;
+
+    /* PLACED Brand Colors */
+    --work-blue: 242 90% 11%;
+    --placed-blue: 219 100% 84%;
+    --pale-blue: 232 100% 97%;
+    /* Signal Yellow color: #E4FD57 */
+    --signal-yellow: 69.04 97.65% 66.67%;
+
+    --primary: var(--work-blue);
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: var(--pale-blue);
+    --secondary-foreground: var(--work-blue);
+
+    --muted: 220 13% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: var(--placed-blue);
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: var(--work-blue);
+
+    --radius: 8px;
+
+    /* Clean gradients using brand colors */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--work-blue)) 0%, hsl(var(--placed-blue)) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--placed-blue)) 0%, hsl(var(--pale-blue)) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--work-blue)) 0%, hsl(var(--signal-yellow)) 100%);
+    /* Page background gradient inspired by Linear */
+    --page-gradient: linear-gradient(180deg, hsl(var(--pale-blue)) 0%, hsl(var(--background)) 70%);
+  }
+
+  .dark {
+    --background: 220 13% 9%;
+    --foreground: 0 0% 95%;
+
+    --card: 220 13% 9%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 13% 9%;
+    --popover-foreground: 0 0% 95%;
+
+    --muted: 220 13% 14%;
+    --muted-foreground: 220 9% 64%;
+
+    --accent: var(--placed-blue);
+    --accent-foreground: 220 13% 9%;
+
+    --border: 220 13% 18%;
+    --input: 220 13% 18%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-acid;
+    background: var(--page-gradient);
+    font-family: 'FFF Acid Grotesk', sans-serif;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-6xl font-bold leading-tight;
+  }
+
+  h2 {
+    @apply text-4xl font-semibold leading-snug;
+  }
+
+  h3 {
+    @apply text-2xl font-medium;
+  }
+
+  p {
+    @apply text-base text-gray-700 leading-relaxed;
+  }
+
+  small {
+    @apply text-sm;
+  }
+}
+
+@layer utilities {
+  /* Brand color utilities */
+  .bg-work-blue {
+    background-color: hsl(var(--work-blue));
+  }
+  
+  .bg-placed-blue {
+    background-color: hsl(var(--placed-blue));
+  }
+  
+  .bg-pale-blue {
+    background-color: hsl(var(--pale-blue));
+  }
+  
+  .bg-signal-yellow {
+    background-color: hsl(var(--signal-yellow));
+  }
+  
+  .bg-placed-green {
+    background-color: hsl(120 60% 50%);
+  }
+
+  .icon-cell {
+    @apply inline-block w-5 h-5 mx-auto align-middle p-0;
+  }
+  
+  .text-work-blue {
+    color: hsl(var(--work-blue));
+  }
+  
+  .text-placed-blue {
+    color: hsl(var(--placed-blue));
+  }
+  
+  .text-signal-yellow {
+    color: hsl(var(--signal-yellow));
+  }
+
+  .text-placed-green {
+    color: hsl(120 60% 50%);
+  }
+
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-secondary {
+    background: var(--gradient-secondary);
+  }
+  
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  
+  /* Linear-inspired glass effect - more subtle */
+  .glass-effect {
+    backdrop-filter: blur(16px) saturate(180%);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  /* Clean animations */
+  .animate-fade-in {
+    animation: fade-in 0.8s ease-out forwards;
+    opacity: 0;
+  }
+
+  .animate-float {
+    animation: float 8s ease-in-out infinite;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
