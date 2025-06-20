@@ -32,6 +32,18 @@ const Hero = () => {
           </Button>
         </div>
 
+        <p className="text-sm text-gray-500 mt-8 mb-4 text-center">Geeignet für:</p>
+        <div className="flex flex-wrap justify-center gap-2 max-w-3xl mx-auto mt-6">
+          <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Personalvermittler</span>
+          <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Zeitarbeitsunternehmen</span>
+          <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Verlage</span>
+          <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Stellenportale</span>
+          <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Personalberater</span>
+          <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Headhunter</span>
+          <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Recruiting-Agenturen</span>
+          <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Executive Search</span>
+        </div>
+
        
 
         {/* Trust badges */}
