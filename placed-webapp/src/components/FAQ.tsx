@@ -127,6 +127,31 @@ const FAQ = () => {
           </p>
         </>
       )
+    },
+    {
+      question: 'Systemvoraussetzungen & Integrationen',
+      answer: (
+        <p>
+          PLACED ist eine webbasierte Lösung, die über alle gängigen Webbrowser
+          zugänglich ist, ohne dass spezielle Software erforderlich ist. Wir
+          arbeiten aktiv an der Entwicklung weiterer API-Schnittstellen zu CRM-
+          und ATS-Systemen und sind stets offen für neue Integrationsmöglichkeiten,
+          um PLACED nahtlos in Ihre bestehende HR-Landschaft einzubinden.
+        </p>
+      )
+    },
+    {
+      question: 'Fördermitgliedschaft im GVP: Unser Engagement für die Branche',
+      answer: (
+        <p>
+          Als Fördermitglied des Gesamtverbands der Personaldienstleister (GVP)
+          unterstreichen wir unser Engagement für die Personaldienstleistungsbranche
+          und die hohen Qualitätsstandards, die sie prägen. Durch unsere
+          Mitgliedschaft sind wir nicht nur ein wichtiger Teil des GVP-Netzwerks,
+          sondern tragen mit unserer Expertise und unseren Ressourcen dazu bei,
+          die Ziele des Verbands aktiv voranzutreiben.
+        </p>
+      )
     }
   ];
 
