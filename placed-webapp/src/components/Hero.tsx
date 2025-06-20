@@ -18,7 +18,7 @@ const Hero = () => {
 
         {/* Subtitle */}
         <p className="text-xl text-gray-700 mb-10">
-          Finden Sie relevante Stellenausschreibungen, verbessern Sie CVs mit KI und erhalten Sie perfekte Sales-Pitches – alles in einer Plattform für maximale Vermittlungserfolge.
+        Finden Sie Stellen, optimieren Sie Kandidatenprofile mit KI und erhalten Sie perfekte Gesprächsleitfäden – alles in einer Plattform für maximale Vermittlungserfolge.
         </p>
 
         <div className="mb-10 flex justify-center">
@@ -32,16 +32,19 @@ const Hero = () => {
           </Button>
         </div>
 
-        {/* Support text */}
-        <p className="text-sm text-muted-foreground mb-8">
-          Von digitalen Assistenten unterstützt, die speziell für die Personalbranche entwickelt wurden.
-        </p>
+       
 
         {/* Trust badges */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-x-6 mt-6">
           <img
             src="/DGSVO.png"
             alt="DSGVO-konform Siegel"
+            className="h-10 md:h-12 object-contain"
+            loading="lazy"
+          />
+           <img
+            src="/GVP-Logo_Mitglied_RGB_blau.png"
+            alt="GVP-zertifiziert Siegel"
             className="h-10 md:h-12 object-contain"
             loading="lazy"
           />
