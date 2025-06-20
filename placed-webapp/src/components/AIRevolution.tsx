@@ -102,12 +102,6 @@ const AIRevolution = () => {
                 </p>
               </div>
             </div>
-            <Button
-              variant="default"
-              className="bg-signal-yellow text-work-blue hover:bg-signal-yellow/90 rounded-xl px-6 py-3 font-semibold mt-8"
-            >
-              Jetzt Demo buchen
-            </Button>
           </div>
         </FadeIn>
 
