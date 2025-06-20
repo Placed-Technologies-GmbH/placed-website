@@ -186,7 +186,7 @@ const ComparisonSection = () => {
                 <TableHead className="w-[40%] py-4 px-6 text-left align-top text-xs font-semibold text-work-blue uppercase">
                   Funktion
                 </TableHead>
-                <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
+                <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase bg-indigo-50 dark:bg-indigo-900/20">
                   <div className="inline-flex items-center justify-center gap-x-1">
                     PLACED
                   </div>
@@ -208,7 +208,7 @@ const ComparisonSection = () => {
                   <TableCell className="w-[40%] py-4 px-6 align-top text-sm leading-snug text-gray-800 break-words whitespace-normal">
                     {row.feature}
                   </TableCell>
-                  <TableCell className="w-[20%] py-4 px-6 align-top text-center text-sm leading-snug break-words whitespace-normal">
+                  <TableCell className="w-[20%] py-4 px-6 align-top text-center text-sm leading-snug break-words whitespace-normal bg-indigo-50 dark:bg-indigo-900/20">
                     {renderCell(row.placed)}
                   </TableCell>
                   <TableCell className="w-[20%] py-4 px-6 align-top text-center text-sm leading-snug break-words whitespace-normal">
