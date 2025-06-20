@@ -1,8 +1,8 @@
-
 import React from "react";
 import { CheckCircle, Shield, Users, Zap, Target, Brain } from "lucide-react";
 import FadeIn from "./FadeIn";
 import PrimaryButton from "./PrimaryButton";
+import { Button } from '@/components/ui/button';
 
 const features = [
   {
