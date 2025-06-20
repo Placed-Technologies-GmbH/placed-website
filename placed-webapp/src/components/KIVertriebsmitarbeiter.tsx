@@ -1,15 +1,9 @@
 
-import { User, MessageSquare, Database, CheckCircle } from 'lucide-react'
+import { MessageSquare, Database, CheckCircle } from 'lucide-react'
 import FadeIn from './FadeIn'
 import PrimaryButton from './PrimaryButton'
+import ProfileOptimization from './ProfileOptimization'
 
-const optimizationSuggestions = [
-  'Detaillierte Führung von Teams (3-5 Direkte/Jahr) sollte von Kandidat auch durch konkrete Schulungen erweitert',
-  'Kent GitHub oder Key Repository/Organzing SCRUM/AGILE und nicht vorteilhaft, aber für zukünftige Projekte',
-  'SAP PIM Kenntnisse für die Verwaltung/Leading Marina können teilzeit weiterhin werden',
-  'Implementierung MONOMER sind nicht informativ/en, können aber für Personalmarketing interessant sein',
-  'Lean Manufacturing Prinzipien sind nicht explizit erwähnt, jedoch für Prozessverbesserung nützlich',
-];
 
 const dataAccessHighlights = [
   {
@@ -81,38 +75,7 @@ const KIVertriebsmitarbeiter = () => {
           </section>
 
           {/* Profil-Optimierung */}
-          <div className="space-y-6 mb-20">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
-                  <User className="text-white w-6 h-6" />
-                </div>
-                <h3 className="text-2xl font-bold text-work-blue">Profil-Optimierung</h3>
-              </div>
-
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                Unsere KI bietet Optimierungsvorschläge für 
-                Kandidatenprofile in Sekunden, indem sie fehlende 
-                Informationen im Lebenslauf aufzeigt und konkrete 
-                Verbesserungsvorschläge macht, damit Ihr Kandidat 
-                optimal beim Kunden ankommt.
-              </p>
-
-              {/* Optimization suggestions */}
-              <div className="space-y-3">
-                <div className="text-sm font-medium mb-3">Was fehlt?</div>
-                <div className="space-y-2">
-                  {optimizationSuggestions.map((suggestion, i) => (
-                    <div key={i} className="flex items-start gap-2 text-xs">
-                      <div className="w-4 h-4 rounded-full bg-signal-yellow flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <div className="w-1.5 h-1.5 rounded-full bg-work-blue"></div>
-                      </div>
-                      <span className="text-muted-foreground">{suggestion}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
+          <ProfileOptimization />
 
           {/* KI Sales Script */}
           <div className="mb-20">
