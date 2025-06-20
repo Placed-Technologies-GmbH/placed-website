@@ -182,17 +182,15 @@ const ComparisonSection = () => {
         <FadeIn delay={0.1} className="bg-white rounded-xl shadow-sm overflow-hidden">
           <Table className="table-fixed">
             <TableHeader>
-              <TableRow className="border-0 border-t border-gray-100 border-b-0 bg-pale-blue">
+              <TableRow className="border-0 border-t border-gray-100 border-b-0">
                 <TableHead className="w-[40%] py-4 px-6 text-left align-top text-xs font-semibold text-work-blue uppercase">
                   Funktion
                 </TableHead>
-                <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase bg-indigo-50 dark:bg-indigo-900/20">
-                  <div className="inline-flex items-center justify-center gap-x-1">
-                    PLACED
-                  </div>
+                <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
+                  <img src="/Placed_LogoLockup_Blue.svg" alt="PLACED" className="h-6 mx-auto" />
                 </TableHead>
                 <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
-                  INDEX
+                  <img src="/index-logo-460.png" alt="INDEX" className="h-6 mx-auto" />
                 </TableHead>
                 <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
                   Manuelle Suche
