@@ -12,14 +12,16 @@ const Index = () => {
       <Header />
       <main className="flex-grow space-y-24">
         <Hero />
-        <div className="px-4 sm:px-6 lg:px-8">
-          <div className="relative z-0 mx-auto max-w-5xl">
-            <img
-              className="w-full"
-              src="/ProductHero.png"
-              alt="Product screenshot"
-            />
-          </div>
+        {/* Product Hero Image - full-bleed, visually cropped */}
+        <div className="relative w-full overflow-hidden" style={{height: '60vh', minHeight: '320px', maxHeight: '600px'}}>
+          <img
+            className="w-full h-full object-cover object-center rounded-2xl shadow-2xl"
+            style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}}
+            src="/ProductHero.png"
+            alt="Product screenshot"
+          />
+          {/* Gradient fade at bottom */}
+          <div className="pointer-events-none absolute left-0 right-0 bottom-0 h-24 w-full z-20" style={{background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%)'}} />
         </div>
         <AIRevolution />
         <KIVertriebsmitarbeiter />

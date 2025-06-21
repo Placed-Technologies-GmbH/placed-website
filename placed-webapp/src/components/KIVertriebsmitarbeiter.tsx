@@ -66,14 +66,16 @@ const KIVertriebsmitarbeiter = () => {
                     Vermittlungswahrscheinlichkeit.
                   </p>
                 </div>
-                <img src="/Placed Score.png" alt="PLACED Score" className="w-full max-w-lg mx-auto" />
+                <img src="/Placed Score.png" alt="PLACED Score" className="w-full max-w-lg mx-auto rounded-2xl shadow-xl relative z-10" style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}} />
+                <div className="pointer-events-none absolute left-0 right-0 bottom-0 h-24 max-w-lg mx-auto z-20" style={{background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%)'}} />
               </div>
             </div>
 
             {/* Profil-Optimierung */}
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <img src="/Placed Score.png" alt="Profil Optimierung" className="w-full max-w-lg mx-auto" />
+                <img src="/Placed Score.png" alt="Profil Optimierung" className="w-full max-w-lg mx-auto rounded-2xl shadow-xl relative z-10" style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}} />
+                <div className="pointer-events-none absolute left-0 right-0 bottom-0 h-24 max-w-lg mx-auto z-20" style={{background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%)'}} />
                 <div className="space-y-6">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
@@ -106,7 +108,8 @@ const KIVertriebsmitarbeiter = () => {
                     bei der Stellenbesetzung identifiziert.
                   </p>
                 </div>
-                <img src="/Placed Score.png" alt="KI Sales Script" className="w-full max-w-lg mx-auto" />
+                <img src="/Placed Score.png" alt="KI Sales Script" className="w-full max-w-lg mx-auto rounded-2xl shadow-xl relative z-10" style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}} />
+                <div className="pointer-events-none absolute left-0 right-0 bottom-0 h-24 max-w-lg mx-auto z-20" style={{background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%)'}} />
               </div>
             </div>
           </div>
