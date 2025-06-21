@@ -14,8 +14,8 @@ const Footer = () => {
               className="h-8 w-auto"
               loading="lazy"
             />
-            <p className="text-gray-500 text-sm leading-snug">
-              KI-gestützte Recruiting-Software der nächsten Generation.
+            <p className="text-gray-500 text-sm leading-snug max-w-xs">
+              Die KI-Vertriebsplattform für die Personalbranche
             </p>
             <a
               href="https://www.linkedin.com/company/placed/"
@@ -28,20 +28,8 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Middle column */}
-          <div className="flex flex-col items-start space-y-2">
-            <a href="/datenschutz" className="text-sm text-work-blue hover:underline">
-              Datenschutzerklärung
-            </a>
-            <a href="/impressum" className="text-sm text-work-blue hover:underline">
-              Impressum
-            </a>
-            <a href="/agb" className="text-sm text-work-blue hover:underline">
-              AGB
-            </a>
-          </div>
           {/* Right column */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start md:col-span-2 md:justify-self-end">
             <p className="text-sm font-medium text-center md:text-left mb-3">
               100% konform nach DSGVO, EU AI Act &amp; GVP-Richtlinien
             </p>
@@ -68,9 +56,16 @@ const Footer = () => {
           </div>
 
         </div>
-        <p className="text-xs text-gray-400 text-center mt-10">
-          © 2024 PLACED. Made in Germany.
-        </p>
+        <div className="border-t border-gray-100 mt-8 py-6">
+          <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-400">
+            <p>© 2025 Placed Technologies. All Rights Reserved.</p>
+            <div className="flex gap-4 mt-4 md:mt-0">
+              <a href="/datenschutz" className="hover:underline">Datenschutzerklärung</a>
+              <a href="/impressum" className="hover:underline">Impressum</a>
+              <a href="/agb" className="hover:underline">AGB</a>
+            </div>
+          </div>
+        </div>
       </FadeIn>
     </footer>
   );
