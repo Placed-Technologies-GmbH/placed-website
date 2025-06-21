@@ -1,0 +1,1 @@
+                <img src="/Profil-Optimierung.png" alt="Profil Optimierung" className="w-full max-w-lg mx-auto rounded-2xl shadow-xl relative z-10" style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}} /> 
