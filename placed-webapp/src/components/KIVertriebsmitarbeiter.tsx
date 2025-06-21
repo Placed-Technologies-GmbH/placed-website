@@ -2,14 +2,6 @@ import { User, MessageSquare, Database, CheckCircle } from 'lucide-react'
 import FadeIn from './FadeIn'
 import PrimaryButton from './PrimaryButton'
 
-const optimizationSuggestions = [
-  'Detaillierte Führung von Teams (3-5 Direkte/Jahr) sollte von Kandidat auch durch konkrete Schulungen erweitert',
-  'Kent GitHub oder Key Repository/Organzing SCRUM/AGILE und nicht vorteilhaft, aber für zukünftige Projekte',
-  'SAP PIM Kenntnisse für die Verwaltung/Leading Marina können teilzeit weiterhin werden',
-  'Implementierung MONOMER sind nicht informativ/en, können aber für Personalmarketing interessant sein',
-  'Lean Manufacturing Prinzipien sind nicht explizit erwähnt, jedoch für Prozessverbesserung nützlich',
-];
-
 const dataAccessHighlights = [
   {
     text: 'Wir sammeln Stellen ',
@@ -57,93 +49,67 @@ const KIVertriebsmitarbeiter = () => {
           </div>
 
           {/* PLACED Score Section */}
-          <div className="py-20 px-6 lg:px-8 bg-white">
+          <div className="py-16">
             <div className="max-w-6xl mx-auto space-y-8">
               <div className="text-3xl font-bold text-gray-900 flex items-center gap-2">
                 <img src="/icon-target.svg" alt="" className="w-8 h-8" />
                 <span>PLACED Score</span>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  KI Vertrieb: Unsere fortschrittliche Matching-Engine findet sofort die
-                  passendsten Stellen für Kandidaten-CVs. Suchergebnisse werden nicht nach
-                  Datum, sondern nach Relevanz sortiert: Unser PLACED-Score zeigt Ihnen die
-                  Vermittlungswahrscheinlichkeit.
-                </p>
-                <img src="/Placed Score.png" alt="PLACED Score" className="w-full max-w-md mx-auto" />
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="space-y-4">
+                  <p className="text-lg text-gray-700 leading-relaxed">
+                    KI Vertrieb: Unsere fortschrittliche Matching-Engine findet sofort die
+                    passendsten Stellen für Kandidaten-CVs. Suchergebnisse werden nicht nach
+                    Datum, sondern nach Relevanz sortiert: Unser PLACED-Score zeigt Ihnen die
+                    Vermittlungswahrscheinlichkeit.
+                  </p>
+                </div>
+                <img src="/Placed Score.png" alt="PLACED Score" className="w-full max-w-lg mx-auto" />
               </div>
             </div>
           </div>
 
           {/* Profil-Optimierung */}
-          <div className="space-y-6 mb-20">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
-                <User className="text-white w-6 h-6" />
-              </div>
-              <h3 className="text-2xl font-bold text-work-blue">Profil-Optimierung</h3>
-            </div>
-
-            <p className="text-muted-foreground leading-relaxed mb-6">
-              Unsere KI bietet Optimierungsvorschläge für Kandidatenprofile in Sekunden, indem sie fehlende 
-              Informationen im Lebenslauf aufzeigt und konkrete Verbesserungsvorschläge macht, damit Ihr Kandidat 
-              optimal beim Kunden ankommt.
-            </p>
-
-            <div className="space-y-3">
-              <div className="text-sm font-medium mb-3">Was fehlt?</div>
-              <div className="space-y-2">
-                {optimizationSuggestions.map((suggestion, i) => (
-                  <div key={i} className="flex items-start gap-2 text-xs">
-                    <div className="w-4 h-4 rounded-full bg-signal-yellow flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <div className="w-1.5 h-1.5 rounded-full bg-work-blue"></div>
+          <div className="py-16">
+            <div className="max-w-6xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="space-y-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
+                      <User className="text-white w-6 h-6" />
                     </div>
-                    <span className="text-muted-foreground">{suggestion}</span>
+                    <h3 className="text-2xl font-bold text-work-blue">Profil-Optimierung</h3>
                   </div>
-                ))}
+                  <p className="text-muted-foreground leading-relaxed">
+                    Unsere KI bietet Optimierungsvorschläge für Kandidatenprofile in Sekunden, indem sie fehlende 
+                    Informationen im Lebenslauf aufzeigt und konkrete Verbesserungsvorschläge macht, damit Ihr Kandidat 
+                    optimal beim Kunden ankommt.
+                  </p>
+                </div>
+                <img src="/Placed Score.png" alt="Profil Optimierung" className="w-full max-w-lg mx-auto" />
               </div>
             </div>
           </div>
 
           {/* KI Sales Script */}
-          <div className="mb-20">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="w-12 h-12 rounded-xl bg-signal-yellow flex items-center justify-center">
-                <MessageSquare className="text-work-blue w-6 h-6" />
-              </div>
-              <h3 className="text-2xl font-bold text-work-blue">KI Sales Script</h3>
-            </div>
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              <div>
-                <p className="text-muted-foreground leading-relaxed mb-6">
-                  Unsere KI erstellt personalisierte Sales-Skripte, die Ihnen helfen, Neukunden zu gewinnen, 
-                  indem sie präzise aufzeigt, warum Ihr Kandidat perfekt zur Stelle passt und die Dringlichkeit 
-                  bei der Stellenbesetzung identifiziert.
-                </p>
-              </div>
-
-              <FadeIn delay={0.2} className="bg-card/80 glass-effect rounded-lg p-6">
-                <div className="text-sm text-red-500 font-medium mb-4">TBD Sales Script Screenshot</div>
-                <div className="space-y-3 text-sm">
-                  <div>
-                    <span className="font-medium">KI-Sales Script</span>
-                    <ul className="mt-2 space-y-1 text-xs text-muted-foreground ml-4">
-                      <li>• Unternehmen: Siemens AG GmbH | 30-499 Mitarbeiter | 78 Agenturpartner | 7 offene Stellen</li>
-                      <li>• Ansprechpartner: Andreas Müller (Head Recruiting)</li>
-                      <li>• Urgency: 7 Wochen | 4 Termine | Wettbewerber ca. 4.400 €</li>
-                    </ul>
+          <div className="py-16">
+            <div className="max-w-6xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="space-y-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-xl bg-signal-yellow flex items-center justify-center">
+                      <MessageSquare className="text-work-blue w-6 h-6" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-work-blue">KI Sales Script</h3>
                   </div>
-                  <div className="border-t border-border/50 pt-3">
-                    <div className="font-medium text-xs mb-2">Potenzielle Problemstellung:</div>
-                    <ul className="space-y-1 text-xs text-muted-foreground ml-4">
-                      <li>• Personelle Erwüßsung: Entwicklung & Digitalprojentkette</li>
-                      <li>• Relevante Erfahrung: Marketing / Fachberatung, Wechsel, Jahresplanungen in projektebasierten Unternehmen</li>
-                      <li>• Fit-Matching/optimaler Standort: Bereichserhalt für Wertschöpfung und unter 30-Minuten-Anfahrzeiten</li>
-                    </ul>
-                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Unsere KI erstellt personalisierte Sales-Skripte, die Ihnen helfen, Neukunden zu gewinnen, 
+                    indem sie präzise aufzeigt, warum Ihr Kandidat perfekt zur Stelle passt und die Dringlichkeit 
+                    bei der Stellenbesetzung identifiziert.
+                  </p>
                 </div>
-              </FadeIn>
+                <img src="/Placed Score.png" alt="KI Sales Script" className="w-full max-w-lg mx-auto" />
+              </div>
             </div>
           </div>
         </div>
