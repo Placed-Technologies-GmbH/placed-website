@@ -1,4 +1,4 @@
-import { User, MessageSquare, Database, CheckCircle } from 'lucide-react'
+import { User, MessageSquare, Database, CheckCircle, Target } from 'lucide-react'
 import FadeIn from './FadeIn'
 import PrimaryButton from './PrimaryButton'
 
@@ -40,7 +40,7 @@ const KIVertriebsmitarbeiter = () => {
         <div className="container mx-auto px-8 md:px-16">
 
           <div className="text-center mb-20">
-            <h2 className="mb-6 text-work-blue">Ihr neuer KI-Vertriebsmitarbeiter</h2>
+            <h2 className="mb-6 text-work-blue text-4xl font-bold">Ihr neuer KI-Vertriebsmitarbeiter</h2>
             <p className="text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               Unsere KI-Technologie analysiert Kandidatenprofile und Stellenangebote in Echtzeit. Sie erhalten
               präzise Matches, optimierte Lebensläufe und maßgeschneiderte Sales-Pitches – alles automatisiert
@@ -48,16 +48,18 @@ const KIVertriebsmitarbeiter = () => {
             </p>
           </div>
 
-          {/* PLACED Score Section */}
-          <div className="py-16">
-            <div className="max-w-6xl mx-auto space-y-8">
-              <div className="text-3xl font-bold text-gray-900 flex items-center gap-2">
-                <img src="/icon-target.svg" alt="" className="w-8 h-8" />
-                <span>PLACED Score</span>
-              </div>
+          <div className="space-y-24">
+            {/* PLACED Score Section */}
+            <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div className="space-y-4">
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                <div className="space-y-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
+                      <Target className="text-white w-6 h-6" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-work-blue">PLACED Score</h3>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
                     KI Vertrieb: Unsere fortschrittliche Matching-Engine findet sofort die
                     passendsten Stellen für Kandidaten-CVs. Suchergebnisse werden nicht nach
                     Datum, sondern nach Relevanz sortiert: Unser PLACED-Score zeigt Ihnen die
@@ -67,12 +69,11 @@ const KIVertriebsmitarbeiter = () => {
                 <img src="/Placed Score.png" alt="PLACED Score" className="w-full max-w-lg mx-auto" />
               </div>
             </div>
-          </div>
 
-          {/* Profil-Optimierung */}
-          <div className="py-16">
+            {/* Profil-Optimierung */}
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <img src="/Placed Score.png" alt="Profil Optimierung" className="w-full max-w-lg mx-auto" />
                 <div className="space-y-6">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
@@ -86,19 +87,16 @@ const KIVertriebsmitarbeiter = () => {
                     optimal beim Kunden ankommt.
                   </p>
                 </div>
-                <img src="/Placed Score.png" alt="Profil Optimierung" className="w-full max-w-lg mx-auto" />
               </div>
             </div>
-          </div>
 
-          {/* KI Sales Script */}
-          <div className="py-16">
+            {/* KI Sales Script */}
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-signal-yellow flex items-center justify-center">
-                      <MessageSquare className="text-work-blue w-6 h-6" />
+                    <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
+                      <MessageSquare className="text-white w-6 h-6" />
                     </div>
                     <h3 className="text-2xl font-bold text-work-blue">KI Sales Script</h3>
                   </div>
