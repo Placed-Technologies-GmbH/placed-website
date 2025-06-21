@@ -117,6 +117,12 @@ const AIRevolution = () => {
             <h3 className="text-center text-2xl font-bold mb-6">
               100% konform nach DSGVO & EU AI Act
             </h3>
+            <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              Bei PLACED hat Datenschutz höchste Priorität. Wir wissen, dass sensible 
+              Informationen, wie sie beim Hochladen von Lebensläufen anfallen, höchste Sorgfalt 
+              erfordern. Deshalb sichern wir Ihre Daten durch zertifizierte Prozesse und klare 
+              Garantien:
+            </p>
             <div className="flex justify-center items-center gap-8 flex-wrap md:flex-nowrap">
               <img
                 src="/DGSVO.png"
@@ -129,14 +135,18 @@ const AIRevolution = () => {
                 className="h-16 object-contain"
               />
             </div>
-            <div className="space-y-3 text-sm text-gray-500 pt-4">
-              <div className="flex items-center gap-2 justify-center">
-                <CheckCircle className="text-placed-green w-5 h-5" />
-                <span>Nach höchsten Datenschutzstandards unabhängig zertifiziert</span>
+            <div className="inline-block text-left space-y-3 text-sm text-gray-500 pt-4">
+              <div className="flex items-start gap-2">
+                <CheckCircle className="text-placed-green w-5 h-5 flex-shrink-0 mt-0.5" />
+                <span>Regelmäßige externe Audits garantieren, dass unsere Datenverarbeitung den aktuellsten DSGVO-Standards entspricht.</span>
               </div>
-              <div className="flex items-center gap-2 justify-center">
-                <CheckCircle className="text-placed-green w-5 h-5" />
-                <span>Gütesiegel für DSGVO und EU AI Act</span>
+              <div className="flex items-start gap-2">
+                <CheckCircle className="text-placed-green w-5 h-5 flex-shrink-0 mt-0.5" />
+                <span>Unsere Zertifizierung nach dem EU AI Act garantiert eine ethische und sichere KI.</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <CheckCircle className="text-placed-green w-5 h-5 flex-shrink-0 mt-0.5" />
+                <span>Hochgeladene Lebensläufe werden anonymisiert und personenbezogene Daten niemals zum Training unserer KI genutzt.</span>
               </div>
             </div>
           </div>

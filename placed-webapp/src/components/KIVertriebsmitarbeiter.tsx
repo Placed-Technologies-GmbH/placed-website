@@ -117,65 +117,57 @@ const KIVertriebsmitarbeiter = () => {
       <section className="py-24 bg-gradient-to-br from-work-blue/5 to-background relative overflow-hidden">
         <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-signal-yellow/10 rounded-full blur-3xl"></div>
         <div className="container mx-auto px-8 md:px-16">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-4xl mx-auto text-center">
 
-            <FadeIn delay={0.1} className="text-center mb-16">
-              <div className="flex items-center justify-center gap-4 mb-6">
-                <div className="w-12 h-12 rounded-xl bg-work-blue flex items-center justify-center">
-                  <Database className="text-white w-6 h-6" />
-                </div>
-                <h2 className="text-4xl md:text-5xl font-bold text-work-blue">
-                  Ein Zugang: Alle Stellen. Alle Kontakte. Alle Daten. Unlimitierter Zugriff.
-                </h2>
-              </div>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <FadeIn delay={0.1}>
+              <h2 className="text-4xl md:text-5xl font-bold text-work-blue mb-6">
+                Ein Zugang: Alle Stellen. Alle Kontakte. Alle Daten. Unlimitierter Zugriff.
+              </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed">
                 PLACED hat Deutschlands größte Datenbank für Jobs und Entscheiderkontakte. 
                 Greifen Sie auf die umfangreichste Sammlung von Stellenangeboten und Firmenkontakten zu. 
                 Als PLACED Nutzer profitieren sie von unlimitierten Datenzugriff ohne Beschränkungen nach Beruf oder Region.
               </p>
             </FadeIn>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-              {dataAccessHighlights.map((item, index) => (
-                <FadeIn key={index} delay={0.1 + index * 0.1} className="glass-effect bg-card/80 rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-8 h-8 rounded-lg bg-placed-green/20 flex items-center justify-center flex-shrink-0 mt-1">
-                      <CheckCircle className="w-5 h-5 text-placed-green" />
-                    </div>
-                    <div className="text-base text-foreground leading-relaxed">
+            <FadeIn delay={0.2}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 mt-16 text-left">
+                {dataAccessHighlights.map((item, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-placed-green flex-shrink-0 mt-1" />
+                    <p className="text-foreground leading-relaxed">
                       {item.text}
                       <span className="font-semibold text-work-blue">{item.highlight}</span>
                       {item.suffix}
-                    </div>
+                    </p>
                   </div>
-                </FadeIn>
-              ))}
-            </div>
+                ))}
+              </div>
+            </FadeIn>
 
-            <FadeIn delay={0.4} className="text-center">
+            <FadeIn delay={0.3} className="mt-20">
               <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-2">
                 Unsere Datenquellen & Integrationen
               </h3>
               <p className="text-sm text-muted-foreground mb-8">
                 Jobbörsen, ATS-Systeme und Firmenwebseiten
               </p>
-              <div className="glass-effect bg-card/60 rounded-2xl p-8">
-                <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
-                  {partnerLogos.map((logo, index) => (
-                    <div key={index} className="group transition-all duration-300 hover:scale-110">
-                      <img
-                        src={logo.src}
-                        alt={logo.alt}
-                        className="h-8 md:h-10 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity filter grayscale group-hover:grayscale-0"
-                        loading="lazy"
-                      />
-                    </div>
-                  ))}
-                </div>
+              <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+                {partnerLogos.map((logo, index) => (
+                  <div key={index} className="group transition-all duration-300 hover:scale-110">
+                    <img
+                      src={logo.src}
+                      alt={logo.alt}
+                      className="h-8 md:h-10 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity filter grayscale group-hover:grayscale-0"
+                      loading="lazy"
+                    />
+                  </div>
+                ))}
               </div>
+              <p className="text-sm text-muted-foreground mt-4">+ weitere 100 Jobbörsen</p>
             </FadeIn>
 
-            <FadeIn delay={0.5} className="text-center mt-12">
+            <FadeIn delay={0.4} className="text-center mt-16">
               <PrimaryButton />
             </FadeIn>
           </div>
