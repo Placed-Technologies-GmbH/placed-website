@@ -113,23 +113,23 @@ const AIRevolution = () => {
 
         {/* Compliance Section */}
         <FadeIn delay={0.3}>
-          <div className="max-w-4xl mx-auto px-4 py-16 md:py-24 text-center space-y-6">
-            <h3 className="text-center text-2xl md:text-3xl font-bold mb-6">
+          <div className="max-w-4xl mx-auto py-16 text-center space-y-6">
+            <h3 className="text-center text-2xl font-bold mb-6">
               100% konform nach DSGVO & EU AI Act
             </h3>
             <div className="flex justify-center items-center gap-8 flex-wrap md:flex-nowrap">
               <img
                 src="/DGSVO.png"
                 alt="DSGVO Siegel"
-                className="h-16 md:h-20 object-contain"
+                className="h-16 object-contain"
               />
               <img
                 src="/EU_AI_Act.png"
                 alt="EU AI Siegel"
-                className="h-16 md:h-20 object-contain"
+                className="h-16 object-contain"
               />
             </div>
-            <div className="space-y-2 text-sm text-gray-500">
+            <div className="space-y-3 text-sm text-gray-500 pt-4">
               <div className="flex items-center gap-2 justify-center">
                 <CheckCircle className="text-placed-green w-5 h-5" />
                 <span>Nach höchsten Datenschutzstandards unabhängig zertifiziert</span>

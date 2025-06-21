@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { Check, X } from 'lucide-react'
 import FadeIn from './FadeIn'
@@ -173,7 +172,7 @@ const ComparisonSection = () => {
             und erweiterte Kontaktdaten, sondern revolutioniert den Recruitingprozess mit KI-gestütztem
             Matching, automatischer Kandidatenbewertung, CV Optimierung und Sales-Skripten.
           </p>
-          <p className="text-sm text-muted-foreground">
+          <p className="text-muted-foreground leading-relaxed">
             Führen Sie perfekte Vertriebsgespräche in nur einer Minute - lange Vorbereitung und schlechte 
             Telefonate gehören der Vergangenheit an.
           </p>

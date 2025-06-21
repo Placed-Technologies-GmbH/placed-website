@@ -45,9 +45,9 @@ const Hero = () => {
             className="h-10 md:h-12 object-contain"
             loading="lazy"
           />
-           <img
-            src="/GVP-Logo_Mitglied_RGB_blau.png"
-            alt="GVP-zertifiziert Siegel"
+          <img
+            src="/EU_AI_Act.png"
+            alt="EU AI Act"
             className="h-10 md:h-12 object-contain"
             loading="lazy"
           />

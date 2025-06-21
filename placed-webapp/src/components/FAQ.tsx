@@ -171,9 +171,6 @@ const FAQ = () => {
           </AccordionItem>
         ))}
       </Accordion>
-      <div className="text-center mt-10">
-        <PrimaryButton />
-      </div>
     </div>
   );
 };

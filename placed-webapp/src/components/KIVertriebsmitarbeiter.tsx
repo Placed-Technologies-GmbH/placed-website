@@ -131,7 +131,7 @@ const KIVertriebsmitarbeiter = () => {
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
                 PLACED hat Deutschlands größte Datenbank für Jobs und Entscheiderkontakte. 
                 Greifen Sie auf die umfangreichste Sammlung von Stellenangeboten und Firmenkontakten zu. 
-                Unser System aktualisiert die Daten stündlich in Echtzeit und priorisiert die Jobs nach Vermittlungswahrscheinlichkeit.
+                Als PLACED Nutzer profitieren sie von unlimitierten Datenzugriff ohne Beschränkungen nach Beruf oder Region.
               </p>
             </FadeIn>
 
@@ -153,9 +153,12 @@ const KIVertriebsmitarbeiter = () => {
             </div>
 
             <FadeIn delay={0.4} className="text-center">
-              <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-8">
+              <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-2">
                 Unsere Datenquellen & Integrationen
               </h3>
+              <p className="text-sm text-muted-foreground mb-8">
+                Jobbörsen, ATS-Systeme und Firmenwebseiten
+              </p>
               <div className="glass-effect bg-card/60 rounded-2xl p-8">
                 <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
                   {partnerLogos.map((logo, index) => (
