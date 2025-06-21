@@ -3,29 +3,28 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import PrimaryButton from '@/components/PrimaryButton';
 
 const LaunchEvent = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col">
+      <div className="bg-work-blue text-white py-2 text-center text-sm">
+        <span>PLACED launched am 24.06 beim Tag der Personaldienstleiste vom GVP am 24.06. ab 18:30 Uhr. <a href="#" className="underline font-semibold">Jetzt mehr erfahren!</a></span>
+      </div>
       <Header />
 
       {/* Hero */}
-      <section className="bg-gray-50 py-16 sm:py-20">
+      <section className="bg-white py-16 sm:py-24">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold text-center">
+          <h1 className="text-4xl sm:text-5xl font-bold text-center text-work-blue">
             PLACED ist neues Fördermitglied im GVP
           </h1>
-          <p className="text-lg text-gray-600 text-center mt-2">
+          <p className="text-lg text-gray-600 text-center mt-4">
             Unser Engagement für Qualität und Innovation in der Personaldienstleistungsbranche
           </p>
-          <Button
-            variant="default"
-            size="lg"
-            className="bg-signal-yellow text-work-blue hover:bg-signal-yellow/90 rounded-xl px-6 py-3 font-semibold inline-flex items-center"
-          >
-            Demo buchen
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
+          <div className="mt-8">
+            <PrimaryButton />
+          </div>
         </div>
       </section>
 
