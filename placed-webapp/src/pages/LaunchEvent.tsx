@@ -43,7 +43,7 @@ const LaunchEvent = () => {
               Im Rahmen des Sommerfests laden wir Sie herzlich an unsere gesponserte PLACED Spritz-Bar ein. Ab 18:30 Uhr können Sie in entspannter Atmosphäre kostenlose Spritz-Getränke genießen und die Gelegenheit für einen produktiven Austausch nutzen. Erfahren Sie mehr über unsere Plattform, vernetzen Sie sich mit Branchenkollegen und lassen Sie den Abend gemeinsam ausklingen.
             </p>
             <div className="flex justify-center py-6">
-              <img src="/placeholder.svg" alt="Logo GVP" className="max-w-xs" loading="lazy" />
+              <img src="/GVPPlaced.png" alt="Logo GVP" className="max-w-xs" loading="lazy" />
             </div>
           </div>
 

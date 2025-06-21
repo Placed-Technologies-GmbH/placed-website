@@ -1,6 +1,7 @@
 import { User, MessageSquare, Database, CheckCircle, Target } from 'lucide-react'
 import FadeIn from './FadeIn'
 import PrimaryButton from './PrimaryButton'
+import AnimatedScore from './AnimatedScore'
 
 const dataAccessHighlights = [
   {
@@ -82,7 +83,7 @@ const KIVertriebsmitarbeiter = () => {
                     Die Suchergebnisse werden nicht nach Datum, sondern nach Relevanz sortiert: Unser PLACED Score zeigt Ihnen die Vermittlungswahrscheinlichkeit. Diese beinhaltet die Passung von Kandidat zur Stelle und die Dringlichkeit des Unternehmens die Stelle zu besetzen.
                   </p>
                 </div>
-                <img src="/Placed Score.png" alt="PLACED Score" className="w-full max-w-lg mx-auto rounded-2xl shadow-xl relative z-10" style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}} />
+                <AnimatedScore />
                 <div className="pointer-events-none absolute left-0 right-0 bottom-0 h-24 max-w-lg mx-auto z-20" style={{background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%)'}} />
               </div>
             </div>
