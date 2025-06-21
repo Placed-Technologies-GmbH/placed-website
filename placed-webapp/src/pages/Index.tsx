@@ -13,7 +13,7 @@ const Index = () => {
       <main className="flex-grow space-y-24">
         <Hero />
         {/* Product Hero Image - full-bleed, visually cropped */}
-        <div className="relative w-full overflow-hidden" style={{height: '60vh', minHeight: '320px', maxHeight: '600px'}}>
+        <div className="relative w-full overflow-hidden" style={{height: '70vh', minHeight: '320px', maxHeight: '700px'}}>
           <img
             className="w-full h-full object-cover object-center rounded-2xl shadow-2xl"
             style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}}

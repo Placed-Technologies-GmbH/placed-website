@@ -8,6 +8,9 @@ import { Suspense, lazy } from "react";
 const Index = lazy(() => import("./pages/Index"));
 const LaunchEvent = lazy(() => import("./pages/LaunchEvent"));
 const NotFound = lazy(() => import("./pages/NotFound"));
+const Datenschutz = lazy(() => import("./pages/Datenschutz"));
+const Impressum = lazy(() => import("./pages/Impressum"));
+const AGB = lazy(() => import("./pages/AGB"));
 
 const queryClient = new QueryClient();
 
@@ -27,6 +30,9 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/gvp-launch" element={<LaunchEvent />} />
+            <Route path="/datenschutz" element={<Datenschutz />} />
+            <Route path="/impressum" element={<Impressum />} />
+            <Route path="/agb" element={<AGB />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
