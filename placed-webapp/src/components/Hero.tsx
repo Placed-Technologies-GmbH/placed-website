@@ -1,15 +1,14 @@
-
 import PrimaryButton from './PrimaryButton';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 px-8 md:px-16">
+    <section className="relative overflow-hidden pt-24 pb-12 sm:pt-32 sm:pb-16">
       {/* Clean background with subtle brand color accents */}
       <div className="absolute inset-0 bg-gradient-to-br from-pale-blue/30 to-background"></div>
       <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-placed-blue/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-1/3 right-1/4 w-48 h-48 bg-signal-yellow/10 rounded-full blur-3xl"></div>
 
-      <div className="relative z-10 mx-auto max-w-4xl text-center py-32">
+      <div className="relative z-10 mx-auto max-w-4xl text-center px-4 sm:px-6 lg:px-8">
         {/* Main Headline */}
         <h1 className="text-6xl font-bold tracking-tight mb-6 text-work-blue">
           Die KI-Vertriebsplattform für die Personalbranche.
