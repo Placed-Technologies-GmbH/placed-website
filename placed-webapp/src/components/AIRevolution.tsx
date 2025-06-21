@@ -80,35 +80,35 @@ const AIRevolution = () => {
 
         {/* Key Benefits Section */}
         <FadeIn delay={0.2}>
-          <div className="bg-pale-blue py-20 rounded-xl flex flex-col items-center text-center">
-            <h3 className="text-3xl md:text-4xl font-bold text-center mb-10">
-              Mehr aus Ihrer Vertriebszeit rausholen
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 w-full max-w-3xl">
-              {/* Recruiting Benefit */}
-              <div className="flex flex-col items-center space-y-3">
-                <Target className="w-8 h-8 text-work-blue" />
-                <h4 className="text-lg font-semibold text-center">KI CV Optimierer</h4>
-                <p className="text-gray-700 text-sm leading-snug text-center">
-                  Perfekte Kandidatenprofile in Sekunden.
-                </p>
+          <section className="relative py-20">
+            <div className="absolute inset-0 bg-gradient-to-br from-pale-blue/40 to-white/80 rounded-xl pointer-events-none" />
+            <div className="relative max-w-5xl mx-auto px-4 sm:px-8">
+              <h3 className="text-3xl md:text-4xl font-bold text-center mb-14 text-work-blue">
+                Mehr aus Ihrer Vertriebszeit rausholen
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {/* KI CV-Analyse */}
+                <div className="glass-effect bg-white/70 rounded-2xl shadow-lg p-8 flex flex-col items-center text-center transition-transform hover:-translate-y-1 hover:shadow-xl">
+                  <Target className="w-10 h-10 text-work-blue mb-4" />
+                  <h4 className="text-xl font-bold mb-3 text-work-blue">KI CV-Analyse</h4>
+                  <p className="text-base text-muted-foreground leading-relaxed">
+                    Stellenbezogene Analyse von CVs: Was passt? Was passt nicht? Was muss ergänzt bzw. geklärt werden?
+                  </p>
+                </div>
+                {/* KI Gesprächsleitfaden */}
+                <div className="glass-effect bg-white/70 rounded-2xl shadow-lg p-8 flex flex-col items-center text-center transition-transform hover:-translate-y-1 hover:shadow-xl">
+                  <Brain className="w-10 h-10 text-work-blue mb-4" />
+                  <h4 className="text-xl font-bold mb-3 text-work-blue">KI Gesprächsleitfaden</h4>
+                  <p className="text-base text-muted-foreground leading-relaxed">
+                    Überzeugende Vertriebsgespräche basierend auf spezifischen Kandidaten-CVs und dem Match mit der Stelle. Sagen Sie genau das richtige, zur richtigen Zeit.
+                  </p>
+                </div>
               </div>
-              {/* Sales Benefit */}
-              <div className="flex flex-col items-center space-y-3">
-                <Brain className="w-8 h-8 text-work-blue" />
-                <h4 className="text-lg font-semibold text-center">KI Sales Script</h4>
-                <p className="text-gray-700 text-sm leading-snug text-center">
-                  Perfekte Vertriebsgespräche mit KI-Unterstützung.
-                </p>
+              <div className="flex justify-center mt-12">
+                <PrimaryButton />
               </div>
             </div>
-            <Button
-              variant="default"
-              className="bg-signal-yellow text-work-blue hover:bg-signal-yellow/90 rounded-xl px-6 py-3 font-semibold mt-8"
-            >
-              Jetzt Demo buchen
-            </Button>
-          </div>
+          </section>
         </FadeIn>
 
         {/* Compliance Section */}
