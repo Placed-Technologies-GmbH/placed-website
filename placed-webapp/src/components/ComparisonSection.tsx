@@ -115,14 +115,6 @@ const ComparisonSection = () => {
       placedHasAdvantage: true
     },
     {
-      feature: 'Alles hierunter als "bald verfügbar"',
-      placed: '',
-      competitor1: '',
-      competitor2: '',
-      placedHasAdvantage: false,
-      isHeader: true
-    },
-    {
       feature: 'Bezahlte Jobanzeigen',
       placed: 'Y',
       competitor1: 'Y',
@@ -135,6 +127,14 @@ const ComparisonSection = () => {
       competitor1: 'N',
       competitor2: 'N',
       placedHasAdvantage: true
+    },
+    {
+      feature: 'Bald verfügbar',
+      placed: '',
+      competitor1: '',
+      competitor2: '',
+      placedHasAdvantage: false,
+      isHeader: true
     },
     {
       feature: 'KI Textsuche (Prompt) "Ich suche die 20 größten Logistikunternehmen in Berlin +30km"',
