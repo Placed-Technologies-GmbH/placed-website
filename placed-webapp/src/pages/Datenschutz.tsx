@@ -28,7 +28,7 @@ const legalText = [
   {
     title: '3. SSL- bzw. TLS-Verschlüsselung',
     content: [
-      'Aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, die Sie an uns als Seitenbetreiber senden, nutzt unsere Website eine SSL-bzw. TLS-Verschlüsselung. Damit sind Daten, die Sie über diese Website übermitteln, für Dritte nichtmitlesbar. Sie erkennen eine verschlüsselte Verbindung an der „https://“Adresszeile Ihres Browsers und am Schloss-Symbol in der Browserzeile.'
+      'Aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, die Sie an uns als Seitenbetreiber senden, nutzt unsere Website eine SSL-bzw. TLS-Verschlüsselung. Damit sind Daten, die Sie über diese Website übermitteln, für Dritte nichtmitlesbar. Sie erkennen eine verschlüsselte Verbindung an der "https://"Adresszeile Ihres Browsers und am Schloss-Symbol in der Browserzeile.'
     ]
   },
   {
@@ -52,8 +52,8 @@ const Datenschutz = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Header />
-      <div className="w-full bg-background pt-32 pb-6">
-        <h1 className="text-4xl font-bold text-work-blue text-center px-4">
+      <div className="w-full bg-background pt-40 sm:pt-32 pb-6">
+        <h1 className="text-3xl sm:text-4xl font-bold text-work-blue text-center px-4">
           Datenschutzerklärung
         </h1>
       </div>
