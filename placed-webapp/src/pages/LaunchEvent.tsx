@@ -9,7 +9,7 @@ const LaunchEvent = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <div className="bg-work-blue text-white py-2 text-center text-sm">
-        <span>PLACED launched am 24.06 beim Tag der Personaldienstleiste vom GVP am 24.06. ab 18:30 Uhr. <a href="#" className="underline font-semibold">Jetzt mehr erfahren!</a></span>
+        <span>PLACED launched am 24.06 beim Tag der Personaldienstleister vom GVP am 24.06. ab 18:30 Uhr. <a href="#" className="underline font-semibold">Jetzt mehr erfahren!</a></span>
       </div>
       <Header />
 
