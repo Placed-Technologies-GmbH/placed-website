@@ -15,12 +15,10 @@ const FAQ = () => {
             Herausforderungen der Branche mit.
           </p>
           <p className="mt-2">
-            Aus dieser Branchenkenntnis heraus entstand PLACED – entwickelt von
-            einem internationalen Entwicklerteam. Als stark wachsendes
-            Unternehmen sind ethische Prinzipien, Diversität und Inklusion fest
-            in unserer Unternehmenskultur und der Entwicklung unseres Produkts
-            verankert. Wir freuen uns darauf, gemeinsam mit Ihnen die Branche
-            voranzubringen.
+            Aus dieser Branchenkenntnis heraus entstand PLACED – entwickelt von einem internationalen Entwicklerteam aus KI-Experten. 
+            Wir sind ein stark wachsendes Unternehmen mit renommierten Investoren. 
+            Wir freuen uns darauf unsere Kunden und die Branche vertrieblich zu 
+            stärken und die Kraft von KI-gestütztem Kandidatenvertrieb für Alle zugänglich zu machen.
           </p>
         </>
       )
