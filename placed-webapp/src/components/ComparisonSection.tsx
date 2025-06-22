@@ -180,45 +180,47 @@ const ComparisonSection = () => {
 
         {/* Comparison Table */}
         <FadeIn delay={0.1} className="bg-white rounded-xl shadow-sm overflow-hidden">
-          <Table className="table-fixed">
-            <TableHeader>
-              <TableRow className="border-0 border-t border-gray-100 border-b-0">
-                <TableHead className="w-[40%] py-4 px-6 text-left align-top text-xs font-semibold text-work-blue uppercase">
-                  Funktion
-                </TableHead>
-                <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
-                  <img src="/Placed_LogoLockup_Blue.svg" alt="PLACED" className="h-6 mx-auto" />
-                </TableHead>
-                <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
-                  <img src="/index-logo-460.png" alt="INDEX" className="h-6 mx-auto" />
-                </TableHead>
-                <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
-                  Manuelle Suche
-                </TableHead>
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {comparisonData.map((row, index) => (
-                <TableRow
-                  key={index}
-                  className={`border-0 border-t border-gray-100 hover:bg-pale-blue ${row.isHeader ? 'bg-pale-blue font-semibold' : ''}`}
-                >
-                  <TableCell className="w-[40%] py-4 px-6 align-top text-sm leading-snug text-gray-800 break-words whitespace-normal">
-                    {row.feature}
-                  </TableCell>
-                  <TableCell className="w-[20%] py-4 px-6 align-top text-center text-sm leading-snug break-words whitespace-normal bg-indigo-50 dark:bg-indigo-900/20">
-                    {renderCell(row.placed)}
-                  </TableCell>
-                  <TableCell className="w-[20%] py-4 px-6 align-top text-center text-sm leading-snug break-words whitespace-normal">
-                    {renderCell(row.competitor1)}
-                  </TableCell>
-                  <TableCell className="w-[20%] py-4 px-6 align-top text-center text-sm leading-snug break-words whitespace-normal">
-                    {renderCell(row.competitor2)}
-                  </TableCell>
+          <div className="overflow-x-auto -mx-4 md:mx-0">
+            <Table className="table-fixed min-w-[700px]">
+              <TableHeader>
+                <TableRow className="border-0 border-t border-gray-100 border-b-0">
+                  <TableHead className="w-[40%] py-4 px-6 text-left align-top text-xs font-semibold text-work-blue uppercase">
+                    Funktion
+                  </TableHead>
+                  <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
+                    <img src="/Placed_LogoLockup_Blue.svg" alt="PLACED" className="h-6 mx-auto" />
+                  </TableHead>
+                  <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
+                    <img src="/index-logo-460.png" alt="INDEX" className="h-6 mx-auto" />
+                  </TableHead>
+                  <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
+                    Manuelle Suche
+                  </TableHead>
                 </TableRow>
-              ))}
-            </TableBody>
-          </Table>
+              </TableHeader>
+              <TableBody>
+                {comparisonData.map((row, index) => (
+                  <TableRow
+                    key={index}
+                    className={`border-0 border-t border-gray-100 hover:bg-pale-blue ${row.isHeader ? 'bg-pale-blue font-semibold' : ''}`}
+                  >
+                    <TableCell className="w-[40%] py-4 px-6 align-top text-sm leading-snug text-gray-800 break-words whitespace-normal">
+                      {row.feature}
+                    </TableCell>
+                    <TableCell className="w-[20%] py-4 px-6 align-top text-center text-sm leading-snug break-words whitespace-normal bg-indigo-50 dark:bg-indigo-900/20">
+                      {renderCell(row.placed)}
+                    </TableCell>
+                    <TableCell className="w-[20%] py-4 px-6 align-top text-center text-sm leading-snug break-words whitespace-normal">
+                      {renderCell(row.competitor1)}
+                    </TableCell>
+                    <TableCell className="w-[20%] py-4 px-6 align-top text-center text-sm leading-snug break-words whitespace-normal">
+                      {renderCell(row.competitor2)}
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </div>
         </FadeIn>
 
         <FadeIn delay={0.2} className="text-center mt-16">

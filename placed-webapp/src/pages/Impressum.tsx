@@ -50,7 +50,7 @@ const Impressum = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Header />
-      <div className="w-full bg-background pt-32 pb-6">
+      <div className="w-full bg-background pt-40 sm:pt-32 pb-6">
         <h1 className="text-4xl font-bold text-work-blue text-center px-4">
           Impressum
         </h1>
