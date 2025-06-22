@@ -75,8 +75,8 @@ const KIVertriebsmitarbeiter = () => {
                 <img src="/Placed Score.png" alt="PLACED Score" className="w-full max-w-lg mx-auto rounded-2xl shadow-xl relative z-10" style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}} />
                 <div className="space-y-6 w-full">
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-pale-blue flex items-center justify-center">
-                      <Target className="text-work-blue w-6 h-6" />
+                    <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
+                      <Target className="text-white w-6 h-6" />
                     </div>
                     <h3 className="text-2xl font-bold text-work-blue">PLACED Score</h3>
                   </div>
