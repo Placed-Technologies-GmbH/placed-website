@@ -184,8 +184,8 @@ const KIVertriebsmitarbeiter = () => {
                   </div>
                 ))}
               </div>
-              <p className="text-sm text-muted-foreground mt-4 text-left mx-auto w-fit"> &gt;150 weitere Jobbörsen</p>
-              <p className="text-sm text-muted-foreground mt-4 text-left mx-auto w-fit"> &gt;100.000 Firmenwebseiten</p>
+              <p className="text-sm text-muted-foreground mt-4 text-left mx-auto w-fit"> &gt; 150 weitere Jobbörsen</p>
+              <p className="text-sm text-muted-foreground mt-4 text-left mx-auto w-fit"> &gt; 100.000 Firmenwebseiten</p>
             </FadeIn>
 
             <FadeIn delay={0.4} className="text-center mt-16">
