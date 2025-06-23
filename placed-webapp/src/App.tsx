@@ -29,11 +29,7 @@ const App = () => {
         <Sonner />
         <BrowserRouter>
           <Suspense
-            fallback={
-              <div className="flex items-center justify-center min-h-screen">
-                Loading...
-              </div>
-            }
+            fallback={null}
           >
             <Routes>
               <Route path="/" element={<Index />} />
