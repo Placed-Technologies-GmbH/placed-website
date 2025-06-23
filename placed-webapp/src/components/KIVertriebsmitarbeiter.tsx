@@ -43,7 +43,7 @@ const KIVertriebsmitarbeiter = () => {
           <div className="text-center mb-20">
             <h2 className="mb-6 text-work-blue text-3xl md:text-4xl font-bold">Ihr neuer KI-Vertriebsmitarbeiter</h2>
             <p className="text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Unsere KI-Technologie analysiert Kandidatenprofile und Stellenangebote in Echtzeit. Sie erhalten präzise Matches, optimierte Lebensläufe und maßgeschneiderte Gesprächsleitfäden – alles automatisiert und DSGVO-konform.
+              Unsere KI-Technologie analysiert Kandidatenprofile und Stellenangebote in Echtzeit. Sie erhalten präzise Matches, optimierte Lebensläufe und maßgeschneiderte Gesprächsleitfäden – alles automatisiert und 100% DSGVO-konform.
             </p>
           </div>
 
