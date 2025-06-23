@@ -9,26 +9,26 @@ const LaunchEvent = () => {
       <Header />
       <main className="flex-grow space-y-24">
         {/* Hero Section */}
-        <section className="bg-white pt-32 pb-12 sm:pt-40 sm:pb-20">
+        <section className="bg-white pt-32 pb-8 sm:pt-40 sm:pb-12">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
             <img
               src="/GVPPlaced.png"
               alt="PLACED x GVP"
-              className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl h-auto mx-auto mb-6"
+              className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl h-auto mx-auto mb-4"
               style={{ objectFit: 'contain' }}
               loading="lazy"
             />
-            <h1 className="text-4xl sm:text-5xl font-bold text-work-blue mb-4">
+            <h1 className="text-4xl sm:text-5xl font-bold text-work-blue mb-2">
               PLACED ist neues Fördermitglied<br />im GVP
             </h1>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-lg text-gray-600 mb-6 max-w-xl mx-auto">
               Unser Engagement für Qualität und Innovation in der Personaldienstleistungsbranche
             </p>
             <PrimaryButton />
             <img
               src="/ProductHero.png"
               alt="PLACED Produktansicht"
-              className="w-full max-w-md sm:max-w-lg md:max-w-2xl h-auto mx-auto rounded-xl shadow-lg mt-4"
+              className="w-full max-w-md sm:max-w-lg md:max-w-2xl h-auto mx-auto rounded-xl shadow-lg mt-16 mb-12"
               style={{ objectFit: 'contain' }}
               loading="lazy"
             />
@@ -36,8 +36,8 @@ const LaunchEvent = () => {
         </section>
 
         {/* Press release content */}
-        <section className="py-12 sm:py-20">
-          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 text-gray-800 leading-relaxed">
+        <section className="py-8 sm:py-16">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 text-gray-800 leading-relaxed">
             <p className="text-lg">
               Wir präsentieren unsere KI-Vertriebsplattform am 24. Juni 2025 in Berlin. Treffen Sie uns ab 18:30 Uhr beim Sommerfest und entdecken Sie, wie KI Ihren Vertrieb revolutioniert.
             </p>
