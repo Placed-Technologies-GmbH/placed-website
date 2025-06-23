@@ -110,18 +110,6 @@ const FAQ = () => {
       )
     },
     {
-      question: 'Systemvoraussetzungen & Integrationen',
-      answer: (
-        <p>
-          PLACED ist eine webbasierte Lösung, die über alle gängigen Webbrowser
-          zugänglich ist, ohne dass spezielle Software erforderlich ist. Wir
-          arbeiten aktiv an der Entwicklung weiterer API-Schnittstellen zu CRM-
-          und ATS-Systemen und sind stets offen für neue Integrationsmöglichkeiten,
-          um PLACED nahtlos in Ihre bestehende HR-Landschaft einzubinden.
-        </p>
-      )
-    },
-    {
       question: 'Wie engagiert sich PLACED für die Personalbranche?',
       answer: (
         <>

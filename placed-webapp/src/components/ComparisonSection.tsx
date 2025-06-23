@@ -103,7 +103,7 @@ const ComparisonSection = () => {
     {
       feature: 'Erweiterung um zusätzl. Quellen (neue Print und Online Medien)',
       placed: 'Y',
-      competitor1: 'Mit aufpreis',
+      competitor1: 'Mit Aufpreis',
       competitor2: 'N',
       placedHasAdvantage: true
     },
