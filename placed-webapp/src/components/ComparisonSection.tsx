@@ -191,7 +191,7 @@ const ComparisonSection = () => {
                     <img src="/Placed_LogoLockup_Blue.svg" alt="PLACED" className="h-6 mx-auto" />
                   </TableHead>
                   <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
-                    <img src="/index-logo-460.png" alt="INDEX" className="h-6 mx-auto" />
+                    Andere Anbieter
                   </TableHead>
                   <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
                     Manuelle Suche

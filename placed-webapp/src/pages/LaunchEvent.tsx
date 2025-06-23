@@ -28,7 +28,7 @@ const LaunchEvent = () => {
             <img
               src="/ProductHero.png"
               alt="PLACED Produktansicht"
-              className="w-full max-w-md sm:max-w-lg md:max-w-2xl h-auto mx-auto rounded-xl shadow-lg mt-16 mb-12"
+              className="w-full max-w-md sm:max-w-lg md:max-w-2xl h-auto mx-auto rounded-xl shadow-lg mt-16 mb-4"
               style={{ objectFit: 'contain' }}
               loading="lazy"
             />
