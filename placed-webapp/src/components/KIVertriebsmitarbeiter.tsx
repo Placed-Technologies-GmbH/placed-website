@@ -79,7 +79,7 @@ const KIVertriebsmitarbeiter = () => {
                     <h3 className="text-2xl font-bold text-work-blue">PLACED Score</h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
-                    Die Suchergebnisse werden nicht nach Datum, sondern nach Relevanz sortiert: Unser PLACED Score zeigt Ihnen die Vermittlungswahrscheinlichkeit. Diese beinhaltet die Passung von Kandidat zur Stelle und die Dringlichkeit des Unternehmens die Stelle zu besetzen.
+                  Die Suchergebnisse werden nicht nach Datum, sondern nach Relevanz sortiert: Unser PLACED Score zeigt Ihnen die Vermittlungswahrscheinlichkeit. Diese beinhaltet die Passung von Kandidat zur Stelle und die Dringlichkeit des Unternehmens die Stelle zu besetzen.
                   </p>
                 </div>
                 <div className="pointer-events-none absolute left-0 right-0 bottom-0 h-24 max-w-lg mx-auto z-20" style={{background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%)'}} />
