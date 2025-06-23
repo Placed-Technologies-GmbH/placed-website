@@ -32,7 +32,7 @@ const Datenschutz = () => {
       <Header />
       <div className="w-full bg-background pt-40 sm:pt-32 pb-6">
         <h1 className="text-3xl sm:text-4xl font-bold text-work-blue text-center px-4">
-          Datenschutzerklärung
+          Datenschutz
         </h1>
         <p className="text-center text-base sm:text-lg text-muted-foreground mt-2 max-w-2xl mx-auto">
           Der Schutz Ihrer persönlichen Daten ist uns ein zentrales Anliegen. Auf dieser Seite informieren wir Sie transparent und verständlich über die Verarbeitung Ihrer personenbezogenen Daten bei der Nutzung unserer Angebote.

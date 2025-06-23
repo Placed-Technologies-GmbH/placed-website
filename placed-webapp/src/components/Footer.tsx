@@ -60,7 +60,7 @@ const Footer = () => {
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-400">
             <p>© 2025 Placed Technologies GmbH</p>
             <div className="flex gap-4 mt-4 md:mt-0">
-              <a href="/datenschutz" target="_blank" rel="noopener noreferrer" className="hover:underline">Datenschutzerklärung</a>
+              <a href="/datenschutz" target="_blank" rel="noopener noreferrer" className="hover:underline">Datenschutz</a>
               <a href="/impressum" target="_blank" rel="noopener noreferrer" className="hover:underline">Impressum</a>
               <a href="/agb" target="_blank" rel="noopener noreferrer" className="hover:underline">AGB</a>
             </div>

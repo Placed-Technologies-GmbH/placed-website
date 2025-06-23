@@ -28,24 +28,16 @@ const FAQ = () => {
       answer: (
         <>
           <p>
-          PLACED nutzt eine KI gestützte Matchingtechnologie, die Lebensläufe von Kandidaten automatisch analysiert und mit allen verfügbaren Stellen im Markt abgleicht. 
-          Dabei werden Qualifikationen, Berufserfahrung und Soft Skills ganzheitlich berücksichtigt. 
-          Unsere KI versteht nicht nur Stichworte, sondern interpretiert Zusammenhänge und Anforderungen im Kontext.
+            PLACED nutzt eine KI-gestützte <a href="https://www.getplaced.de/matchingtechnologie" target="_blank" rel="noopener noreferrer" className="text-work-blue underline">Matchingtechnologie</a>, die Lebensläufe von Kandidaten automatisch analysiert und mit allen verfügbaren Stellen im Markt abgleicht. Dabei werden Qualifikationen, Berufserfahrung und Soft Skills ganzheitlich berücksichtigt. Unsere KI versteht nicht nur Stichworte, sondern interpretiert Zusammenhänge und Anforderungen im Kontext.
           </p>
           <p className="mt-2">
-          Aus dem Abgleich errechnet sich ein Matching Score, der die inhaltliche Passung zwischen Kandidat und Stelle angibt. 
-          Ergänzt wird dieser durch den Dringlichkeitswert einer Vakanz, zum Beispiel basierend auf Laufzeit, 
-          beauftragten Personalvermittlern oder Suchverhalten. Beide Werte zusammen ergeben den PLACED-Score, nach dem die Suchergebnisse automatisch priorisiert werden. 
-          Sie sehen immer zuerst die Stellen mit der höchsten Wahrscheinlichkeit auf eine erfolgreiche Vermittlung.
+            Aus dem Abgleich errechnet sich ein Matching-Score, der die inhaltliche Passung zwischen Kandidat und Stelle angibt. Ergänzt wird dieser durch den <a href="https://www.getplaced.de/dringlichkeits-score" target="_blank" rel="noopener noreferrer" className="text-work-blue underline">Dringlichkeits-Score</a> einer Vakanz, beispielsweise basierend auf Laufzeit, beauftragten Personalvermittlern oder Suchverhalten. Beide Werte zusammen ergeben den PLACED-Score, nach dem die Suchergebnisse automatisch priorisiert werden. Sie sehen immer zuerst die Stellen mit der höchsten Wahrscheinlichkeit auf eine erfolgreiche Vermittlung.
           </p>
           <p className="mt-2">
-          Neben dem Matching unterstützt PLACED Sie aktiv im Vertrieb. KI-gestützte Gesprächsleitfäden liefern konkrete Hinweise, wie Sie den Kunden ansprechen, 
-          den Bedarf kommunizieren und das Profil überzeugend vorstellen können. Die Plattform zeigt auch, 
-          welche Informationen im Profil noch fehlen, um die Erfolgswahrscheinlichkeit zu erhöhen. 
-          So können Sie gezielt nachfragen und optimieren.
+            Neben dem Matching unterstützt PLACED Sie aktiv im Vertrieb. KI-gestützte Gesprächsleitfäden liefern konkrete Hinweise, wie Sie den Kunden ansprechen, den Bedarf kommunizieren und das Profil überzeugend vorstellen können. Die Plattform zeigt auch, welche Informationen im Profil noch fehlen, um die Erfolgswahrscheinlichkeit zu erhöhen. So können Sie gezielt nachfragen und optimieren.
           </p>
           <p className="mt-2">
-            <strong className="font-bold">Das Ergebnis:</strong> Weniger Zeitaufwand für Recherche, mehr Effizienz im Vertrieb und mehr erfolgreiche Vermittlungen.
+            <strong>Das Ergebnis:</strong> Weniger Zeitaufwand für Recherche, mehr Effizienz im Vertrieb und bis zu 5x mehr Vermittlungen.
           </p>
         </>
       )
@@ -55,72 +47,64 @@ const FAQ = () => {
       answer: (
         <>
           <p>
-            Bei PLACED hat Datenschutz oberste Priorität. Wir wissen, dass die
-            Verarbeitung personenbezogener Daten, wie sie beim Hochladen von
-            Lebensläufen in unsere Plattform geschieht, höchste Sorgfalt
-            erfordert. Deshalb stellen wir mit regelmäßigen externen Audits und
-            umfassenden technischen und organisatorischen Maßnahmen (TOMs)
-            sicher, dass unsere Prozesse und die Verarbeitung Ihrer Daten stets
-            den aktuellsten DSGVO-Standards entsprechen.
+            Datenschutz hat bei PLACED höchste Priorität. Wir verarbeiten personenbezogene Daten mit größter Sorgfalt und in voller Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO) sowie den Anforderungen des EU AI Acts.
           </p>
           <p className="mt-2">
-            Unsere KI-Plattform ist nicht nur DSGVO zertifiziert, sondern erfüllt
-            auch die Anforderungen des EU AI Acts. Dieses Siegel garantiert, dass
-            unsere KI-Plattform höchste Standards in Bezug auf Sicherheit,
-            Transparenz, Datenqualität und den Schutz von Grundrechte im Rahmen
-            der Verwendung von KI-Technologie erfüllt und dabei ein umfassendes
-            Risikomanagement und menschliche Aufsicht gewährleistet. PLACED ist
-            nach DSGVO- und EU AI Act-Konformität durch externe Datenschutzexperten
-            nach höchsten Qualitätsstandards zertifiziert. Diese Zertifizierung
-            wird in regelmäßigen Abständen wiederholt.
+            Unsere Plattform ist extern <a href="https://www.getplaced.de/audit" target="_blank" rel="noopener noreferrer" className="text-work-blue underline">auditiert</a> und sowohl DSGVO- als auch EU-AI-Act-konform zertifiziert. Die zugrunde liegende KI-Technologie erfüllt strenge Auflagen hinsichtlich Sicherheit, Transparenz, Datenqualität und Grundrechtsschutz. Sämtliche Daten werden verschlüsselt verarbeitet und ausschließlich auf Servern innerhalb der EU (Frankfurt, AWS) gespeichert.
           </p>
           <p className="mt-2">
-            Wir garantieren, dass personenbezogene Daten aus Kandidaten-Lebensläufen
-            verschlüsselt verarbeitet werden und ausschließlich auf Servern
-            innerhalb der EU gespeichert werden. Die Daten werden nicht zum
-            Training unserer KI verwendet. Erfahren Sie mehr in unserer
-            detaillierten{' '}
-            <a
-              href="https://www.getplaced.de/datenschutz"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-placed-blue hover:underline"
-            >
-              Datenschutzerklärung
-            </a>
-            .
+            Besonders sensibel behandeln wir Lebensläufe und Profildaten: Diese werden nicht zum Training von KI-Modellen verwendet. Darüber hinaus setzen wir umfassende technische und organisatorische Maßnahmen (TOMs) sowie regelmäßige <a href="https://www.getplaced.de/datenschutz-audit" target="_blank" rel="noopener noreferrer" className="text-work-blue underline">Datenschutz-Audits</a> ein, um höchste Standards in der Datensicherheit dauerhaft zu gewährleisten.
+          </p>
+          <p className="mt-2">
+            Weitere Informationen finden Sie in unserer <a href="https://www.getplaced.de/datenschutz" target="_blank" rel="noopener noreferrer" className="text-work-blue underline">Datenschutzerklärung</a>.
           </p>
         </>
       )
     },
     {
-      question: 'Wie funktioniert der Start mit PLACED?',
+      question: 'Wie starte ich mit PLACED?',
       answer: (
         <>
           <p>
-            Der Weg zu einem effizienteren, KI-gestützten Vertrieb mit PLACED ist
-            einfach und flexibel:
+            Der Einstieg in die KI-gestützte Vertriebsplattform von PLACED ist einfach und sofort möglich, ohne Schulungsaufwand oder komplexes Onboarding.
+          </p>
+          <p className="mt-4 font-bold">1. Persönliche Demo (optional)</p>
+          <p>
+            Auf Wunsch beginnen Sie mit einer unverbindlichen Live Demo. Dabei zeigen wir Ihnen die wichtigsten Funktionen im Überblick und besprechen gemeinsam Ihre individuellen Anforderungen.
+          </p>
+          <p className="mt-4 font-bold">2. 14 Tage kostenlos testen</p>
+          <p>
+            Im Anschluss, oder direkt ohne Demo, testen Sie PLACED für 14 Tage kostenfrei und mit vollem Funktionsumfang. So erleben Sie unmittelbar, wie Sie schneller vermitteln und einfacher Neukunden gewinnen.
+          </p>
+          <p className="mt-4 font-bold">3. Sofort einsatzbereit</p>
+          <p>
+            PLACED funktioniert direkt im Browser, ohne Installation oder Einrichtung. Die Anwendung ist intuitiv bedienbar, auch ohne Vorkenntnisse.
+          </p>
+          <p className="mt-4 font-bold">4. Persönliche Begleitung</p>
+          <p>
+            Unser Team unterstützt Sie bei jedem Schritt, sei es im Test oder beim produktiven Einsatz. Wir sind jederzeit für Sie erreichbar, per Live Chat oder auf Wunsch auch persönlich.
+          </p>
+          <p className="mt-4">
+            PLACED steht für einen schnellen Einstieg, einfache Nutzung und maximale Wirkung im Vertrieb.
+          </p>
+        </>
+      )
+    },
+    {
+      question: 'Wie kann ich PLACED in die bestehende IT-Landschaft integrieren?',
+      answer: (
+        <>
+          <p>
+            PLACED ist eine vollständig webbasierte Softwarelösung, die ohne Installation sofort über jeden modernen Browser einsatzbereit ist. Damit kann der Einstieg ohne technische Hürden erfolgen, unabhängig von Standort, Gerät oder IT-Infrastruktur.
           </p>
           <p className="mt-2">
-            <strong>Produkt-Demo anfragen:</strong> Starten Sie mit einer
-            persönlichen Produkt-Demo. Hier zeigen wir Ihnen nicht nur alle
-            unsere Features live, sondern besprechen auch Ihren spezifischen
-            Bedarf und Nutzungskontext. So können wir Ihnen den optimalen Nutzen
-            von PLACED zeigen.
+            Für tiefergehende Integrationen in Ihre bestehenden Systeme bietet PLACED darüber hinaus eine stetig wachsende Zahl an Schnittstellen (APIs) zu führenden CRM- und Bewerbermanagementsystemen. Die Integration erfolgt standardisiert oder individuell angepasst, je nach Bedarf und Systemlandschaft.
           </p>
           <p className="mt-2">
-            <strong>10 Tage unverbindlich testen:</strong> Optional können Sie im
-            Anschluss an die Demo (oder auch direkt, falls Sie keine Demo
-            wünschen) PLACED kostenlos und unverbindlich für 10 Tage testen. Sie
-            erhalten vollen Zugriff auf die Plattform und können sich selbst von
-            den Vorteilen überzeugen.
+            Die KI-Plattform von PLACED ist so konzipiert, dass sie sich nahtlos in bestehende HR- und Vertriebsprozesse einfügt. Auch spezifische Anforderungen wie SSO-Anbindung, Nutzerverwaltung über zentrale Systeme oder Datenexporte in BI-Tools können umgesetzt werden.
           </p>
           <p className="mt-2">
-            <strong>Implementierung &amp; Support:</strong> Nach dem Kauf begleiten
-            wir Sie umfassend bei der Implementierung. Da PLACED eine SaaS-Lösung
-            ist, benötigen Sie keine Installation – alles ist bequem über Ihren
-            Webbrowser zugänglich. Unser Team steht Ihnen dabei jederzeit zur
-            Seite und ist immer für Sie via Live-Chat erreichbar.
+            Kurzum: PLACED lässt sich flexibel in jede moderne Systemlandschaft integrieren, von KMUs bis Enterprise-Unternehmen. Das Experten-Team von PLACED begleitet Sie bei Bedarf Schritt für Schritt durch die technische Anbindung.
           </p>
         </>
       )
@@ -138,16 +122,19 @@ const FAQ = () => {
       )
     },
     {
-      question: 'Fördermitgliedschaft im GVP: Unser Engagement für die Branche',
+      question: 'Wie engagiert sich PLACED für die Personalbranche?',
       answer: (
-        <p>
-          Als Fördermitglied des Gesamtverbands der Personaldienstleister (GVP)
-          unterstreichen wir unser Engagement für die Personaldienstleistungsbranche
-          und die hohen Qualitätsstandards, die sie prägen. Durch unsere
-          Mitgliedschaft sind wir nicht nur ein wichtiger Teil des GVP-Netzwerks,
-          sondern tragen mit unserer Expertise und unseren Ressourcen dazu bei,
-          die Ziele des Verbands aktiv voranzutreiben.
-        </p>
+        <>
+          <p>
+            PLACED versteht sich nicht nur als Softwareanbieter, sondern als aktiver Partner der Personalbranche. Als Fördermitglied des Gesamtverbands der Personaldienstleister (GVP) bringen wir unsere technologische Expertise und Branchenperspektive in die strategische Weiterentwicklung des Sektors ein.
+          </p>
+          <p className="mt-2">
+            Unser Ziel ist es, Personalvermittler und <span className="underline">Zeitarbeitsfirmen</span> gezielt zu stärken – insbesondere im Wettbewerb mit digitalen Plattformmodellen. Mit unserer KI-gestützten Infrastruktur ermöglichen wir es Personaldienstleistern, ihre Kunden noch schneller, transparenter und erfolgreicher zu bedienen.
+          </p>
+          <p className="mt-2">
+            PLACED setzt sich dafür ein, dass moderne Technologie nicht als Bedrohung, sondern als strategischer Hebel genutzt wird, um Qualität, Reaktionsfähigkeit und Vermittlungsleistung der Branche auf ein neues Niveau zu heben.
+          </p>
+        </>
       )
     }
   ];
