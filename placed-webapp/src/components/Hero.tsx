@@ -2,7 +2,7 @@ import PrimaryButton from './PrimaryButton';
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden pt-40 pb-12 sm:pt-36 sm:pb-16">
+    <section className="relative overflow-hidden pt-96 pb-12 sm:pb-16" style={{ paddingTop: '12rem' }}>
       {/* Clean background with subtle brand color accents */}
       <div className="absolute inset-0 bg-gradient-to-br from-pale-blue/30 to-background"></div>
       <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-placed-blue/10 rounded-full blur-3xl"></div>
