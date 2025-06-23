@@ -31,6 +31,9 @@ const partnerLogos = [
   { src: '/Indeed.png', alt: 'Indeed' },
   { src: '/joblift.png', alt: 'Joblift' },
   { src: '/stepstone_logo.svg', alt: 'Stepstone' },
+  { src: '/XINGlogo.png', alt: 'XING' },
+  { src: '/kimetalogo.png', alt: 'Kimeta' },
+  { src: '/talentlogo.png', alt: 'Talent.com' },
 ];
 
 const KIVertriebsmitarbeiter = () => {
