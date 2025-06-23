@@ -54,6 +54,7 @@ const Datenschutz = () => {
         </nav>
         <div className="prose prose-lg max-w-none">
           <p><strong>Placed Technologies GmbH</strong><br />Rosa-Luxemburg-Str. 14<br />10178 Berlin<br />info@getplaced.de<br />+49 30 89 84 98 9</p>
+          <div className="mb-10" />
 
           {/* Section 1 */}
           <div id="einleitung" className="scroll-mt-32">
@@ -65,7 +66,7 @@ const Datenschutz = () => {
 
           {/* Section 2 */}
           <div id="begriffsbestimmungen" className="scroll-mt-32">
-            <h2>2. Begriffsbestimmungen</h2>
+            <h2 className="mt-12">2. Begriffsbestimmungen</h2>
             <ul>
               <li><strong>Personenbezogene Daten:</strong> Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (z.B. Name, E-Mail-Adresse, IP-Adresse).</li>
               <li><strong>Verarbeitung:</strong> Jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführter Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten (z.B. Erheben, Speichern, Anpassen, Verwenden, Offenlegen, Löschen).</li>
@@ -78,21 +79,21 @@ const Datenschutz = () => {
 
           {/* Section 3 */}
           <div id="verantwortlicher" className="scroll-mt-32">
-            <h2>3. Name und Kontaktdaten des Verantwortlichen</h2>
+            <h2 className="mt-12">3. Name und Kontaktdaten des Verantwortlichen</h2>
             <p>Placed Technologies GmbH<br />Rosa-Luxemburg-Str. 14, 10178 Berlin<br />info@getplaced.de<br />+49 30 89 84 98 9<br /><a href="https://www.getplaced.de/impressum" target="_blank" rel="noopener noreferrer" className="text-work-blue underline">https://www.getplaced.de/impressum</a></p>
           </div>
           <hr className="my-8 border-muted" />
 
           {/* Section 4 */}
           <div id="datenschutzbeauftragter" className="scroll-mt-32">
-            <h2>4. Datenschutzbeauftragter</h2>
+            <h2 className="mt-12">4. Datenschutzbeauftragter</h2>
             <p>PLACED hat einen Datenschutzbeauftragten bestellt. Unser Datenschutzbeauftragter ist die heyData GmbH, Schützenstraße 5, 10117 Berlin, <a href="http://www.heydata.eu" target="_blank" rel="noopener noreferrer" className="text-work-blue underline">www.heydata.eu</a>, <a href="mailto:datenschutz@heydata.eu" className="text-work-blue underline">datenschutz@heydata.eu</a>.</p>
           </div>
           <hr className="my-8 border-muted" />
 
           {/* Section 5 */}
           <div id="arten-daten" className="scroll-mt-32">
-            <h2>5. Arten der verarbeiteten Daten</h2>
+            <h2 className="mt-12">5. Arten der verarbeiteten Daten</h2>
             <p>PLACED erhebt und verarbeitet verschiedene Arten von Daten, abhängig von Ihrer Interaktion mit der Website und den Diensten:</p>
             <ul>
               <li><strong>Bestandsdaten:</strong> Name, Adresse, E-Mail-Adresse, Telefonnummer (z.B. bei der Nutzung von Kontaktformularen, Registrierung oder bei der Vertragsanbahnung).</li>
@@ -106,7 +107,7 @@ const Datenschutz = () => {
 
           {/* Section 6 */}
           <div id="zwecke-rechtsgrundlagen" className="scroll-mt-32">
-            <h2>6. Zwecke der Datenverarbeitung und Rechtsgrundlagen</h2>
+            <h2 className="mt-12">6. Zwecke der Datenverarbeitung und Rechtsgrundlagen</h2>
             <p>PLACED verarbeitet Ihre Daten für folgende Zwecke und auf Basis der genannten Rechtsgrundlagen:</p>
             <ul>
               <li><strong>Bereitstellung des Online-Angebots und Funktionsfähigkeit der Website:</strong><br />
@@ -139,7 +140,7 @@ const Datenschutz = () => {
 
           {/* Section 7 */}
           <div id="weitergabe" className="scroll-mt-32">
-            <h2>7. Weitergabe von Daten an Dritte und Auftragsverarbeiter</h2>
+            <h2 className="mt-12">7. Weitergabe von Daten an Dritte und Auftragsverarbeiter</h2>
             <p>PLACED gibt Ihre Daten grundsätzlich nicht an Dritte weiter, es sei denn, dies ist gesetzlich vorgeschrieben, Sie haben eingewilligt oder es ist zur Erfüllung des Vertragszwecks notwendig.</p>
             <p>PLACED setzt für bestimmte Dienstleistungen Auftragsverarbeiter ein, die im Auftrag und gemäß den Anweisungen von PLACED Daten verarbeiten. PLACED hat mit diesen Auftragsverarbeitern entsprechende Verträge zur Auftragsverarbeitung (AVV) gemäß Art. 28 DSGVO abgeschlossen, um den Schutz Ihrer Daten zu gewährleisten.</p>
             <p>Im Folgenden listet PLACED die Tools und Dienste auf, die PLACED verwendet und die im Rahmen ihrer Funktionalität personenbezogene Daten verarbeiten können. Für die genauen Details der Datenverarbeitung und die jeweiligen Datenschutzbestimmungen wird auf die Datenschutzerklärungen der Anbieter verwiesen.</p>
@@ -502,7 +503,7 @@ const Datenschutz = () => {
 
         {/* Section 8 */}
         <div id="drittländer" className="scroll-mt-32">
-          <h2>8. Datenübermittlung in Drittländer</h2>
+          <h2 className="mt-12">8. Datenübermittlung in Drittländer</h2>
           <p>Einige der oben genannten Dienstleister haben ihren Sitz in Ländern außerhalb der Europäischen Union (EU) oder des Europäischen Wirtschaftsraums (EWR), insbesondere in den USA. In diesen Drittländern kann das Datenschutzniveau von dem der EU abweichen.</p>
           <p><strong>Beim Nutzen der webbasierten Software von PLACED verbleiben alle von Ihnen hochgeladenen Lebensläufe und sonstigen Unterlagen und Daten ausschließlich auf Servern in Deutschland.</strong></p>
           <p>PLACED stellt sicher, dass bei der Übermittlung von Daten in andere Drittländer angemessene Garantien für den Schutz Ihrer Daten bestehen. Dies geschieht in der Regel durch:</p>
@@ -517,7 +518,7 @@ const Datenschutz = () => {
 
         {/* Section 9 */}
         <div id="cookies" className="scroll-mt-32">
-          <h2>9. Cookies und ähnliche Technologien</h2>
+          <h2 className="mt-12">9. Cookies und ähnliche Technologien</h2>
           <p>PLACED verwendet auf seiner Website Cookies und ähnliche Technologien (z.B. Pixel-Tags), um die Funktionalität der Website zu gewährleisten, Ihr Nutzererlebnis zu verbessern und das Online-Angebot zu analysieren und zu optimieren.</p>
           <ul>
             <li><strong>Was sind Cookies?</strong> Cookies sind kleine Textdateien, die auf Ihrem Gerät (Computer, Tablet, Smartphone) gespeichert werden, wenn Sie die Website von PLACED besuchen. Sie enthalten Informationen, die bei späteren Besuchen wieder ausgelesen werden können.</li>
@@ -538,7 +539,7 @@ const Datenschutz = () => {
 
         {/* Section 10 */}
         <div id="rechte" className="scroll-mt-32">
-          <h2>10. Ihre Rechte als betroffene Person</h2>
+          <h2 className="mt-12">10. Ihre Rechte als betroffene Person</h2>
           <p>Nach der DSGVO stehen Ihnen in Bezug auf die Verarbeitung Ihrer personenbezogenen Daten folgende Rechte zu:</p>
           <ul>
             <li><strong>Recht auf Auskunft (Art. 15 DSGVO):</strong> Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob PLACED personenbezogene Daten verarbeitet, die Sie betreffen. Ist dies der Fall, haben Sie ein Recht auf Auskunft über diese Daten und auf weitere Informationen zur Verarbeitung.</li>
@@ -561,17 +562,17 @@ const Datenschutz = () => {
 
         {/* Section 11 */}
         <div id="speicherdauer" className="scroll-mt-32">
-          <h2>11. Speicherdauer der personenbezogenen Daten</h2>
+          <h2 className="mt-12">11. Speicherdauer der personenbezogenen Daten</h2>
           <p>PLACED speichert personenbezogene Daten nur so lange, wie es für die Erfüllung der Zwecke, für die sie erhoben wurden, erforderlich ist oder wie es gesetzliche Vorschriften (z.B. handels- und steuerrechtliche Aufbewahrungsfristen von 6 oder 10 Jahren) vorsehen.</p>
           <p>Nach Ablauf der jeweiligen Fristen werden die entsprechenden Daten routinemäßig gelöscht, sofern sie nicht mehr zur Vertragserfüllung oder Vertragsanbahnung erforderlich sind und/oder seitens PLACED kein berechtigtes Interesse an der Weiterspeicherung fortbesteht (z.B. zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen).</p>
 
-          <h2>12. Datensicherheit</h2>
+          <h2 className="mt-12">12. Datensicherheit</h2>
           <p>PLACED setzt technische und organisatorische Sicherheitsmaßnahmen ein, um Ihre Daten gegen zufällige oder vorsätzliche Manipulationen, Verlust, Zerstörung oder gegen den Zugriff unberechtigter Personen zu schützen. Die Sicherheitsmaßnahmen von PLACED werden entsprechend der technologischen Entwicklung fortlaufend verbessert. Dazu gehören unter anderem die Verwendung von SSL/TLS-Verschlüsselung für die sichere Datenübertragung, Zugriffskontrollen, sichere Speicherung, interne Richtlinien und Verfahren, Sicherungsverfahren sowie die regelmäßige Überprüfung der Systeme.</p>
 
-          <h2>13. Änderungen dieser Datenschutzerklärung</h2>
+          <h2 className="mt-12">13. Änderungen dieser Datenschutzerklärung</h2>
           <p>PLACED behält sich vor, diese Datenschutzerklärung anzupassen, um sie an geänderte Rechtslagen, oder bei Änderungen des Dienstes sowie der Datenverarbeitung anzupassen. Sofern Einwilligungen der Nutzer erforderlich sind oder Bestandteile der Datenschutzerklärung Regelungen des Vertragsverhältnisses mit den Nutzern enthalten, erfolgen die Änderungen nur mit Zustimmung der Nutzer. Die Nutzer werden gebeten, sich regelmäßig über den Inhalt zu informieren.</p>
 
-          <p><strong>Stand: 13. März 2025</strong></p>
+          <p className="mt-10"><strong>Stand: 13. März 2025</strong></p>
         </div>
       </main>
       <Footer />
