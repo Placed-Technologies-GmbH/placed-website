@@ -135,8 +135,7 @@ const KIVertriebsmitarbeiter = () => {
       </section>
 
       {/* Data Access Section */}
-      <section className="py-24 bg-gradient-to-br from-work-blue/5 to-background relative overflow-hidden">
-        <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-signal-yellow/10 rounded-full blur-3xl"></div>
+      <section className="py-24 relative overflow-hidden">
         <div className="container mx-auto px-8 md:px-16">
           <div className="max-w-4xl mx-auto text-center">
 
@@ -175,11 +174,11 @@ const KIVertriebsmitarbeiter = () => {
               </p>
               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
                 {partnerLogos.map((logo, index) => (
-                  <div key={index} className="group transition-all duration-300 hover:scale-110">
+                  <div key={index} className="group transition-all duration-300 hover:scale-110 flex items-center justify-center" style={{height: '60px', width: '160px'}}>
                     <img
                       src={logo.src}
                       alt={logo.alt}
-                      className="h-8 md:h-10 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity filter grayscale group-hover:grayscale-0"
+                      className="h-12 w-auto max-w-[140px] object-contain opacity-70 group-hover:opacity-100 transition-opacity filter grayscale group-hover:grayscale-0 mx-auto"
                       loading="lazy"
                     />
                   </div>
