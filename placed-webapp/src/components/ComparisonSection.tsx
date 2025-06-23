@@ -168,13 +168,7 @@ const ComparisonSection = () => {
             PLACED im Vergleich
           </h2>
           <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            Im Vergleich zu anderer Software bietet PLACED nicht nur unbegrenzte Stellenanzeigen, Regionen
-            und erweiterte Kontaktdaten, sondern revolutioniert den Recruitingprozess mit KI-gestütztem
-            Matching, automatischer Kandidatenbewertung, CV Optimierung und Sales-Skripten.
-          </p>
-          <p className="text-muted-foreground leading-relaxed">
-            Führen Sie perfekte Vertriebsgespräche in nur einer Minute - lange Vorbereitung und schlechte 
-            Telefonate gehören der Vergangenheit an.
+            Im Vergleich zu anderer Software bietet PLACED nicht nur unbegrenzte Stellenanzeigen, Regionen und erweiterte Kontaktdaten, sondern revolutioniert den Vermittlungsprozess mit KI-gestütztem Matching, automatischer Kandidatenbewertung, CV-Optimierung und Gesprächsleitfäden. Führen Sie perfekte Vertriebsgespräche in nur einer Minute – lange Vorbereitung und unpräzise Telefonate gehören der Vergangenheit an
           </p>
         </div>
 
