@@ -50,10 +50,10 @@ const FAQ = () => {
             Datenschutz hat bei PLACED höchste Priorität. Wir verarbeiten personenbezogene Daten mit größter Sorgfalt und in voller Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO) sowie den Anforderungen des EU AI Acts.
           </p>
           <p className="mt-2">
-            Unsere Plattform ist extern <a href="https://www.getplaced.de/audit" target="_blank" rel="noopener noreferrer" className="text-work-blue underline">auditiert</a> und sowohl DSGVO- als auch EU-AI-Act-konform zertifiziert. Die zugrunde liegende KI-Technologie erfüllt strenge Auflagen hinsichtlich Sicherheit, Transparenz, Datenqualität und Grundrechtsschutz. Sämtliche Daten werden verschlüsselt verarbeitet und ausschließlich auf Servern innerhalb der EU (Frankfurt, AWS) gespeichert.
+            Unsere Plattform ist extern <a href="https://www.getplaced.de/audit" target="_blank" rel="noopener noreferrer" className="text-work-blue">auditiert</a> und sowohl DSGVO- als auch EU-AI-Act-konform zertifiziert. Die zugrunde liegende KI-Technologie erfüllt strenge Auflagen hinsichtlich Sicherheit, Transparenz, Datenqualität und Grundrechtsschutz. Sämtliche Daten werden verschlüsselt verarbeitet und ausschließlich auf Servern innerhalb der EU (Frankfurt, AWS) gespeichert.
           </p>
           <p className="mt-2">
-            Besonders sensibel behandeln wir Lebensläufe und Profildaten: Diese werden nicht zum Training von KI-Modellen verwendet. Darüber hinaus setzen wir umfassende technische und organisatorische Maßnahmen (TOMs) sowie regelmäßige <a href="https://www.getplaced.de/datenschutz-audit" target="_blank" rel="noopener noreferrer" className="text-work-blue underline">Datenschutz-Audits</a> ein, um höchste Standards in der Datensicherheit dauerhaft zu gewährleisten.
+            Besonders sensibel behandeln wir Lebensläufe und Profildaten: Diese werden nicht zum Training von KI-Modellen verwendet. Darüber hinaus setzen wir umfassende technische und organisatorische Maßnahmen (TOMs) sowie regelmäßige <a href="https://www.getplaced.de/datenschutz-audit" target="_blank" rel="noopener noreferrer" className="text-work-blue">Datenschutz-Audits</a> ein, um höchste Standards in der Datensicherheit dauerhaft zu gewährleisten.
           </p>
           <p className="mt-2">
             Weitere Informationen finden Sie in unserer <a href="https://www.getplaced.de/datenschutz" target="_blank" rel="noopener noreferrer" className="text-work-blue underline">Datenschutzerklärung</a>.
