@@ -60,7 +60,7 @@ const KIVertriebsmitarbeiter = () => {
                     <h3 className="text-2xl font-bold text-work-blue">KI-Matching</h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
-                    PLACED übernimmt für Sie, die Suche nach den Stellen, die am besten zu Ihrem Kandidaten passen. Die KI analysiert den hochgeladenen Kandidaten-CV und gleicht diesen mit allen Stellen in der Datenbank ab.
+                  PLACED übernimmt für Sie die Suche nach den Stellen, die am besten zu Ihrem Kandidaten passen. Die KI analysiert den hochgeladenen Kandidaten-CV und gleicht diesen mit allen verfügbaren Stellen im deutschen Markt ab.
                   </p>
                 </div>
                 <div className="pointer-events-none absolute left-0 right-0 bottom-0 h-24 max-w-lg mx-auto z-20" style={{background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%)'}} />

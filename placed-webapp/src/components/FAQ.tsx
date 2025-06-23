@@ -8,17 +8,17 @@ const FAQ = () => {
       answer: (
         <>
           <p>
-            Wir sind ein in Berlin ansässiges Team mit einer klaren Mission: Die
-            Personalbranche mit KI zu revolutionieren. Unsere Gründer, Kai Künne
-            und Fatih Temel, bringen aus eigener Erfahrung als
-            Personaldienstleister das tiefe Verständnis für die täglichen
-            Herausforderungen der Branche mit.
+          PLACED ist ein in Berlin ansässiges Technologieunternehmen mit dem Anspruch, 
+          die Personalbranche durch den gezielten Einsatz von Künstlicher Intelligenz grundlegend zu verändern. 
+          Unsere Gründer, Kai Künne und Fatih Temel, verfügen über mehrjährige unternehmerische Erfahrung in der 
+          Personalvermittlung und Softwareentwicklung und kennen die spezifischen prozessualen Herausforderungen des Personalvertriebs aus eigener Praxis.
           </p>
           <p className="mt-2">
-            Aus dieser Branchenkenntnis heraus entstand PLACED – entwickelt von einem internationalen Entwicklerteam aus KI-Experten. 
-            Wir sind ein stark wachsendes Unternehmen mit renommierten Investoren. 
-            Wir freuen uns darauf unsere Kunden und die Branche vertrieblich zu 
-            stärken und die Kraft von KI-gestütztem Kandidatenvertrieb für Alle zugänglich zu machen.
+          Auf dieser Grundlage entstand PLACED. Die Plattform basiert auf modernster KI-Technologie und 
+          wurde von einem hochspezialisierten Team aus erfahrenen Softwareentwicklern und KI-Experten entwickelt. 
+          Unterstützt von führenden europäischen Investoren verfolgen wir ein klares Ziel: 
+          Personalvermittler erfolgreicher zu machen, indem wir ihre Prozesse effizient und datengestützt gestalten. 
+          Damit mehr Zeit für die wirklich wichtigen Dinge bleibt: Kandidaten rekrutieren, betreuen und sie zu ihrer beruflichen Situation beraten. 
           </p>
         </>
       )
@@ -28,26 +28,24 @@ const FAQ = () => {
       answer: (
         <>
           <p>
-            Unsere intelligente Matching-KI analysiert den hochgeladenen
-            Kandidaten-Lebenslauf und gleicht ihn präzise mit allen Stellen in
-            unserer Datenbank ab. Dabei berücksichtigt die KI das gesamte
-            Skillset des Kandidaten und versteht die Stellenausschreibungen sowie
-            deren Anforderungen im Detail.
+          PLACED nutzt eine KI gestützte Matchingtechnologie, die Lebensläufe von Kandidaten automatisch analysiert und mit allen verfügbaren Stellen im Markt abgleicht. 
+          Dabei werden Qualifikationen, Berufserfahrung und Soft Skills ganzheitlich berücksichtigt. 
+          Unsere KI versteht nicht nur Stichworte, sondern interpretiert Zusammenhänge und Anforderungen im Kontext.
           </p>
           <p className="mt-2">
-            Aus diesem Abgleich resultiert der Matching Score, der die
-            Passgenauigkeit ausdrückt. Zusammen mit dem Urgency Score, der die
-            Dringlichkeit der Besetzung einer Position widerspiegelt, bildet sich
-            der PLACED Score. Die Suchergebnisse werden zudem nach diesem PLACED
-            Score geordnet, sodass Sie immer die Stellen mit der höchsten
-            Vermittlungswahrscheinlichkeit zuerst angezeigt bekommen.
+          Aus dem Abgleich errechnet sich ein Matching Score, der die inhaltliche Passung zwischen Kandidat und Stelle angibt. 
+          Ergänzt wird dieser durch den Dringlichkeitswert einer Vakanz, zum Beispiel basierend auf Laufzeit, 
+          beauftragten Personalvermittlern oder Suchverhalten. Beide Werte zusammen ergeben den PLACED-Score, nach dem die Suchergebnisse automatisch priorisiert werden. 
+          Sie sehen immer zuerst die Stellen mit der höchsten Wahrscheinlichkeit auf eine erfolgreiche Vermittlung.
           </p>
           <p className="mt-2">
-            Darüber hinaus unterstützt Sie unsere KI mit einem KI Sales Script,
-            das Ihnen hilft, Neukunden zu gewinnen und Kandidaten optimal zu
-            platzieren. Außerdem erhalten Sie KI-Optimierungsvorschläge für
-            Kandidaten-CVs, um deren Profile perfekt auf die Anforderungen der
-            Stelle anzupassen.
+          Neben dem Matching unterstützt PLACED Sie aktiv im Vertrieb. KI-gestützte Gesprächsleitfäden liefern konkrete Hinweise, wie Sie den Kunden ansprechen, 
+          den Bedarf kommunizieren und das Profil überzeugend vorstellen können. Die Plattform zeigt auch, 
+          welche Informationen im Profil noch fehlen, um die Erfolgswahrscheinlichkeit zu erhöhen. 
+          So können Sie gezielt nachfragen und optimieren.
+          </p>
+          <p className="mt-2">
+            <strong className="font-bold">Das Ergebnis:</strong> Weniger Zeitaufwand für Recherche, mehr Effizienz im Vertrieb und mehr erfolgreiche Vermittlungen.
           </p>
         </>
       )

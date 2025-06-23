@@ -15,7 +15,7 @@ const Footer = () => {
               loading="lazy"
             />
             <p className="text-gray-500 text-sm leading-snug max-w-xs">
-              Die KI-Vertriebsplattform für die Personalbranche
+              Die KI-Vertriebsplattform für die Personalbranche.
             </p>
             <a
               href="https://www.linkedin.com/company/placed-ai/"
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-100 mt-8 py-6">
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-400">
-            <p>© 2025 Placed Technologies. All Rights Reserved.</p>
+            <p>© 2025 Placed Technologies GmbH</p>
             <div className="flex gap-4 mt-4 md:mt-0">
               <a href="/datenschutz" target="_blank" rel="noopener noreferrer" className="hover:underline">Datenschutzerklärung</a>
               <a href="/impressum" target="_blank" rel="noopener noreferrer" className="hover:underline">Impressum</a>
