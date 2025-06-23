@@ -168,7 +168,8 @@ const ComparisonSection = () => {
             PLACED im Vergleich
           </h2>
           <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            Im Vergleich zu anderer Software bietet PLACED nicht nur unbegrenzte Stellenanzeigen, Regionen und erweiterte Kontaktdaten, sondern revolutioniert den Vermittlungsprozess mit KI-gestütztem Matching, automatischer Kandidatenbewertung, CV-Optimierung und Gesprächsleitfäden. Führen Sie perfekte Vertriebsgespräche in nur einer Minute – lange Vorbereitung und unpräzise Telefonate gehören der Vergangenheit an
+            Im Vergleich zu anderer Software bietet PLACED nicht nur unbegrenzte Stellenanzeigen, Regionen und erweiterte Kontaktdaten, sondern revolutioniert den Vermittlungsprozess mit KI-gestütztem Matching, automatischer Kandidatenbewertung, CV-Optimierung und Gesprächsleitfäden. 
+            Führen Sie perfekte Vertriebsgespräche in nur einer Minute. Lange Vorbereitung und unpräzise Telefonate gehören der Vergangenheit an
           </p>
         </div>
 
@@ -178,16 +179,16 @@ const ComparisonSection = () => {
             <Table className="table-fixed min-w-[700px]">
               <TableHeader>
                 <TableRow className="border-0 border-t border-gray-100 border-b-0">
-                  <TableHead className="w-[40%] py-4 px-6 text-left align-top text-xs font-semibold text-work-blue uppercase">
-                    Funktion
+                  <TableHead className="w-[40%] py-4 px-6 text-left align-top text-lg font-semibold text-work-blue">
+                    Funktionen
                   </TableHead>
-                  <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
+                  <TableHead className="w-[20%] py-4 px-6 text-center align-top text-l font-semibold text-work-blue uppercase">
                     <img src="/Placed_LogoLockup_Blue.svg" alt="PLACED" className="h-6 mx-auto" />
                   </TableHead>
-                  <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
+                  <TableHead className="w-[20%] py-4 px-6 text-center align-top text-lg font-semibold text-work-blue">
                     Andere Anbieter
                   </TableHead>
-                  <TableHead className="w-[20%] py-4 px-6 text-center align-top text-xs font-semibold text-work-blue uppercase">
+                  <TableHead className="w-[20%] py-4 px-6 text-center align-top text-lg font-semibold text-work-blue">
                     Manuelle Suche
                   </TableHead>
                 </TableRow>

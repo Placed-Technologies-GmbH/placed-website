@@ -10,7 +10,7 @@ const features = [
     title: "Alle Stellenanzeigen",
     description: "PLACED bietet die umfangreichste und aktuellste Übersicht über den Stellenmarkt.",
     points: [
-      "Unlimited Stellenanzeigen",
+      "Unlimitierte Stellenanzeigen",
       "Alle Regionen",
       "Alle Berufe", 
       "24/7 Monitoring"
@@ -31,7 +31,7 @@ const features = [
     title: "KI-Assistenten", 
     description: "Für alle Team-Mitglieder stehen persönliche KI-Assistenten bereit.",
     points: [
-      "Sales-KI: Sales-Skripte für perfekte Vertriebsgespräche",
+      "Sales-KI: Gesprächsleitfäden für perfekte Vertriebsgespräche",
       "Profil-KI: Potenzial-Analyse des CVs",
       "PLACED-Score (KI): Vermittlungswahrscheinlichkeit"
     ],
@@ -127,12 +127,12 @@ const AIRevolution = () => {
               <img
                 src="/DGSVO.png"
                 alt="DSGVO Siegel"
-                className="h-16 object-contain"
+                className="h-16 md:h-18 object-contain"
               />
               <img
                 src="/EU_AI_Act.png"
                 alt="EU AI Siegel"
-                className="h-16 object-contain"
+                className="h-16 md:h-18 object-contain"
               />
             </div>
             <div className="inline-block text-left space-y-3 text-sm text-gray-500 pt-4">

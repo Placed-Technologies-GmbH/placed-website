@@ -37,19 +37,19 @@ const Footer = () => {
               <img
                 src="/DGSVO.png"
                 alt="DSGVO"
-                className="h-12 md:h-14 object-contain"
+                className="h-16 md:h-18 object-contain"
                 loading="lazy"
               />
               <img
                 src="/EU_AI_Act.png"
                 alt="EU AI Act"
-                className="h-12 md:h-14 object-contain"
+                className="h-16 md:h-18 object-contain"
                 loading="lazy"
               />
               <img
                 src="/GVP-Logo_Mitglied_RGB_blau.png"
                 alt="GVP Mitglied"
-                className="h-12 md:h-14 object-contain"
+                className="h-16 md:h-18 object-contain"
                 loading="lazy"
               />
             </div>

@@ -10,9 +10,9 @@ const dataAccessHighlights = [
     suffix: ' aller wichtigen Unternehmen und integrieren große sowie Nischen-Stellenbörsen.',
   },
   {
-    text: 'Erfahren Sie, welches Unternehmen ',
-    highlight: 'Headhunter',
-    suffix: ' beauftragt.',
+    text: 'Erfahren Sie pro Stellenanzeige, ob und wie viele',
+    highlight: ' Personalvermittler',
+    suffix: ' ein Unternehmen beauftragt hat.',
   },
   {
     text: 'Anreicherung von ',
@@ -146,7 +146,7 @@ const KIVertriebsmitarbeiter = () => {
               <p className="text-lg text-muted-foreground leading-relaxed">
                 PLACED hat Deutschlands größte Datenbank für Jobs und Entscheiderkontakte. 
                 Greifen Sie auf die umfangreichste Sammlung von Stellenangeboten und Firmenkontakten zu. 
-                Als PLACED Nutzer profitieren sie von unlimitierten Datenzugriff ohne Beschränkungen nach Beruf oder Region.
+                Als PLACED-Nutzer profitieren Sie von unlimitiertem Datenzugriff ohne Beschränkungen von Beruf oder Region.
               </p>
             </FadeIn>
 
@@ -184,7 +184,8 @@ const KIVertriebsmitarbeiter = () => {
                   </div>
                 ))}
               </div>
-              <p className="text-sm text-muted-foreground mt-4">+ weitere 100 Jobbörsen</p>
+              <p className="text-sm text-muted-foreground mt-4 text-left mx-auto w-fit"> &gt;150 weitere Jobbörsen</p>
+              <p className="text-sm text-muted-foreground mt-4 text-left mx-auto w-fit"> &gt;100.000 Firmenwebseiten</p>
             </FadeIn>
 
             <FadeIn delay={0.4} className="text-center mt-16">
