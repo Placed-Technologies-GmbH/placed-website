@@ -117,7 +117,7 @@ const FAQ = () => {
             PLACED versteht sich nicht nur als Softwareanbieter, sondern als aktiver Partner der Personalbranche. Als Fördermitglied des Gesamtverbands der Personaldienstleister (GVP) bringen wir unsere technologische Expertise und Branchenperspektive in die strategische Weiterentwicklung des Sektors ein.
           </p>
           <p className="mt-2">
-            Unser Ziel ist es, Personalvermittler und <span className="underline">Zeitarbeitsfirmen</span> gezielt zu stärken – insbesondere im Wettbewerb mit digitalen Plattformmodellen. Mit unserer KI-gestützten Infrastruktur ermöglichen wir es Personaldienstleistern, ihre Kunden noch schneller, transparenter und erfolgreicher zu bedienen.
+            Unser Ziel ist es, Personalvermittler und Zeitarbeitsfirmen gezielt zu stärken – insbesondere im Wettbewerb mit digitalen Plattformmodellen. Mit unserer KI-gestützten Infrastruktur ermöglichen wir es Personaldienstleistern, ihre Kunden noch schneller, transparenter und erfolgreicher zu bedienen.
           </p>
           <p className="mt-2">
             PLACED setzt sich dafür ein, dass moderne Technologie nicht als Bedrohung, sondern als strategischer Hebel genutzt wird, um Qualität, Reaktionsfähigkeit und Vermittlungsleistung der Branche auf ein neues Niveau zu heben.
