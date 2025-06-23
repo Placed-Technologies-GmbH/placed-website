@@ -73,7 +73,7 @@ const ComparisonSection = () => {
       placedHasAdvantage: true
     },
     {
-      feature: 'KI-Sales Script',
+      feature: 'KI Gesprächsleitfäden',
       placed: 'Y',
       competitor1: 'N',
       competitor2: 'N',
@@ -103,7 +103,7 @@ const ComparisonSection = () => {
     {
       feature: 'Erweiterung um zusätzl. Quellen (neue Print und Online Medien)',
       placed: 'Y',
-      competitor1: 'Aufpreis',
+      competitor1: 'Mit aufpreis',
       competitor2: 'N',
       placedHasAdvantage: true
     },
@@ -146,14 +146,14 @@ const ComparisonSection = () => {
     {
       feature: 'Marktanalyse und Statistiken',
       placed: 'Y',
-      competitor1: 'mit Aufpreis',
+      competitor1: 'Mit Aufpreis',
       competitor2: 'N',
       placedHasAdvantage: true
     },
     {
       feature: 'Frei konfigurierbarer Datenexport & Emailanhang',
       placed: 'Y',
-      competitor1: 'mit Aufpreis',
+      competitor1: 'Mit Aufpreis',
       competitor2: 'N',
       placedHasAdvantage: true
     }
