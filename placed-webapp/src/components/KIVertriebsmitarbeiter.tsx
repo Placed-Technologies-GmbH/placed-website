@@ -126,7 +126,7 @@ const KIVertriebsmitarbeiter = () => {
                     bei der Stellenbesetzung identifiziert.
                   </p>
                 </div>
-                <img src="/Placed Score.png" alt="KI Sales Script" className="w-full max-w-lg mx-auto rounded-2xl shadow-xl relative z-10" style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}} />
+                <img src="/Sales Pitch.png" alt="KI Sales Script" className="w-full max-w-lg mx-auto rounded-2xl shadow-xl relative z-10" style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}} />
                 <div className="pointer-events-none absolute left-0 right-0 bottom-0 h-24 max-w-lg mx-auto z-20" style={{background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%)'}} />
               </div>
             </div>
