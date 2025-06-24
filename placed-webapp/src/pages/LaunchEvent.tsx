@@ -25,7 +25,7 @@ const LaunchEvent = () => {
               <p className="text-lg text-gray-600 max-w-xl mx-auto">
                 Unser Engagement für Qualität und Innovation in der Personaldienstleistungsbranche
               </p>
-              <PrimaryButton />
+              <PrimaryButton data-gtm="demo-buchen-launch-event" />
               <img
                 src="/ProductHero.png"
                 alt="PLACED Produktansicht"

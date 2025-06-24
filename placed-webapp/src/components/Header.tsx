@@ -30,7 +30,7 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8"></nav>
 
           <div className="hidden md:flex items-center">
-            <PrimaryButton />
+            <PrimaryButton data-gtm="demo-buchen-header-desktop"/>
           </div>
 
           {/* Mobile Menu Button */}
@@ -46,7 +46,7 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 border-t border-border/50">
             <div className="flex flex-col pt-4">
-              <PrimaryButton className="w-full" />
+              <PrimaryButton className="w-full" data-gtm="demo-buchen-header-mobile"  />
             </div>
           </nav>
         )}

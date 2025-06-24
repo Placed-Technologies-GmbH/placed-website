@@ -219,7 +219,7 @@ const ComparisonSection = () => {
         </FadeIn>
 
         <FadeIn delay={0.2} className="text-center mt-16">
-          <PrimaryButton />
+          <PrimaryButton data-gtm="demo-buchen-comparison" />
         </FadeIn>
 
       </div>

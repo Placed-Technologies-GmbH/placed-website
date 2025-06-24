@@ -105,7 +105,7 @@ const AIRevolution = () => {
                 </div>
               </div>
               <div className="flex justify-center mt-12">
-                <PrimaryButton />
+                <PrimaryButton data-gtm="demo-buchen-airevolution" />
               </div>
             </div>
           </section>

@@ -20,7 +20,7 @@ const Hero = () => {
         </p>
 
         <div className="mb-10 flex justify-center">
-          <PrimaryButton />
+          <PrimaryButton data-gtm="demo-buchen-hero" />
         </div>
 
         <p className="text-sm text-gray-500 mt-8 mb-4 text-center">Geeignet für:</p>

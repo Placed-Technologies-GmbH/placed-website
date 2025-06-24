@@ -189,7 +189,7 @@ const KIVertriebsmitarbeiter = () => {
             </FadeIn>
 
             <FadeIn delay={0.4} className="text-center mt-16">
-              <PrimaryButton />
+              <PrimaryButton data-gtm="demo-buchen-kivertriebsmitarbeiter" />
             </FadeIn>
           </div>
         </div>
