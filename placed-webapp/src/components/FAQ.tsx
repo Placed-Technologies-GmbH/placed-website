@@ -28,10 +28,10 @@ const FAQ = () => {
       answer: (
         <>
           <p>
-            PLACED nutzt eine KI-gestützte <a href="https://www.getplaced.de/matchingtechnologie" target="_blank" rel="noopener noreferrer" className="text-work-blue">Matchingtechnologie</a>, die Lebensläufe von Kandidaten automatisch analysiert und mit allen verfügbaren Stellen im Markt abgleicht. Dabei werden Qualifikationen, Berufserfahrung und Soft Skills ganzheitlich berücksichtigt. Unsere KI versteht nicht nur Stichworte, sondern interpretiert Zusammenhänge und Anforderungen im Kontext.
+            PLACED nutzt eine KI-gestützte Matchingtechnologie, die Lebensläufe von Kandidaten automatisch analysiert und mit allen verfügbaren Stellen im Markt abgleicht. Dabei werden Qualifikationen, Berufserfahrung und Soft Skills ganzheitlich berücksichtigt. Unsere KI versteht nicht nur Stichworte, sondern interpretiert Zusammenhänge und Anforderungen im Kontext.
           </p>
           <p className="mt-2">
-            Aus dem Abgleich errechnet sich ein Matching-Score, der die inhaltliche Passung zwischen Kandidat und Stelle angibt. Ergänzt wird dieser durch den <a href="https://www.getplaced.de/dringlichkeits-score" target="_blank" rel="noopener noreferrer" className="text-work-blue">Dringlichkeits-Score</a> einer Vakanz, beispielsweise basierend auf Laufzeit, beauftragten Personalvermittlern oder Suchverhalten. Beide Werte zusammen ergeben den PLACED-Score, nach dem die Suchergebnisse automatisch priorisiert werden. Sie sehen immer zuerst die Stellen mit der höchsten Wahrscheinlichkeit auf eine erfolgreiche Vermittlung.
+            Aus dem Abgleich errechnet sich ein Matching-Score, der die inhaltliche Passung zwischen Kandidat und Stelle angibt. Ergänzt wird dieser durch den Dringlichkeits-Score einer Vakanz, beispielsweise basierend auf Laufzeit, beauftragten Personalvermittlern oder Suchverhalten. Beide Werte zusammen ergeben den PLACED-Score, nach dem die Suchergebnisse automatisch priorisiert werden. Sie sehen immer zuerst die Stellen mit der höchsten Wahrscheinlichkeit auf eine erfolgreiche Vermittlung.
           </p>
           <p className="mt-2">
             Neben dem Matching unterstützt PLACED Sie aktiv im Vertrieb. KI-gestützte Gesprächsleitfäden liefern konkrete Hinweise, wie Sie den Kunden ansprechen, den Bedarf kommunizieren und das Profil überzeugend vorstellen können. Die Plattform zeigt auch, welche Informationen im Profil noch fehlen, um die Erfolgswahrscheinlichkeit zu erhöhen. So können Sie gezielt nachfragen und optimieren.
@@ -53,7 +53,7 @@ const FAQ = () => {
             Unsere Plattform ist extern auditiert und sowohl DSGVO- als auch EU-AI-Act-konform zertifiziert. Die zugrunde liegende KI-Technologie erfüllt strenge Auflagen hinsichtlich Sicherheit, Transparenz, Datenqualität und Grundrechtsschutz. Sämtliche Daten werden verschlüsselt verarbeitet und ausschließlich auf Servern innerhalb der EU (Frankfurt, AWS) gespeichert.
           </p>
           <p className="mt-2">
-            Besonders sensibel behandeln wir Lebensläufe und Profildaten: Diese werden nicht zum Training von KI-Modellen verwendet. Darüber hinaus setzen wir umfassende technische und organisatorische Maßnahmen (TOMs) sowie regelmäßige <a href="https://www.getplaced.de/datenschutz-audit" target="_blank" rel="noopener noreferrer" className="text-work-blue">Datenschutz-Audits</a> ein, um höchste Standards in der Datensicherheit dauerhaft zu gewährleisten.
+            Besonders sensibel behandeln wir Lebensläufe und Profildaten: Diese werden nicht zum Training von KI-Modellen verwendet. Darüber hinaus setzen wir umfassende technische und organisatorische Maßnahmen (TOMs) sowie regelmäßige Datenschutz-Audits ein, um höchste Standards in der Datensicherheit dauerhaft zu gewährleisten.
           </p>
           <p className="mt-2">
             Weitere Informationen finden Sie in unserer Datenschutzerklärung.
