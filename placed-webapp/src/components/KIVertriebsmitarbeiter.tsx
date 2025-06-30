@@ -174,11 +174,11 @@ const KIVertriebsmitarbeiter = () => {
               </p>
               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
                 {partnerLogos.map((logo, index) => (
-                  <div key={index} className="group transition-all duration-300 hover:scale-110 flex items-center justify-center" style={{height: '60px', width: '160px'}}>
+                  <div key={index} className="group transition-all duration-300 hover:scale-110 flex items-center justify-center" style={{height: '80px', width: '200px'}}>
                     <img
                       src={logo.src}
                       alt={logo.alt}
-                      className="h-12 w-auto max-w-[140px] object-contain opacity-70 group-hover:opacity-100 transition-opacity filter grayscale group-hover:grayscale-0 mx-auto"
+                      className="h-16 w-40 object-contain opacity-70 group-hover:opacity-100 transition-opacity filter grayscale group-hover:grayscale-0 mx-auto"
                       loading="lazy"
                     />
                   </div>
