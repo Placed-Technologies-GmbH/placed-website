@@ -56,7 +56,7 @@ const FAQ = () => {
             Besonders sensibel behandeln wir Lebensläufe und Profildaten: Diese werden nicht zum Training von KI-Modellen verwendet. Darüber hinaus setzen wir umfassende technische und organisatorische Maßnahmen (TOMs) sowie regelmäßige Datenschutz-Audits ein, um höchste Standards in der Datensicherheit dauerhaft zu gewährleisten.
           </p>
           <p className="mt-2">
-            Weitere Informationen finden Sie in unserer Datenschutzerklärung.
+            Weitere Informationen finden Sie in unserer <a href="/datenschutz" className="text-work-blue underline">Datenschutzerklärung</a>.
           </p>
         </>
       )
