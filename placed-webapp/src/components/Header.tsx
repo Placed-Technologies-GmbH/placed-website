@@ -10,7 +10,7 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 glass-effect backdrop-blur-md">
       {/* Announcement Banner */}
       <div className="bg-work-blue text-white text-center py-2 text-xs sm:text-sm font-medium px-2 sm:px-0">
-        PLACED launched am 24.06 beim Tag der Personaldienstleister vom GVP ab 18:30 Uhr.{' '}
+        Launch der KI-Plattform PLACED am 24.06 beim Tag der Personaldienstleister vom GVP.{' '}
         <Link to="/gvp-launch" className="text-placed-blue hover:underline">
           Jetzt mehr erfahren!
         </Link>
