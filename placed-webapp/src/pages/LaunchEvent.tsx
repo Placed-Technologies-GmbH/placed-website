@@ -19,55 +19,47 @@ const LaunchEvent = () => {
                 style={{ objectFit: 'contain' }}
                 loading="lazy"
               />
-              <h1 className="text-4xl sm:text-5xl font-bold text-work-blue">
-                PLACED ist neues Fördermitglied<br />im GVP
+              <h1 className="text-4xl sm:text-5xl font-bold text-work-blue mt-12 mb-8">
+                PLACED auf dem Tag der Personaldienstleister: Ein gelungener Launch.
               </h1>
-              <p className="text-lg text-gray-600 max-w-xl mx-auto">
-                Unser Engagement für Qualität und Innovation in der Personaldienstleistungsbranche
-              </p>
-              <PrimaryButton data-gtm="demo-buchen-launch-event" />
               <img
                 src="/ProductHero.png"
                 alt="PLACED Produktansicht"
-                className="w-full max-w-md sm:max-w-lg md:max-w-2xl h-auto mx-auto rounded-xl shadow-lg !mt-16"
+                className="w-full max-w-md sm:max-w-lg md:max-w-2xl h-auto mx-auto rounded-xl shadow-lg mb-12"
                 style={{ objectFit: 'contain' }}
                 loading="lazy"
               />
             </div>
           </section>
 
-          {/* Press release content */}
+          {/* New Launch Event Content */}
           <section className="pt-8 sm:pt-12 pb-12 sm:pb-16">
-            <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 text-gray-800 leading-relaxed">
-              <p className="text-lg">
-                Wir präsentieren unsere KI-Vertriebsplattform am 24. Juni 2025 in Berlin. Treffen Sie uns ab 18:30 Uhr beim Sommerfest und entdecken Sie, wie KI Ihren Vertrieb revolutioniert.
+            <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 text-gray-800 leading-relaxed">
+              <p>
+                Am 24. Juni haben wir unsere KI Vertriebsplattform erstmals der Branche vorgestellt. Beim Sommerfest des Gesamtverbands der Personaldienstleister in Berlin konnten wir zahlreiche Gespräche führen und wertvolles Feedback sammeln.
               </p>
-
-              <div className="space-y-6">
-                <h2 className="text-3xl font-bold text-work-blue">
-                Treffen Sie uns beim Sommerfest an der PLACED Spritz-Bar
-                </h2>
-                <p>
-                Im Rahmen des Sommerfests laden wir Sie herzlich zu unserer gesponserten Spritz-Bar ein. Ab 18:30 Uhr können Sie in entspannter Atmosphäre kostenlose Spritz-Getränke genießen und die Gelegenheit für einen produktiven Austausch nutzen. Erfahren Sie mehr über unsere Plattform, vernetzen Sie sich mit Branchenkollegen und lassen Sie den Abend gemeinsam ausklingen.
-                </p>
+              <p>
+                In vielen Begegnungen mit Entscheiderinnen und Entscheidern wurde deutlich, wie groß das Interesse an KI-gestützen Lösungen für effiziente Vertriebsunterstützung ist. Unsere Plattform traf auf offene Ohren, viele der Gespräche führten direkt zu vereinbarten Demos.
+              </p>
+              <div>
+                <strong>Was bleibt:</strong>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>Ein gelungener Abend mit großem Interesse an unserer Lösung</li>
+                  <li>Spürbare Bewegung in der Branche und der Wunsch, neue Technologien praxisnah einzusetzen</li>
+                </ul>
               </div>
-
-              <div className="space-y-6">
-                <h2 className="text-3xl font-bold text-work-blue">
-                Live-Einblicke: Revolutionieren Sie Ihre Vermittlungsprozesse
-                </h2>
-                <p>
-                Erleben Sie Live, wie die KI-Vertriebsplattform von PLACED Ihre Vermittlungsprozesse transformiert. Wir demonstrieren Ihnen, wie unsere KI-Technologie Kandidaten und Stellen matched, den Vertrieb durch KI optimiert und Sie bei Ihren Herausforderungen unterstützt.
-                </p>
+              <p>
+                Wir bedanken uns bei allen Gästen für den Austausch und freuen uns auf die nächsten Gespräche.
+              </p>
+              <div className="flex justify-center mt-10">
+                <PrimaryButton data-gtm="demo-buchen-launch-event" />
               </div>
-
-              <div className="space-y-4">
-                <p className="text-lg">
-                  Wir freuen uns auf Sie!
-                </p>
-                <p className="text-lg">
-                  Ihr PLACED-Team
-                </p>
+              {/* Event Photos Grid */}
+              <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                <img src="/GVP1.jpg" alt="PLACED Event Foto 1" className="w-full rounded-xl shadow-lg object-cover" loading="lazy" />
+                <img src="/GVP2.jpg" alt="PLACED Event Foto 2" className="w-full rounded-xl shadow-lg object-cover" loading="lazy" />
+                <img src="/GVP3.jpg" alt="PLACED Event Foto 3" className="w-full rounded-xl shadow-lg object-cover" loading="lazy" />
+                <img src="/GVP4.jpeg" alt="PLACED Event Foto 4" className="w-full rounded-xl shadow-lg object-cover" loading="lazy" />
               </div>
             </div>
           </section>
