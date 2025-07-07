@@ -22,7 +22,7 @@ const features = [
     points: [
       "Hochpräzises, intelligentes Matching",
       "Sofortige Ergebnisse",
-      "Automatische Bewertung"
+      "Erweiterte Filter einstellbar"
     ],
   },
   {
@@ -99,7 +99,7 @@ const AIRevolution = () => {
                   <Brain className="w-10 h-10 text-work-blue mb-4" />
                   <h4 className="text-xl font-bold mb-3 text-work-blue">KI Gesprächsleitfaden</h4>
                   <p className="text-base text-muted-foreground leading-relaxed">
-                    Überzeugende Vertriebsgespräche basierend auf spezifischen Kandidaten-CVs und dem Match mit der Stelle. Sagen Sie genau das richtige, zur richtigen Zeit.
+                    Überzeugende Vertriebsgespräche basierend auf spezifischen Kandidaten-CVs und dem Match mit der Stelle. Sagen Sie genau das Richtige, zur richtigen Zeit.
                   </p>
                 </div>
               </div>
