@@ -7,13 +7,12 @@ import { Button } from '@/components/ui/button';
 const features = [
   {
     icon: Users,
-    title: "Alle Stellenanzeigen",
-    description: "PLACED bietet die umfangreichste und aktuellste Übersicht über den Stellenmarkt.",
+    title: "Unlimitierte Stellenanzeigen",
+    description: "PLACED bietet eine umfangreiche und aktuelle Übersicht über den Stellenmarkt.",
     points: [
-      "Unlimitierte Stellenanzeigen",
-      "Alle Regionen",
-      "Alle Berufe", 
-      "24/7 Monitoring"
+      "Unlimitierte Stellenanzeigen ohne Einschränkung nach Region oder Berufsfeld",
+      "Kontaktdaten in einem Klick anreichern",
+      "Tägliche Updates"
     ],
   },
   {
@@ -68,8 +67,8 @@ const AIRevolution = () => {
               </p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 {feature.points.map((point) => (
-                  <li key={point} className="flex items-start">
-                    <CheckCircle className="text-placed-green mr-2 mt-0.5 w-5 h-5" />
+                  <li key={point} className="flex items-center">
+                    <CheckCircle className="text-placed-green mr-2 w-7 h-7 flex-shrink-0" />
                     <span>{point}</span>
                   </li>
                 ))}

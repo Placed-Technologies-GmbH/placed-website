@@ -63,7 +63,7 @@ const KIVertriebsmitarbeiter = () => {
                     <h3 className="text-2xl font-bold text-work-blue">KI-Matching</h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
-                  PLACED übernimmt für Sie die Suche nach den Stellen, die am besten zu Ihrem Kandidaten passen. Die KI analysiert den hochgeladenen Kandidaten-CV und gleicht diesen mit allen verfügbaren Stellen im deutschen Markt ab.
+                  PLACED übernimmt für Sie die Suche nach den Stellen, die am besten zu Ihrem Kandidaten passen. Die KI analysiert den hochgeladenen Kandidaten-CV und gleicht diesen mit passenden Stellen im deutschen Markt ab.
                   </p>
                 </div>
                 <div className="pointer-events-none absolute left-0 right-0 bottom-0 h-24 max-w-lg mx-auto z-20" style={{background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%)'}} />
@@ -141,12 +141,11 @@ const KIVertriebsmitarbeiter = () => {
 
             <FadeIn delay={0.1}>
               <h2 className="text-4xl md:text-5xl font-bold text-work-blue mb-6">
-                Ein Zugang: Alle Stellen. Alle Kontakte. Alle Daten. Unlimitierter Zugriff.
+                Ein Zugang: Unlimitierte Stellen- und Kontaktdaten.
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                PLACED hat Deutschlands größte Datenbank für Jobs und Entscheiderkontakte. 
-                Greifen Sie auf die umfangreichste Sammlung von Stellenangeboten und Firmenkontakten zu. 
-                Als PLACED-Nutzer profitieren Sie von unlimitiertem Datenzugriff ohne Beschränkungen von Beruf oder Region.
+              Greifen Sie auf eine umfangreiche und tagesaktuelle Sammlung von Stellenangeboten und Firmenkontakten zu. 
+              Als PLACED-Nutzer profitieren Sie von unlimitiertem Datenzugriff ohne Beschränkungen nach Berufsgruppen oder Region.
               </p>
             </FadeIn>
 
@@ -184,8 +183,7 @@ const KIVertriebsmitarbeiter = () => {
                   </div>
                 ))}
               </div>
-              <p className="text-sm text-muted-foreground mt-4 text-left mx-auto w-fit"> &gt; 150 weitere Jobbörsen</p>
-              <p className="text-sm text-muted-foreground mt-4 text-left mx-auto w-fit"> &gt; 100.000 Firmenwebseiten</p>
+              <p className="text-sm text-muted-foreground mt-4 text-left mx-auto w-fit">Viele weitere Jobbörsen und Firmenwebseiten</p>
             </FadeIn>
 
             <FadeIn delay={0.4} className="text-center mt-16">
