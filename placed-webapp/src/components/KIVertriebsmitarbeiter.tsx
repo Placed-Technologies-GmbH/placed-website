@@ -22,7 +22,7 @@ const dataAccessHighlights = [
   {
     text: '',
     highlight: 'Keine Begrenzung',
-    suffix: ' nach Region oder Berufsgruppen – Sie haben Zugriff auf alle Stellen und Daten.',
+    suffix: ' nach Region oder Berufsgruppen – Sie haben Zugriff auf alle uns verfügbaren Daten.',
   },
 ];
 
