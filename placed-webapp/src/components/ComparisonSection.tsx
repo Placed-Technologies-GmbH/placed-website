@@ -111,7 +111,7 @@ const ComparisonSection = () => {
       feature: 'Standardintegrationen',
       placed: '100+ ATS und CRM Systeme der nächsten Generation, darunter Bullhorn, SAP, Microsoft Azure, Workday, Personio, Recruitee, SmartRecruiters; viele weitere in Planung',
       competitor1: '<20 Systeme',
-      competitor2: '>30 Min',
+      competitor2: 'N',
       placedHasAdvantage: true
     },
     {
