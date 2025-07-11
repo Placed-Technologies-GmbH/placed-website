@@ -25,8 +25,8 @@ const ComparisonSection = () => {
   const comparisonData = [
     {
       feature: 'Stellenanzeigen',
-      placed: 'Unlimitiert, alle Regionen, alle Berufe',
-      competitor1: 'Limitiert nach Region und Beruf',
+      placed: 'Unlimitierter Datenzugriff ohne Beschränkung nach Regionen oder Beruf',
+      competitor1: 'Limitiert nach Region und Beruf, sonst aufpreispflichtig',
       competitor2: 'N',
       placedHasAdvantage: true
     },
@@ -40,7 +40,21 @@ const ComparisonSection = () => {
     {
       feature: 'Firmendaten',
       placed: 'Erweiterte Firmendaten',
-      competitor1: 'Basic',
+      competitor1: 'Y',
+      competitor2: 'N',
+      placedHasAdvantage: true
+    },
+    {
+      feature: 'Filter auf Zeitarbeitsjobs',
+      placed: 'Y',
+      competitor1: 'Y',
+      competitor2: 'N',
+      placedHasAdvantage: true
+    },
+    {
+      feature: 'KI-Suche mit CV',
+      placed: 'Y',
+      competitor1: 'N',
       competitor2: 'N',
       placedHasAdvantage: true
     },
@@ -59,14 +73,7 @@ const ComparisonSection = () => {
       placedHasAdvantage: true
     },
     {
-      feature: 'Automatisiertes Rematching Ihrer Kandidaten mit neuen Suchen von Bestands- und Zielkunden',
-      placed: 'Y',
-      competitor1: 'N',
-      competitor2: 'N',
-      placedHasAdvantage: true
-    },
-    {
-      feature: 'KI-Suche mit CV',
+      feature: 'Automatisiertes Rematching Ihrer CVs mit neuen Suchen von Bestands- und Zielkunden',
       placed: 'Y',
       competitor1: 'N',
       competitor2: 'N',
@@ -80,6 +87,20 @@ const ComparisonSection = () => {
       placedHasAdvantage: true
     },
     {
+      feature: 'KI-Schätzung, ob andere Personalvermittler auf Stellen arbeiten',
+      placed: 'Y',
+      competitor1: 'N',
+      competitor2: 'N',
+      placedHasAdvantage: true
+    },
+    {
+      feature: 'KI CV-Analyse pro Stelle',
+      placed: 'Y',
+      competitor1: 'N',
+      competitor2: 'N',
+      placedHasAdvantage: true
+    },
+    {
       feature: 'Vorbereitungszeit pro Vertriebsanruf',
       placed: '1 Min',
       competitor1: '5-10 Min (Schätzung aus Praxiserfahrung)',
@@ -87,44 +108,51 @@ const ComparisonSection = () => {
       placedHasAdvantage: true
     },
     {
-      feature: 'API Schnittstellen',
+      feature: 'Standardintegrationen',
+      placed: '100+ ATS und CRM Systeme der nächsten Generation, darunter Bullhorn, SAP, Microsoft Azure, Workday, Personio, Recruitee, SmartRecruiters; viele weitere in Planung',
+      competitor1: '<20 Systeme',
+      competitor2: '>30 Min',
+      placedHasAdvantage: true
+    },
+    {
+      feature: 'Neue Integrationen auf Wunsch',
+      placed: 'In wenigen Wochen umgesetzt',
+      competitor1: 'N',
+      competitor2: 'N',
+      placedHasAdvantage: true
+    },
+    {
+      feature: 'Offene API Schnittstelle',
       placed: 'Auf Anfrage',
       competitor1: 'Auf Anfrage',
       competitor2: 'N',
       placedHasAdvantage: false
     },
     {
-      feature: 'Filter auf Zeitarbeitsjobs',
+      feature: 'Neue Datenquellen auf Wunsch in einer Woche eingebunden',
       placed: 'Y',
       competitor1: 'N',
-      competitor2: 'N',
-      placedHasAdvantage: true
-    },
-    {
-      feature: 'Erweiterung um zusätzl. Quellen (neue Print und Online Medien)',
-      placed: 'Y',
-      competitor1: 'Mit Aufpreis',
-      competitor2: 'N',
-      placedHasAdvantage: true
-    },
-    {
-      feature: 'Kostenlose Testphase',
-      placed: '14 Tage',
-      competitor1: 'N',
-      competitor2: 'N',
-      placedHasAdvantage: true
-    },
-    {
-      feature: 'Bezahlte Jobanzeigen',
-      placed: 'Y',
-      competitor1: 'Y',
       competitor2: 'N',
       placedHasAdvantage: false
     },
     {
-      feature: 'KI CV-Analyse pro Stelle',
+      feature: 'Kostenlose Testphase',
       placed: 'Y',
       competitor1: 'N',
+      competitor2: 'N',
+      placedHasAdvantage: true
+    },
+    {
+      feature: 'Live-Chatsupport',
+      placed: 'Y',
+      competitor1: 'N',
+      competitor2: 'N',
+      placedHasAdvantage: false
+    },   
+    {
+      feature: 'Neue Funktionen für Ihren Erfolg',
+      placed: 'Alle drei Wochen',
+      competitor1: '?',
       competitor2: 'N',
       placedHasAdvantage: true
     },
@@ -144,16 +172,23 @@ const ComparisonSection = () => {
       placedHasAdvantage: true
     },
     {
-      feature: 'Marktanalyse und Statistiken',
+      feature: 'Marktanalyse',
       placed: 'Y',
       competitor1: 'Mit Aufpreis',
       competitor2: 'N',
       placedHasAdvantage: true
     },
     {
-      feature: 'Frei konfigurierbarer Datenexport & Emailanhang',
+      feature: 'Unlimitierter Datenexport & Emailanhang',
       placed: 'Y',
       competitor1: 'Mit Aufpreis',
+      competitor2: 'N',
+      placedHasAdvantage: true
+    },
+    {
+      feature: 'Unlimitierte Infoagenten pro Nutzer',
+      placed: 'Y',
+      competitor1: 'N',
       competitor2: 'N',
       placedHasAdvantage: true
     }

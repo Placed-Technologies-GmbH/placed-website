@@ -10,9 +10,9 @@ const dataAccessHighlights = [
     suffix: ' aller wichtigen Unternehmen und integrieren große sowie Nischen-Stellenbörsen.',
   },
   {
-    text: 'Erfahren Sie pro Stellenanzeige, ob und wie viele',
-    highlight: ' Personalvermittler',
-    suffix: ' ein Unternehmen beauftragt hat.',
+    text: 'Erfahren Sie ob Personalvermittler für diese',
+    highlight: ' Stelle beauftragt wurden',
+    suffix: ' (bei öffentlichen Stellenausschreibungen).',
   },
   {
     text: 'Anreicherung von ',
