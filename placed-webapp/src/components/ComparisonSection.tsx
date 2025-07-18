@@ -32,7 +32,7 @@ const ComparisonSection = () => {
     },
     {
       feature: 'Kontaktdaten',
-      placed: 'Erweiterte persönliche Kontaktdaten, auch wenn diese nicht in der Stellenanzeige stehen',
+      placed: 'Erweiterte Kontaktdaten von HR- und Fachabteilung, auch wenn diese nicht in der Stellenanzeige stehen',
       competitor1: 'Y',
       competitor2: 'N',
       placedHasAdvantage: true
@@ -116,7 +116,7 @@ const ComparisonSection = () => {
     },
     {
       feature: 'Neue Integrationen auf Wunsch',
-      placed: 'In wenigen Wochen umgesetzt',
+      placed: 'Auf Anfrage',
       competitor1: 'N',
       competitor2: 'N',
       placedHasAdvantage: true
@@ -203,8 +203,9 @@ const ComparisonSection = () => {
             PLACED im Vergleich
           </h2>
           <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            Im Vergleich zu anderer Software bietet PLACED nicht nur unbegrenzte Stellenanzeigen, Regionen und erweiterte Kontaktdaten, sondern revolutioniert den Vermittlungsprozess mit KI-gestütztem Matching, automatischer Kandidatenbewertung, CV-Optimierung und Gesprächsleitfäden. 
-            Führen Sie perfekte Vertriebsgespräche in nur einer Minute. Lange Vorbereitung und unpräzise Telefonate gehören der Vergangenheit an
+          Im Vergleich zu anderer Software bietet PLACED nicht nur unbegrenzte Stellenanzeigen, 
+          Regionen und erweiterte Kontaktdaten, sondern revolutioniert den Vermittlungsprozess mit KI-gestütztem Matching, automatischer Kandidatenbewertung, CV-Optimierung und Gesprächsleitfäden. 
+          Führen Sie perfekte Vertriebsgespräche in nur einer Minute.
           </p>
         </div>
 
