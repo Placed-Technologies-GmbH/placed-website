@@ -7,12 +7,12 @@ import { Button } from '@/components/ui/button';
 const features = [
   {
     icon: Users,
-    title: "Unlimitierte Stellenanzeigen",
-    description: "PLACED bietet eine umfangreiche und aktuelle Übersicht über den Stellenmarkt.",
+    title: "Alle Stellenanzeigen",
+    description: "PLACED bietet die aktuellste Übersicht über den Stellenmarkt.",
     points: [
-      "Unlimitierte Stellenanzeigen ohne Einschränkung nach Region oder Berufsfeld",
-      "Kontaktdaten in einem Klick anreichern",
-      "Tägliche Updates"
+      "Keine Einschränkung nach Region oder Beruf",
+      "Kontaktdaten mit einem Klick anreichern",
+      "Stellen in Echtzeit aktualisieren"
     ],
   },
   {

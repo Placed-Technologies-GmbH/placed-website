@@ -17,7 +17,7 @@ const dataAccessHighlights = [
   {
     text: 'Anreicherung von ',
     highlight: 'Kontakt- und Unternehmensdaten',
-    suffix: ' für höchste Datenqualität.',
+    suffix: ' mit Daten, die nicht in der Stellenanzeige stehen.',
   },
   {
     text: '',
@@ -79,10 +79,10 @@ const KIVertriebsmitarbeiter = () => {
                     <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
                       <Target className="text-white w-6 h-6" />
                     </div>
-                    <h3 className="text-2xl font-bold text-work-blue">PLACED Score</h3>
+                    <h3 className="text-2xl font-bold text-work-blue">PLACED-Score</h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
-                  Die Suchergebnisse werden nicht nach Datum, sondern nach Relevanz sortiert: Unser PLACED Score zeigt Ihnen die Vermittlungswahrscheinlichkeit. Diese beinhaltet die Passung von Kandidat zur Stelle und die Dringlichkeit des Unternehmens die Stelle zu besetzen.
+                  Die Suchergebnisse werden nicht nach Datum, sondern nach Relevanz sortiert: Unser PLACED-Score zeigt Ihnen die Vermittlungswahrscheinlichkeit. Diese beinhaltet die Passung von Kandidat zur Stelle und die Dringlichkeit des Unternehmens die Stelle zu besetzen.
                   </p>
                 </div>
                 <div className="pointer-events-none absolute left-0 right-0 bottom-0 h-24 max-w-lg mx-auto z-20" style={{background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%)'}} />
@@ -144,7 +144,6 @@ const KIVertriebsmitarbeiter = () => {
                 Ein Zugang: Unlimitierte Stellen- und Kontaktdaten.
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-              Greifen Sie auf eine umfangreiche und tagesaktuelle Sammlung von Stellenangeboten und Firmenkontakten zu. 
               Als PLACED-Nutzer profitieren Sie von unlimitiertem Datenzugriff ohne Beschränkungen nach Berufsgruppen oder Region.
               </p>
             </FadeIn>
