@@ -65,40 +65,53 @@ const DatenschutzNew = () => {
         <nav aria-label="Inhaltsverzeichnis" className="mb-10 bg-muted/40 rounded-lg p-4 border border-muted">
           <h2 className="text-lg font-semibold mb-2">Inhaltsverzeichnis</h2>
           <div>
-          {sections.map((section, index) => {
-            const currentDots = section.label.split('.').length - 1;
-            const prevDots = index > 0 ? sections[index - 1].label.split('.').length - 1 : -1;
+          {sections.map((section) => {
+            const dotCount = section.label.split('.').length - 1;
 
-            // Indentation
-            const padding =
-              currentDots === 0 ? 'pl-0' :
-              currentDots === 1 ? 'pl-4' :
-              'pl-8';
+            const isSubOf1 =
+              section.label.startsWith('1.1') || section.label.startsWith('1.2') ||
+              section.label.startsWith('1.3') || section.label.startsWith('1.4') ||
+              section.label.startsWith('1.5') || section.label.startsWith('1.6') ||
+              section.label.startsWith('1.7') || section.label.startsWith('1.8');
 
-            // Font + size
-            const font =
-              currentDots === 0 ? 'font-semibold text-base' :
-              currentDots === 1 ? 'font-medium text-[15px]' :
-              'font-normal text-sm text-muted-foreground';
+            const isSubOf3 =
+              section.label.startsWith('3.1') || section.label.startsWith('3.2') ||
+              section.label.startsWith('3.3') || section.label.startsWith('3.4') ||
+              section.label.startsWith('3.5') || section.label.startsWith('3.6') ||
+              section.label.startsWith('3.7') || section.label.startsWith('3.8') ||
+              section.label.startsWith('3.9') || section.label.startsWith('3.10');
 
-            // Vertical spacing
-            const spacing =
-              currentDots === 0 ? 'mt-6 mb-2' :
-              prevDots < currentDots ? 'mt-2 mb-1' :
-              prevDots > currentDots ? 'mt-4 mb-1' :
-              'mb-1';
+            const isSubSubOf3_10 =
+              section.label.startsWith('3.10.1') || section.label.startsWith('3.10.2') ||
+              section.label.startsWith('3.10.3') || section.label.startsWith('3.10.4') ||
+              section.label.startsWith('3.10.5') || section.label.startsWith('3.10.6') ||
+              section.label.startsWith('3.10.7') || section.label.startsWith('3.10.8') ||
+              section.label.startsWith('3.10.9');
+
+            const isSubOf4 =
+              section.label.startsWith('4.1') || section.label.startsWith('4.2');
+
+            const padding = isSubSubOf3_10
+              ? 'pl-10'
+              : (isSubOf1 || isSubOf3 || isSubOf4)
+              ? 'pl-5'
+              : 'pl-0';
+
+            const fontWeight = dotCount === 0 ? 'font-semibold' : '';
+            const textSize = dotCount >= 2 ? 'text-sm text-muted-foreground' : '';
 
             return (
-              <div key={section.id} className={`${padding} ${spacing}`}>
+              <div key={section.id} className={padding}>
                 <a
                   href={`#${section.id}`}
-                  className={`text-work-blue hover:underline focus:underline block ${font}`}
+                  className={`text-work-blue hover:underline focus:underline block ${textSize} ${fontWeight}`}
                 >
                   {section.label}
                 </a>
               </div>
             );
           })}
+
           </div>
         </nav>
         <div className="prose prose-lg max-w-none">
