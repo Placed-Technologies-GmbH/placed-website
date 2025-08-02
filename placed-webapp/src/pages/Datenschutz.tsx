@@ -480,6 +480,9 @@ const DatenschutzNew = () => {
             <div className="h-2"></div>
             <p>Für Fragen oder Kommentare bezüglich dieser Datenschutzerklärung stehen wir gern unter den oben angegebenen Kontaktdaten zur Verfügung.</p>
           </div>
+          <div>
+          <p className="mt-10"><strong>Stand: 13. Juni 2025</strong></p>
+          </div>
         </div>
       </main>
       <Footer />
