@@ -5,6 +5,7 @@ import KIVertriebsmitarbeiter from '../components/KIVertriebsmitarbeiter';
 import ComparisonSection from '../components/ComparisonSection';
 import FAQ from '../components/FAQ';
 import Footer from '../components/Footer';
+import BlogPreview from '../components/BlogPreview';
 
 const Index = () => {
   return (
@@ -26,6 +27,7 @@ const Index = () => {
         <AIRevolution />
         <KIVertriebsmitarbeiter />
         <ComparisonSection />
+        <BlogPreview />
         <FAQ />
       </main>
       <Footer />

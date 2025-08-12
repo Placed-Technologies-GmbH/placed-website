@@ -72,9 +72,9 @@ const FAQ = () => {
           <p>
             Auf Wunsch beginnen Sie mit einer unverbindlichen Live Demo. Dabei zeigen wir Ihnen die wichtigsten Funktionen im Überblick und besprechen gemeinsam Ihre individuellen Anforderungen.
           </p>
-          <p className="mt-4 font-bold">2. 14 Tage kostenlos testen</p>
+          <p className="mt-4 font-bold">2. Kostenlos testen</p>
           <p>
-            Im Anschluss, oder direkt ohne Demo, testen Sie PLACED für 14 Tage kostenfrei und mit vollem Funktionsumfang. So erleben Sie unmittelbar, wie Sie schneller vermitteln und einfacher Neukunden gewinnen.
+            Im Anschluss, oder direkt ohne Demo, testen Sie PLACED kostenfrei und mit vollem Funktionsumfang. So erleben Sie unmittelbar, wie Sie schneller vermitteln und einfacher Neukunden gewinnen.
           </p>
           <p className="mt-4 font-bold">3. Sofort einsatzbereit</p>
           <p>
