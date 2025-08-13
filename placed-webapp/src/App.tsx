@@ -33,7 +33,6 @@ const App = () => {
           >
             <Routes>
               <Route path="/" element={<Index />} />
-              <Route path="/gvp-launch" element={<LaunchEvent />} />
               <Route path="/datenschutz" element={<Datenschutz />} />
               <Route path="/impressum" element={<Impressum />} />
               <Route path="/agb" element={<AGB />} />
