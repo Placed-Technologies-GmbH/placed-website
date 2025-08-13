@@ -7,7 +7,6 @@ import { Suspense, lazy, useEffect } from "react";
 import Intercom from '@intercom/messenger-js-sdk';
 
 const Index = lazy(() => import("./pages/Index"));
-const LaunchEvent = lazy(() => import("./pages/LaunchEvent"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const Datenschutz = lazy(() => import("./pages/Datenschutz"));
 const Impressum = lazy(() => import("./pages/Impressum"));
