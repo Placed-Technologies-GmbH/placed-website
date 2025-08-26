@@ -10,7 +10,7 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 glass-effect backdrop-blur-md">
       {/* Announcement Banner */}
       <div className="bg-work-blue text-white text-center py-2 text-xs sm:text-sm font-medium px-2 sm:px-0">
-        Wir sind dabei! PLACED beim Innolab 2025 vom 16.-17. September in Bremen!{' '}
+        Erleben Sie PLACED beim Innolab 2025 vom 16.-17. September in Bremen.{' '}
           {/**
            * <Link to="/gvp-launch" className="text-placed-blue hover:underline">
            *   Jetzt mehr erfahren!
