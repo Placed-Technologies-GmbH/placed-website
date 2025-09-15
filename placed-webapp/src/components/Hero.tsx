@@ -57,6 +57,12 @@ const Hero = () => {
             className="h-16 md:h-20 object-contain"
             loading="lazy"
           />
+          <img
+            src="/APSCo-Trusted-Partner.png"
+            alt="APSCo Trusted Partner"
+            className="h-16 md:h-20 object-contain"
+            loading="lazy"
+          />
         </div>
       </div>
     </section>
