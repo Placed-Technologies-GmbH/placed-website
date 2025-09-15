@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Right column */}
           <div className="flex flex-col items-start md:col-span-2 md:justify-self-end">
             <p className="text-sm font-medium text-center md:text-left mb-3">
-              100% konform nach DSGVO, EU AI Act &amp; GVP-Richtlinien
+              100% konform nach DSGVO, EU AI Act, GVP-Richtlinien &amp; APSCo-Standards
             </p>
             <div className="flex gap-4 flex-wrap justify-start items-center">
               <img
@@ -49,6 +49,12 @@ const Footer = () => {
               <img
                 src="/GVP-Logo_Mitglied_RGB_blau.png"
                 alt="GVP Mitglied"
+                className="h-16 md:h-18 object-contain"
+                loading="lazy"
+              />
+              <img
+                src="/APSCo-Trusted-Partner.png"
+                alt="APSCo Trusted Partner"
                 className="h-16 md:h-18 object-contain"
                 loading="lazy"
               />
