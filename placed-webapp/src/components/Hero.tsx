@@ -33,6 +33,7 @@ const Hero = () => {
           <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Headhunter</span>
           <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Recruiting-Agenturen</span>
           <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Executive Search</span>
+          <span className="px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-800 font-medium">Staffing Unternehmen</span>
         </div>
 
        
