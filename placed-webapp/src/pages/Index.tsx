@@ -26,7 +26,7 @@ const Index = () => {
         </div>
         <AIRevolution />
         <KIVertriebsmitarbeiter />
-        <ComparisonSection />
+        {/* <ComparisonSection /> */}
         <BlogPreview />
         <FAQ />
       </main>
