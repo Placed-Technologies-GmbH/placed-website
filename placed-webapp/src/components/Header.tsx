@@ -10,14 +10,14 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 glass-effect backdrop-blur-md">
       {/* Announcement Banner */}
       <div className="bg-work-blue text-white text-center py-2 text-xs sm:text-sm font-medium px-2 sm:px-0">
-        Erleben Sie PLACED beim Innolab 2025 vom 16.-17. September in Bremen.{' '}
+        Erleben Sie PLACED bei der StaffingPro 2025 am 22.10.25 in Wiesbaden.{' '}
           {/**
            * <Link to="/gvp-launch" className="text-placed-blue hover:underline">
            *   Jetzt mehr erfahren!
            * </Link>
            */}
         <a
-          href="https://blog.getplaced.de/innolab-ankuendigung/"
+          href="https://placed.ghost.io/ghost/#/editor/post/68d2a4fc5b62c90001ef9dd2"
           className="text-placed-blue hover:underline"
         >
           Jetzt mehr erfahren
