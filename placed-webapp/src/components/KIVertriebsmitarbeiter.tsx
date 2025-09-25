@@ -60,7 +60,7 @@ const KIVertriebsmitarbeiter = () => {
                     <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
                       <User className="text-white w-6 h-6" />
                     </div>
-                    <h3 className="text-2xl font-bold text-work-blue">KI-Matching</h3>
+                    <h3 className="text-2xl font-bold text-work-blue">Einfach Suchen</h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
                   PLACED übernimmt für Sie die Suche nach den Stellen, die am besten zu Ihrem Kandidaten passen. Die KI analysiert den hochgeladenen Kandidaten-CV und gleicht diesen mit passenden Stellen im deutschen Markt ab.
@@ -79,7 +79,7 @@ const KIVertriebsmitarbeiter = () => {
                     <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
                       <Target className="text-white w-6 h-6" />
                     </div>
-                    <h3 className="text-2xl font-bold text-work-blue">PLACED-Score</h3>
+                    <h3 className="text-2xl font-bold text-work-blue">Relevante Stellen finden</h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
                   Die Suchergebnisse werden nicht nach Datum, sondern nach Relevanz sortiert: Unser PLACED-Score zeigt Ihnen die Vermittlungswahrscheinlichkeit. Diese beinhaltet die Passung von Kandidat zur Stelle und die Dringlichkeit des Unternehmens die Stelle zu besetzen.
@@ -99,7 +99,7 @@ const KIVertriebsmitarbeiter = () => {
                     <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
                       <User className="text-white w-6 h-6" />
                     </div>
-                    <h3 className="text-2xl font-bold text-work-blue">Profil-Optimierung</h3>
+                    <h3 className="text-2xl font-bold text-work-blue">Bessere Vertriebsgespräche</h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
                     Unsere KI bietet Optimierungsvorschläge für Kandidatenprofile in Sekunden, indem sie fehlende 
@@ -118,12 +118,10 @@ const KIVertriebsmitarbeiter = () => {
                     <div className="w-12 h-12 rounded-xl bg-placed-blue flex items-center justify-center">
                       <MessageSquare className="text-white w-6 h-6" />
                     </div>
-                    <h3 className="text-2xl font-bold text-work-blue">KI-Gesprächsleitfaden</h3>
+                    <h3 className="text-2xl font-bold text-work-blue">Kontakte, die passen</h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
-                    Unsere KI erstellt personalisierte Sales-Skripte, die Ihnen helfen, Neukunden zu gewinnen, 
-                    indem sie präzise aufzeigt, warum Ihr Kandidat perfekt zur Stelle passt und die Dringlichkeit 
-                    bei der Stellenbesetzung identifiziert.
+                    Unsere KI erstellt personalisierte Sales-Skripte, die Ihnen helfen, Neukunden zu gewinnen, indem sie präzise aufzeigt, warum Ihr Kandidat perfekt zur Stelle passt und die Dringlichkeit bei der Stellenbesetzung identifiziert. Zudem recherchiert die KI blitzschnell die erweiterten Kontaktdaten von Ansprechpartnern und Entscheidern.
                   </p>
                 </div>
                 <img src="/Sales Pitch.png" alt="KI Sales Script" className="w-full max-w-lg mx-auto rounded-2xl shadow-xl relative z-10" style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}} />
