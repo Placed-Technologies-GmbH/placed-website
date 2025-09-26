@@ -17,7 +17,7 @@ const Header = () => {
            * </Link>
            */}
         <a
-          href="https://placed.ghost.io/ghost/#/editor/post/68d2a4fc5b62c90001ef9dd2"
+          href="https://blog.getplaced.de/placed-ist-auf-der-staffingpro-2025/"
           className="text-placed-blue hover:underline"
         >
           Jetzt mehr erfahren
