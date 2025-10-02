@@ -32,6 +32,7 @@ const partnerLogos = [
   { src: '/joblift.png', alt: 'Joblift' },
   { src: '/stepstone_logo.svg', alt: 'Stepstone' },
   { src: '/XINGlogo.png', alt: 'XING' },
+  { src: '/kununu-logo.png', alt: 'kununu' },
   { src: '/kimetalogo.png', alt: 'Kimeta' },
   { src: '/talentlogo.png', alt: 'Talent.com' },
 ];
