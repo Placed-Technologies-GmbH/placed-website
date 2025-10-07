@@ -1,4 +1,4 @@
-import { Linkedin } from 'lucide-react';
+import { Linkedin, ExternalLink } from 'lucide-react';
 import FadeIn from './FadeIn';
 
 const Footer = () => {
@@ -31,7 +31,16 @@ const Footer = () => {
           {/* Right column */}
           <div className="flex flex-col items-center lg:items-end lg:col-span-2 lg:justify-self-end">
             <p className="text-sm font-medium text-center lg:text-right mb-3">
-              100% konform nach DSGVO, EU AI Act, GVP-Richtlinien &amp; APSCo-Standards
+              100% konform nach DSGVO,{' '}
+              <a 
+                href="/EU_AI_Certificate-heyData-Placed.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-work-blue"
+              >
+                EU AI Act (<span className="underline hover:no-underline inline-flex items-center gap-1">Zertifikat<ExternalLink className="w-3 h-3" /></span>)
+              </a>
+              , GVP-Richtlinien &amp; APSCo-Standards
             </p>
             <div className="grid grid-cols-2 lg:flex gap-3 lg:gap-4 justify-items-center lg:justify-end items-center">
               <img
