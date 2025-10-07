@@ -125,7 +125,7 @@ const KIVertriebsmitarbeiter = () => {
                     Unsere KI erstellt personalisierte Sales-Skripte, die Ihnen helfen, Neukunden zu gewinnen, indem sie präzise aufzeigt, warum Ihr Kandidat perfekt zur Stelle passt und die Dringlichkeit bei der Stellenbesetzung identifiziert. Zudem recherchiert die KI blitzschnell die erweiterten Kontaktdaten von Ansprechpartnern und Entscheidern.
                   </p>
                 </div>
-                <img src="/Sales Pitch.png" alt="KI Sales Script" className="w-full max-w-lg mx-auto rounded-2xl shadow-xl relative z-10" style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}} />
+                <img src="/contact_data_enrichment.png" alt="KI Sales Script" className="w-full max-w-lg mx-auto rounded-2xl shadow-xl relative z-10 max-h-80 object-cover object-top" style={{boxShadow: '0 8px 32px 0 rgba(80, 80, 120, 0.10)'}} />
                 <div className="pointer-events-none absolute left-0 right-0 bottom-0 h-24 max-w-lg mx-auto z-20" style={{background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 100%)'}} />
               </div>
             </div>
