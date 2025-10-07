@@ -10,19 +10,19 @@ const dataAccessHighlights = [
     suffix: ' aller wichtigen Unternehmen und integrieren große sowie Nischen-Stellenbörsen.',
   },
   {
-    text: 'Erfahren Sie ob Personalvermittler für diese',
+    text: 'Wichtige Signale, zusätzlich zur Stelle: Unsere KI ermittelt, ob Personalvermittler für eine',
     highlight: ' Stelle beauftragt wurden',
     suffix: ' (bei öffentlichen Stellenausschreibungen).',
   },
   {
-    text: 'Anreicherung von ',
+    text: 'Unsere KI reichert die Stelle auf Knopfdruck mit ',
     highlight: 'Kontakt- und Unternehmensdaten',
-    suffix: ' mit Daten, die nicht in der Stellenanzeige stehen.',
+    suffix: ' an, auch wenn diese nicht in der Stellenanzeige stehen.',
   },
   {
-    text: '',
+    text: 'Sie haben mit Ihrer Lizenz uneingeschränkten Zugriff auf alle uns verfügbaren Stellendaten: ',
     highlight: 'Keine Begrenzung',
-    suffix: ' nach Region oder Berufsgruppen – Sie haben Zugriff auf alle uns verfügbaren Daten.',
+    suffix: ' nach Region oder Berufsgruppen.',
   },
 ];
 
