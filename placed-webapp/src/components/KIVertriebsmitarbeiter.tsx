@@ -7,22 +7,26 @@ const dataAccessHighlights = [
   {
     text: 'Wir sammeln Stellen ',
     highlight: 'direkt von Firmenwebseiten',
-    suffix: ' aller wichtigen Unternehmen und integrieren große sowie Nischen-Stellenbörsen.',
+    suffix: ' aller wichtigen Unternehmen und von vielen großen und regionalen',
+    suffixHighlight: ' Stellenbörsen.'
   },
   {
     text: 'Wichtige Signale, zusätzlich zur Stelle: Unsere KI ermittelt, ob Personalvermittler für eine',
     highlight: ' Stelle beauftragt wurden',
     suffix: ' (bei öffentlichen Stellenausschreibungen).',
+    suffixHighlight: ''
   },
   {
     text: 'Unsere KI reichert die Stelle auf Knopfdruck mit ',
     highlight: 'Kontakt- und Unternehmensdaten',
     suffix: ' an, auch wenn diese nicht in der Stellenanzeige stehen.',
+    suffixHighlight: ''
   },
   {
     text: 'Sie haben mit Ihrer Lizenz uneingeschränkten Zugriff auf alle uns verfügbaren Stellendaten: ',
     highlight: 'Keine Begrenzung',
     suffix: ' nach Region oder Berufsgruppen.',
+    suffixHighlight: ''
   },
 ];
 
@@ -156,6 +160,7 @@ const KIVertriebsmitarbeiter = () => {
                       {item.text}
                       <span className="font-semibold text-work-blue">{item.highlight}</span>
                       {item.suffix}
+                      <span className="font-semibold text-work-blue">{item.suffixHighlight}</span>
                     </p>
                   </div>
                 ))}
