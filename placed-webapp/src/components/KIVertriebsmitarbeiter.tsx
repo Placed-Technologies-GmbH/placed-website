@@ -162,27 +162,27 @@ const KIVertriebsmitarbeiter = () => {
               </div>
             </FadeIn>
 
-            <FadeIn delay={0.3} className="mt-20">
-              <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-2">
-                Unsere Datenquellen & Integrationen
-              </h3>
-              <p className="text-sm text-muted-foreground mb-8">
-                Jobbörsen, ATS-Systeme und Firmenwebseiten
-              </p>
-              <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
-                {partnerLogos.map((logo, index) => (
-                  <div key={index} className="group transition-all duration-300 hover:scale-110 flex items-center justify-center" style={{height: '80px', width: '200px'}}>
-                    <img
-                      src={logo.src}
-                      alt={logo.alt}
-                      className="h-16 w-40 object-contain opacity-70 group-hover:opacity-100 transition-opacity filter grayscale group-hover:grayscale-0 mx-auto"
-                      loading="lazy"
-                    />
-                  </div>
-                ))}
-              </div>
-              <p className="text-sm text-muted-foreground mt-4 text-left mx-auto w-fit">Viele weitere Jobbörsen und Firmenwebseiten</p>
-            </FadeIn>
+            {/*<FadeIn delay={0.3} className="mt-20">*/}
+            {/*  <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-2">*/}
+            {/*    Unsere Datenquellen & Integrationen*/}
+            {/*  </h3>*/}
+            {/*  <p className="text-sm text-muted-foreground mb-8">*/}
+            {/*    Jobbörsen, ATS-Systeme und Firmenwebseiten*/}
+            {/*  </p>*/}
+            {/*  <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">*/}
+            {/*    {partnerLogos.map((logo, index) => (*/}
+            {/*      <div key={index} className="group transition-all duration-300 hover:scale-110 flex items-center justify-center" style={{height: '80px', width: '200px'}}>*/}
+            {/*        <img*/}
+            {/*          src={logo.src}*/}
+            {/*          alt={logo.alt}*/}
+            {/*          className="h-16 w-40 object-contain opacity-70 group-hover:opacity-100 transition-opacity filter grayscale group-hover:grayscale-0 mx-auto"*/}
+            {/*          loading="lazy"*/}
+            {/*        />*/}
+            {/*      </div>*/}
+            {/*    ))}*/}
+            {/*  </div>*/}
+            {/*  <p className="text-sm text-muted-foreground mt-4 text-left mx-auto w-fit">Viele weitere Jobbörsen und Firmenwebseiten</p>*/}
+            {/*</FadeIn>*/}
 
             <FadeIn delay={0.4} className="text-center mt-16">
               <PrimaryButton data-gtm="demo-buchen-kivertriebsmitarbeiter" />
