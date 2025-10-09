@@ -11,7 +11,7 @@ const PrimaryButton = React.forwardRef<HTMLAnchorElement, PrimaryButtonProps>(
   ({ label = 'Demo buchen', className, children, ...props }, ref) => {
     return (
       <a
-        href="https://meetings-eu1.hubspot.com/ftemel?uuid=3b67042c-5da5-41d6-868a-3b46daf91409"
+        href="/demo"
         target="_blank"
         rel="noopener noreferrer"
         ref={ref}
