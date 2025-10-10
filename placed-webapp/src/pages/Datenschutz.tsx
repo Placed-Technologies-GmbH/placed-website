@@ -32,6 +32,7 @@ const sections = [
   { id: 'google-tag-manager', label: '3.10.6 Google Tag Manager' },
   { id: 'calendly', label: '3.10.7 Calendly' },
   { id: 'stripe', label: '3.10.8 Stripe' },
+  { id: 'cookiefirst', label: '3.10.10 CookieFirst' },
   { id: 'heydata', label: '3.10.9 heyData' },
   { id: 'social-media', label: '4. Datenverarbeitung auf Social Media-Plattformen' },
   { id: 'instagram', label: '4.1 Instagram' },
@@ -440,6 +441,51 @@ const DatenschutzNew = () => {
               <p>Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse, Website-Besuchern eine Bestätigung über unsere Datenschutz-Compliance zur Verfügung zu stellen. Gleichzeitig hat der Anbieter ein berechtigtes Interesse daran, sicherzustellen, dass nur Kunden mit bestehenden Verträgen seine Siegel nutzen, weshalb eine bloße Bildkopie des Zertifikats keine gangbare Alternative zur Bestätigung darstellt.</p>
               <div className="h-2"></div>
               <p>Die Daten werden nach der Erhebung maskiert, damit kein Personenbezug mehr besteht. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter <a href="https://heydata.eu/datenschutzerklaerung" target="_blank" rel="noopener noreferrer" className="text-work-blue underline">https://heydata.eu/datenschutzerklaerung</a> abrufbar.</p>
+
+              <h4 id="cookiefirst" className="mt-6 font-semibold">3.10.10 CookieFirst</h4>
+              <div className="h-2"></div>
+              <h2>Einwilligung in die Nutzung von Cookies.</h2>
+              <div className="h-2"></div>
+              <p>Damit unsere Webseite ordnungsgemäß funktioniert, verwenden wir Cookies. Um Ihre gültige Zustimmung zur Verwendung und Speicherung von Cookies in dem Browser, den Sie für den Zugriff auf unsere Webseite verwenden, zu erhalten und dies ordnungsgemäß zu dokumentieren, verwenden wir eine Zustimmungsmanagement-Plattform: CookieFirst. Diese Technologie wird von Digital Data Solutions BV, Plantage Middenlaan 42a, 1018 DH, Amsterdam, Niederlande, bereitgestellt. Webseite: <a href='https://cookiefirst.com' title='Cookiefirst page' className="text-work-blue underline">https://cookiefirst.com</a> bezeichnet als CookieFirst.</p>
+              <div className="h-2"></div>
+              <p>Wenn Sie auf unsere Webseite zugreifen, wird eine Verbindung mit dem Server von CookieFirsthergestellt, um uns die Möglichkeit zu geben, von Ihnen eine gültige Zustimmung zur Nutzung bestimmter Cookies zu erhalten. CookieFirst speichert dann einen Cookie in Ihrem Browser, um nur die Cookies aktivieren zu können, in die Sie eingewilligt haben, und um dies ordnungsgemäß zu dokumentieren. Die verarbeiteten Daten werden so lange gespeichert, bis die vorgegebene Speicherfrist abläuft oder Sie die Löschung der Daten verlangen. Abweichend hiervon können bestimmte gesetzliche Aufbewahrungsfristen gelten.</p>
+              <div className="h-2"></div>
+              <p>CookieFirst dient der Einholung der gesetzlich vorgeschriebenen Einwilligung zur Nutzung von Cookies. Rechtsgrundlage hierfür ist Artikel 6 Absatz 1 Buchstabe c der Datenschutzgrundverordnung (DSGVO).</p>
+              <div className="h-2"></div>
+              <h2>Datenverarbeitungsvertrag</h2>
+              <div className="h-2"></div>
+              <p>Wir haben mit CookieFirst einen Vertrag zur Datenverarbeitung abgeschlossen. Dabei handelt es sich um einen datenschutzrechtlich erforderlichen Vertrag, der sicherstellt, dass die Daten unserer Webseiten-Besucher nur nach unseren Weisungen und in Übereinstimmung mit der DSGVO verarbeitet werden.</p>
+              <div className="h-2"></div>
+              <h2>Server-Protokolldateien</h2>
+              <div className="h-2"></div>
+              <p>Unsere Webseite und CookieFirst erheben und speichern automatisch Informationen in so genannten Server Log Files, die Ihr Browser automatisch an uns übermittelt. Folgende Daten werden erhoben:</p>
+              <ul className="list-disc pl-6 mt-2 space-y-1">
+                <li>Ihr Einwilligungsstatus bzw. der Widerruf Ihrer Einwilligung</li>
+                <li>Ihre anonymisierte IP-Adresse</li>
+                <li>Informationen über Ihren Browser</li>
+                <li>Informationen über Ihr Gerät</li>
+                <li>Das Datum und die Uhrzeit Ihres Besuchs auf unserer Webseite</li>
+                <li>Die URL der Webseite, auf der Sie Ihre Einwilligungspräferenzen gespeichert oder aktualisiert haben</li>
+                <li>Der ungefähre Standort des Nutzers, der seine Einwilligungspräferenzen gespeichert hat</li>
+                <li>Ein universell eindeutiger Bezeichner (UUID) des Webseiten-Besuchers, der das Banner Cookie angeklickt hat</li>
+              </ul>
+              <div className="h-2"></div>
+              <div id="cookiefirst-policy-page"></div>
+              <div className="h-2"></div>
+              <div id="cookiefirst-cookies-table"></div>
+              <div className="mt-4 p-4 bg-gray-50 rounded-lg">
+                <p className="text-sm text-gray-600">
+                  Diese Cookie-Tabelle wurde erstellt und aktualisiert von der{" "}
+                  <a 
+                    href="https://cookiefirst.com/de/cookie-consent/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-work-blue underline"
+                  >
+                    Cookie Consent Tool - CookieFirst
+                  </a>.
+                </p>
+              </div>
             </div>
           </div>
           <hr className="my-8 border-muted" />
