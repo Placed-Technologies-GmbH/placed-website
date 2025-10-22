@@ -2,6 +2,7 @@ import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import PrimaryButton from './PrimaryButton';
+import SecondaryButton from './SecondaryButton';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,8 +38,9 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8"></nav>
 
-          <div className="hidden md:flex items-center">
+          <div className="hidden md:flex items-center gap-3">
             <PrimaryButton data-gtm="demo-buchen-header-desktop"/>
+            <SecondaryButton data-gtm="app-login-header-desktop"/>
           </div>
 
           {/* Mobile Menu Button */}
@@ -53,8 +55,9 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 border-t border-border/50">
-            <div className="flex flex-col pt-4">
+            <div className="flex flex-col pt-4 gap-3">
               <PrimaryButton className="w-full" data-gtm="demo-buchen-header-mobile"  />
+              <SecondaryButton className="w-full" data-gtm="app-login-header-mobile" />
             </div>
           </nav>
         )}
