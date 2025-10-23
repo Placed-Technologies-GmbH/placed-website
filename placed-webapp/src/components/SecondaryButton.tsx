@@ -1,4 +1,3 @@
-import {ArrowRight} from 'lucide-react'
 import { cn } from '@/lib/utils'
 import React from 'react'
 
@@ -24,7 +23,6 @@ const SecondaryButton = React.forwardRef<HTMLAnchorElement, SecondaryButtonProps
         {...props}
       >
         {children ?? label}
-        <ArrowRight className="h-5 w-5 text-gray-700 transition-transform group-hover:translate-x-1" />
       </a>
     )
   },
