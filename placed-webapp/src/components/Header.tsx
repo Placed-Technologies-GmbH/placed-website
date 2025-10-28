@@ -11,18 +11,25 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 glass-effect backdrop-blur-md">
       {/* Announcement Banner */}
       <div className="bg-work-blue text-white text-center py-2 text-xs sm:text-sm font-medium px-2 sm:px-0">
-        Erleben Sie PLACED bei der StaffingPro 2025 am 22.10.25 in Wiesbaden.{' '}
+        <a
+          href="https://blog.getplaced.de/ai-roundtable-2025-powered-by-placed/"
+          className="text-placed-blue hover:underline"
+        >
+          Jetzt anmelden
+        </a>
+        {': '}
+        PLACED AI Roundtable 2025 am 13.11 in Berlin, exklusiv für Führungskräfte aus Staffing, Zeitarbeit und HR-Tech.
           {/**
            * <Link to="/gvp-launch" className="text-placed-blue hover:underline">
            *   Jetzt mehr erfahren!
            * </Link>
            */}
-        <a
-          href="https://blog.getplaced.de/placed-ist-auf-der-staffingpro-2025/"
-          className="text-placed-blue hover:underline"
-        >
-          Jetzt mehr erfahren
-        </a>
+        {/*<a*/}
+        {/*  href="https://blog.getplaced.de/placed-ist-auf-der-staffingpro-2025/"*/}
+        {/*  className="text-placed-blue hover:underline"*/}
+        {/*>*/}
+        {/*  Jetzt mehr erfahren*/}
+        {/*</a>*/}
       </div>
       
       <div className="container mx-auto px-8 md:px-16 py-3">
