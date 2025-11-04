@@ -18,7 +18,7 @@ const Header = () => {
           Jetzt anmelden
         </a>
         {': '}
-        PLACED AI Roundtable 2025 am 13.11 in Berlin, exklusiv für Führungskräfte aus Staffing, Zeitarbeit und HR-Tech.
+        PLACED AI Roundtable 2025 am 13. November in Berlin, exklusiv für Führungskräfte aus Staffing, Zeitarbeit und HR-Tech.
           {/**
            * <Link to="/gvp-launch" className="text-placed-blue hover:underline">
            *   Jetzt mehr erfahren!

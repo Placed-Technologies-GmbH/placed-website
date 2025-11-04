@@ -1,4 +1,5 @@
 import PrimaryButton from './PrimaryButton';
+import { CheckCircle } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -21,6 +22,54 @@ const Hero = () => {
 
         <div className="mb-10 flex justify-center">
           <PrimaryButton data-gtm="demo-buchen-hero" />
+        </div>
+
+        {/* Key Features Bullet Points */}
+        <div className="max-w-4xl mx-auto py-8 mb-8 text-left">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="flex items-start gap-3">
+              <CheckCircle className="text-placed-green w-6 h-6 flex-shrink-0 mt-0.5" />
+              <div>
+                <p className="font-semibold text-gray-900">Zusätzliche Ansprechpartner.</p>
+                <p className="text-sm text-gray-600">KI findet Kontakte, unabhängig von Stellen.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <CheckCircle className="text-placed-green w-6 h-6 flex-shrink-0 mt-0.5" />
+              <div>
+                <p className="font-semibold text-gray-900">Alle Jobs, alle Regionen.</p>
+                <p className="text-sm text-gray-600">Ohne Zusatzkosten, weil jede Stelle zählt.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <CheckCircle className="text-placed-green w-6 h-6 flex-shrink-0 mt-0.5" />
+              <div>
+                <p className="font-semibold text-gray-900">Unbegrenzte CV-Suchen.</p>
+                <p className="text-sm text-gray-600">Keine Limits, keine teuren Upgrades.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <CheckCircle className="text-placed-green w-6 h-6 flex-shrink-0 mt-0.5" />
+              <div>
+                <p className="font-semibold text-gray-900">Echtes KI-Matching.</p>
+                <p className="text-sm text-gray-600">Nicht nur Keywords, unsere KI versteht Kontext.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <CheckCircle className="text-placed-green w-6 h-6 flex-shrink-0 mt-0.5" />
+              <div>
+                <p className="font-semibold text-gray-900">Smart Sales mit KI.</p>
+                <p className="text-sm text-gray-600">Individuelle Profilanalyse & Leitfäden.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <CheckCircle className="text-placed-green w-6 h-6 flex-shrink-0 mt-0.5" />
+              <div>
+                <p className="font-semibold text-gray-900">Automatische Qualitätskontrolle.</p>
+                <p className="text-sm text-gray-600">Präziser als jedes menschliche Auge.</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <p className="text-sm text-gray-500 mt-8 mb-4 text-center">Geeignet für:</p>
