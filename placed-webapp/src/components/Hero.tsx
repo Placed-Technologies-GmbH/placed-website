@@ -66,7 +66,7 @@ const Hero = () => {
               <CheckCircle className="text-placed-green w-6 h-6 flex-shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-gray-900">Automatische Qualitätskontrolle.</p>
-                <p className="text-sm text-gray-600">Präziser als jedes menschliche Auge.</p>
+                <p className="text-sm text-gray-600">KI erkennt, was andere übersehen.</p>
               </div>
             </div>
           </div>
