@@ -44,6 +44,34 @@ const DemoHero = () => {
                 <ArrowRight className="h-5 w-5 text-work-blue transition-transform group-hover:translate-x-1" />
               </a>
             </div>
+
+            {/* Trust badges */}
+            <div className="flex flex-col sm:flex-row items-center justify-start gap-x-6 pt-8">
+              <img
+                src="/DGSVO.png"
+                alt="DSGVO-konform Siegel"
+                className="h-12 md:h-14 object-contain"
+                loading="lazy"
+              />
+              <img
+                src="/EU_AI_Act.png"
+                alt="EU AI Act"
+                className="h-12 md:h-14 object-contain"
+                loading="lazy"
+              />
+              <img
+                src="/GVP-Logo_Mitglied_RGB_blau.png"
+                alt="GVP-zertifiziert Siegel"
+                className="h-12 md:h-14 object-contain"
+                loading="lazy"
+              />
+              <img
+                src="/APSCo-Trusted-Partner.png"
+                alt="APSCo Trusted Partner"
+                className="h-12 md:h-14 object-contain"
+                loading="lazy"
+              />
+            </div>
           </div>
 
           {/* Right Column - Image */}
