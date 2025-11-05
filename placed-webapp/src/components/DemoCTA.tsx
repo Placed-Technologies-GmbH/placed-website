@@ -4,7 +4,7 @@ import FadeIn from './FadeIn';
 
 const DemoCTA = () => {
   return (
-    <section className="py-16 bg-background">
+    <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Column - Text Content */}

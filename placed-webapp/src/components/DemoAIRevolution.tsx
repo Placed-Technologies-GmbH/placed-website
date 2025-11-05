@@ -1,7 +1,8 @@
 import React from "react";
-import { CheckCircle, Users, Zap, Brain } from "lucide-react";
+import { CheckCircle, Users, Zap, Brain, ArrowRight } from "lucide-react";
 import FadeIn from "./FadeIn";
 import { Card, CardContent } from "@/components/ui/card";
+import { cn } from "@/lib/utils";
 
 const features = [
   {
@@ -73,6 +74,22 @@ const DemoAIRevolution = () => {
             </FadeIn>
           ))}
         </div>
+
+        {/* Demo Button */}
+        <FadeIn delay={0.4}>
+          <div className="flex justify-center mt-12">
+            <a
+              href="/demo/meeting"
+              className={cn(
+                'inline-flex items-center justify-center gap-x-2 px-6 py-3 rounded-lg bg-[#EBFF4A] text-work-blue font-semibold text-base hover:bg-[#EBFF4A]/90 active:scale-[0.97] transition-all duration-200 group'
+              )}
+              aria-label="Demo buchen"
+            >
+              Demo buchen
+              <ArrowRight className="h-5 w-5 text-work-blue transition-transform group-hover:translate-x-1" />
+            </a>
+          </div>
+        </FadeIn>
       </div>
     </section>
   );

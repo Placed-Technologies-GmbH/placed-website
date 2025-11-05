@@ -1,46 +1,50 @@
+import { CheckCircle } from 'lucide-react';
 import FadeIn from './FadeIn';
+
+const features = [
+  {
+    title: 'Zusätzliche Ansprechpartner.',
+    description: 'KI findet Kontakte, unabhängig von Stellen.',
+  },
+  {
+    title: 'Alle Jobs, alle Regionen.',
+    description: 'Ohne Zusatzkosten, weil jede Stelle zählt.',
+  },
+  {
+    title: 'Unbegrenzte CV-Suchen.',
+    description: 'Keine Limits, keine teuren Upgrades.',
+  },
+  {
+    title: 'Echtes KI-Matching.',
+    description: 'Nicht nur Keywords, unsere KI versteht Kontext.',
+  },
+  {
+    title: 'Smart Sales mit KI.',
+    description: 'Individuelle Profilanalyse & Leitfäden.',
+  },
+  {
+    title: 'Automatische Qualitätskontrolle.',
+    description: 'KI erkennt, was andere übersehen.',
+  },
+];
 
 const DemoTrustedBy = () => {
   return (
-    <section className="py-12 bg-background">
+    <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <FadeIn>
-          <div className="text-center mb-8">
-            <h3 className="text-xl sm:text-2xl font-bold text-gray-900">
-              Über XX Unternehmen nutzen Placed bereits zur Umsatzsteigerung
-            </h3>
-          </div>
-          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 opacity-70">
-            <img
-              src="/LinkedIn-Logo.png"
-              alt="LinkedIn"
-              className="h-8 md:h-10 w-auto object-contain grayscale hover:grayscale-0 transition-all"
-              loading="lazy"
-            />
-            <img
-              src="/Indeed.png"
-              alt="Indeed"
-              className="h-8 md:h-10 w-auto object-contain grayscale hover:grayscale-0 transition-all"
-              loading="lazy"
-            />
-            <img
-              src="/joblift.png"
-              alt="Joblift"
-              className="h-8 md:h-10 w-auto object-contain grayscale hover:grayscale-0 transition-all"
-              loading="lazy"
-            />
-            <img
-              src="/stepstone_logo.svg"
-              alt="Stepstone"
-              className="h-8 md:h-10 w-auto object-contain grayscale hover:grayscale-0 transition-all"
-              loading="lazy"
-            />
-            <img
-              src="/XINGlogo.png"
-              alt="XING"
-              className="h-8 md:h-10 w-auto object-contain grayscale hover:grayscale-0 transition-all"
-              loading="lazy"
-            />
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {features.map((feature, index) => (
+                <div key={index} className="flex items-start gap-3">
+                  <CheckCircle className="text-placed-green w-6 h-6 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <p className="font-semibold text-gray-900">{feature.title}</p>
+                    <p className="text-sm text-gray-600">{feature.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </FadeIn>
       </div>
@@ -49,4 +53,3 @@ const DemoTrustedBy = () => {
 };
 
 export default DemoTrustedBy;
-

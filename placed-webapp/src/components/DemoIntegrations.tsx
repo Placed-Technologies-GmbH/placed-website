@@ -4,23 +4,19 @@ import { Card, CardContent } from '@/components/ui/card';
 const integrations = [
   {
     name: 'Personio',
-    logo: 'P', // Placeholder - will need actual logo image
-    logoColor: 'bg-black text-white',
+    logo: '/personio-logo.png',
   },
   {
     name: 'Rexx',
-    logo: 'R', // Placeholder - will need actual logo image
-    logoColor: 'bg-red-500 text-white',
+    logo: '/rexx-logo.png',
   },
   {
     name: 'Zvoove',
-    logo: 'Z', // Placeholder - will need actual logo image
-    logoColor: 'bg-blue-600 text-white',
+    logo: '/zvoove-logo.jpeg',
   },
   {
     name: 'd.vinci',
-    logo: 'd', // Placeholder - will need actual logo image
-    logoColor: 'bg-green-700 text-white',
+    logo: '/dvinci-logo.png',
   },
 ];
 
@@ -42,10 +38,13 @@ const DemoIntegrations = () => {
                   className="border border-gray-200 hover:border-gray-300 transition-colors"
                 >
                   <CardContent className="p-6 flex flex-col items-center justify-center space-y-3 min-h-[120px]">
-                    <div
-                      className={`w-16 h-16 rounded-lg ${integration.logoColor} flex items-center justify-center text-2xl font-bold`}
-                    >
-                      {integration.logo}
+                    <div className="w-16 h-16 flex items-center justify-center">
+                      <img
+                        src={integration.logo}
+                        alt={integration.name}
+                        className="max-w-full max-h-full object-contain"
+                        loading="lazy"
+                      />
                     </div>
                     <p className="text-sm font-medium text-gray-900 text-center">
                       {integration.name}
