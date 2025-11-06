@@ -13,6 +13,7 @@ const Impressum = lazy(() => import("./pages/Impressum"));
 const AGB = lazy(() => import("./pages/AGB"));
 const Demo = lazy(() => import("./pages/Demo"));
 const DemoMeeting = lazy(() => import("./pages/DemoMeeting"));
+const DemoMeetingSuccess = lazy(() => import("./pages/DemoMeetingSuccess"));
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => {
               <Route path="/agb" element={<AGB />} />
               <Route path="/demo" element={<Demo />} />
               <Route path="/demo/meeting" element={<DemoMeeting />} />
+              <Route path="/demo/meeting/booked" element={<DemoMeetingSuccess />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 
 const DemoHeader = () => {
   const location = useLocation();
-  const isMeetingPage = location.pathname === '/demo/meeting';
+  const isMeetingPage = location.pathname === '/demo/meeting' || location.pathname === '/demo/meeting/booked';
 
   return (
     <header className={cn(
@@ -22,7 +22,7 @@ const DemoHeader = () => {
             />
           </Link>
           
-          {/* Demo Button - hidden on meeting page */}
+          {/* Demo Button - hidden on meeting pages */}
           {!isMeetingPage && (
             <PrimaryButton data-gtm="demo-buchen-header" />
           )}
