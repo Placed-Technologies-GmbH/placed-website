@@ -1,8 +1,10 @@
-import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { Link, useLocation } from 'react-router-dom';
+import PrimaryButton from './PrimaryButton';
 
 const DemoHeader = () => {
+  const location = useLocation();
+  const isMeetingPage = location.pathname === '/demo/meeting';
+
   return (
     <header className="fixed top-0 w-full z-50 bg-white border-b border-gray-100">
       <div className="container mx-auto px-6 md:px-12 py-4">
@@ -16,17 +18,10 @@ const DemoHeader = () => {
             />
           </Link>
           
-          {/* Demo Button */}
-          <a
-            href="/demo/meeting"
-            className={cn(
-              'inline-flex items-center justify-center gap-x-2 px-6 py-3 rounded-lg bg-[#EBFF4A] text-work-blue font-semibold text-base hover:bg-[#EBFF4A]/90 active:scale-[0.97] transition-all duration-200 group'
-            )}
-            aria-label="Demo buchen"
-          >
-            Demo buchen
-            <ArrowRight className="h-5 w-5 text-work-blue transition-transform group-hover:translate-x-1" />
-          </a>
+          {/* Demo Button - hidden on meeting page */}
+          {!isMeetingPage && (
+            <PrimaryButton data-gtm="demo-buchen-header" />
+          )}
         </div>
       </div>
     </header>

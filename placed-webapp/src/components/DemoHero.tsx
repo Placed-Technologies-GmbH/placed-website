@@ -1,5 +1,4 @@
-import { ArrowRight } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import PrimaryButton from './PrimaryButton';
 
 const DemoHero = () => {
   return (
@@ -33,16 +32,7 @@ const DemoHero = () => {
 
             {/* Demo Button */}
             <div className="pt-4">
-              <a
-                href="/demo/meeting"
-                className={cn(
-                  'inline-flex items-center justify-center gap-x-2 px-6 py-3 rounded-lg bg-[#EBFF4A] text-work-blue font-semibold text-base hover:bg-[#EBFF4A]/90 active:scale-[0.97] transition-all duration-200 group'
-                )}
-                aria-label="Demo buchen"
-              >
-                Demo buchen
-                <ArrowRight className="h-5 w-5 text-work-blue transition-transform group-hover:translate-x-1" />
-              </a>
+              <PrimaryButton data-gtm="demo-buchen-hero" />
             </div>
 
             {/* Trust badges */}
