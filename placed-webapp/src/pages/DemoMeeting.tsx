@@ -22,7 +22,7 @@ const DemoMeeting = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <DemoHeader />
-      <main className="flex-grow pt-24 pb-16">
+      <main className="flex-grow pt-8 pb-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto pt-8 lg:pt-12">
             <div className="text-center mb-8">

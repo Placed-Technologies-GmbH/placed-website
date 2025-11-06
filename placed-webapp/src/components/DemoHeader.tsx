@@ -1,12 +1,16 @@
 import { Link, useLocation } from 'react-router-dom';
 import PrimaryButton from './PrimaryButton';
+import { cn } from '@/lib/utils';
 
 const DemoHeader = () => {
   const location = useLocation();
   const isMeetingPage = location.pathname === '/demo/meeting';
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-white border-b border-gray-100">
+    <header className={cn(
+      "top-0 w-full z-50 bg-white border-b border-gray-100",
+      !isMeetingPage && "fixed"
+    )}>
       <div className="container mx-auto px-6 md:px-12 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
