@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 
 const DemoHeader = () => {
   const location = useLocation();
-  const isMeetingPage = location.pathname === '/demo/meeting' || location.pathname === '/demo/meeting/booked';
+  const isMeetingPage = location.pathname === '/demo' || location.pathname === '/demo/meeting/booked';
 
   return (
     <header className={cn(
