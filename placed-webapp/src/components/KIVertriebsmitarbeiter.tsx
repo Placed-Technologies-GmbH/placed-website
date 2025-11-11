@@ -12,8 +12,8 @@ const dataAccessHighlights = [
   },
   {
     text: "Wichtige Signale, zusätzlich zur Stelle: Unsere KI ermittelt, ob Personalvermittler zur Besetzung einer spezifischen Stelle mit eigenen Stellenausschreibungen suchen.",
-    highlight: " Stelle beauftragt wurden",
-    suffix: " (bei öffentlichen Stellenausschreibungen).",
+    highlight: "",
+    suffix: "",
     suffixHighlight: "",
   },
   {
