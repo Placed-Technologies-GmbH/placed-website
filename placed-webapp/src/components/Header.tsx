@@ -8,7 +8,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full z-50 glass-effect backdrop-blur-md">
+    <header className="fixed top-0 w-full z-50 backdrop-blur-md bg-white/5" style={{ border: 'none' }}>
       {/* Announcement Banner */}
       <div className="bg-work-blue text-white text-center py-2 text-xs sm:text-sm font-medium px-2 sm:px-0">
         <a
