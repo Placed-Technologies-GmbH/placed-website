@@ -11,10 +11,11 @@ const dataAccessHighlights = [
     suffixHighlight: " Stellenbörsen.",
   },
   {
-    text: "Wichtige Signale, zusätzlich zur Stelle: Unsere KI ermittelt, ob Personalvermittler zur Besetzung einer spezifischen Stelle mit eigenen Stellenausschreibungen suchen.",
-    highlight: "",
-    suffix: "",
-    suffixHighlight: "",
+    text: "Wichtige Signale, zusätzlich zur Stelle: Unsere KI ermittelt, ob ",
+    highlight: "Personalvermittler",
+    suffix: " zur Besetzung einer spezifischen Stelle mit ",
+    suffixHighlight: "eigenen Stellenausschreibungen",
+    finalSuffix: " suchen.",
   },
   {
     text: "Unsere KI reichert die Stelle auf Knopfdruck mit ",
@@ -201,6 +202,7 @@ const KIVertriebsmitarbeiter = () => {
                       <span className="font-semibold text-work-blue">{item.highlight}</span>
                       {item.suffix}
                       <span className="font-semibold text-work-blue">{item.suffixHighlight}</span>
+                      {(item as any).finalSuffix || ""}
                     </p>
                   </div>
                 ))}
