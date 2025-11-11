@@ -8,7 +8,7 @@ interface SecondaryButtonProps
 }
 
 const SecondaryButton = React.forwardRef<HTMLAnchorElement, SecondaryButtonProps>(
-  ({ label = 'Zur App', href = 'https://app.getplaced.de', className, children, ...props }, ref) => {
+  ({ label = 'Anmelden', href = 'https://app.getplaced.de', className, children, ...props }, ref) => {
     return (
       <a
         href={href}
@@ -16,10 +16,10 @@ const SecondaryButton = React.forwardRef<HTMLAnchorElement, SecondaryButtonProps
         rel="noopener noreferrer"
         ref={ref}
         className={cn(
-          'inline-flex items-center justify-center gap-x-2 px-6 py-2.5 rounded-full border-2 border-work-blue text-work-blue font-semibold text-base hover:bg-work-blue hover:text-white transition-all duration-200 group',
+          'inline-flex items-center justify-center gap-x-2 px-6 py-2.5 rounded-full text-work-blue font-semibold text-base hover:bg-work-blue hover:text-white transition-all duration-200 group',
           className,
         )}
-        aria-label="Zur PLACED App"
+        aria-label="Anmelden"
         {...props}
       >
         {children ?? label}
